@@ -75,7 +75,7 @@ class ScraperAgent:
 
     async def _extract_profile_links(self, search_url: str) -> List[str]:
         try:
-            raw = await fetch_url(search_url, get_links=True)
+            raw = await fetch_url(search_url)
             content = raw[:LIST_PAGE_LIMIT]
 
             prompt = f"""You are parsing a Zillow real estate agent search results page (rendered as markdown).
