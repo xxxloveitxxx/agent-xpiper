@@ -1,26 +1,28 @@
 {
   "business_info": {
-    "name": "Your Business Name",
-    "type": "mortgage_broker",
-    "description": "We are a mortgage brokerage helping homebuyers secure competitive rates with fast closings.",
-    "value_proposition": "We offer pre-approvals in 24 hours and dedicated support, helping agents close deals faster."
+    "name": "Replyzeai",
+    "type": "other",
+    "description": "my saas pre qualify auto nurture and auto book showings for luxury real estate agents with 2 to 8 active listings (for sale)",
+    "value_proposition": "take over the inquiry emails for active listings and only send buyers who are actually ready to tour.\n\nSaves the back-and-forth hassle."
   },
   "target_market": {
-    "locations": ["Miami, FL"],
-    "agent_type": "residential",
-    "market_segment": "all"
+    "locations": [
+      "denver, co"
+    ],
+    "agent_type": "luxury",
+    "market_segment": "top_25"
   },
   "qualification_criteria": {
     "min_reviews": 5,
-    "min_rating": 4.0,
+    "min_rating": 4,
     "min_years_experience": 1,
     "min_recent_sales": 3,
     "required_keywords": [],
     "excluded_keywords": [],
-    "custom_criteria": "Prioritize agents with a high volume of buyer-side transactions and strong review counts."
+    "custom_criteria": "only agents who have stagnant active listings"
   },
   "scraping_config": {
-    "max_pages": 3,
-    "max_agents": 50
+    "max_pages": 10,
+    "max_agents": 10
   }
 }
