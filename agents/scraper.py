@@ -8,7 +8,7 @@ from typing import List, Optional
 from groq import AsyncGroq
 
 from config.settings import GROQ_API_KEY_SCRAPER, SCRAPER_MODEL, REQUEST_DELAY
-from core.jina_scraper import fetch_url
+from core.scraper_client import fetch_url
 from core.models import AgentProfile
 
 logger = logging.getLogger(__name__)
