@@ -9,7 +9,7 @@ GROQ_API_KEY_QUALIFIER = os.getenv("GROQ_API_KEY_QUALIFIER", "")
 JINA_API_KEY = os.getenv("JINA_API_KEY", "")
 
 MANAGER_MODEL = os.getenv("MANAGER_MODEL", "llama-3.3-70b-versatile")
-SCRAPER_MODEL = os.getenv("SCRAPER_MODEL", "llama-3.1-70b-versatile")
+SCRAPER_MODEL = os.getenv("SCRAPER_MODEL", "llama-3.3-70b-versatile")
 QUALIFIER_MODEL = os.getenv("QUALIFIER_MODEL", "llama-3.3-70b-versatile")
 
 REQUEST_DELAY = float(os.getenv("REQUEST_DELAY", "2.5"))
