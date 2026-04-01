@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zillow Lead Gen Agents</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AI Lead Gen Agents</h1>
+        <iframe src="../output/business_context.html" width="100%" height="400"></iframe>
+        <div class="status">
+            <button onclick="runAgents()">Run Agents</button>
+            <div id="results"></div>
+        </div>
+        <a href="../output/qualified_leads.csv" download>📥 Download Leads</a>
+    </div>
+    
+    <script>
+        async function runAgents() {
+            document.getElementById('results').innerHTML = '🤖 Running agents...';
+            // Trigger main.py via GitHub Actions or local
+        }
+    </script>
+</body>
+</html>
