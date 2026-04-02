@@ -9,6 +9,12 @@ from rich.panel import Panel
 
 load_dotenv()
 
+# Temporary debug — remove after confirming
+import os
+print("SCRAPINGANT:", bool(os.getenv("SCRAPINGANT_API_KEY")))
+print("WEBSCRAPINGAPI:", bool(os.getenv("WEBSCRAPINGAPI_KEY")))
+print("SCRAPEDO:", bool(os.getenv("SCRAPEDO_API_KEY")))
+
 import config.settings as settings  # noqa: E402 — must load .env first
 
 from agents.manager import ManagerAgent
