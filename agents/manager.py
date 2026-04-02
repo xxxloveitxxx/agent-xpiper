@@ -51,15 +51,16 @@ Business context:
 Your job: generate a precise JSON scraping plan.
 
 Rules:
-- Zillow agent search URL pattern: https://www.zillow.com/agent-finder/real-estate-agent-reviews/?location=CITY%2C+STATE&page=N
+- Zillow agent search URL pattern: https://www.zillow.com/professionals/real-estate-agent-reviews/CITY-STATE/PAGE/?page=N
 - Generate one URL per page per location (up to {max_pages} pages each)
+- Format the location as lowercase with hyphens: "Santa Fe, NM" → "santa-fe-nm", "Denver, CO" → "denver-co"
 - URL-encode the location (spaces → +, commas → %2C)
 - Locations to cover: {locations}
 
 Return ONLY valid JSON matching this schema exactly:
 {{
   "zillow_search_urls": [
-    "https://www.zillow.com/agent-finder/real-estate-agent-reviews/?location=Miami%2C+FL&page=1"
+    "https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/?page=1"
   ],
   "fields_to_extract": [
     "name", "rating", "review_count", "years_experience",
