@@ -199,9 +199,9 @@ HTML:
     # ── Checkpointing ──────────────────────────────────────────────────────
 
 @staticmethod
-    def _checkpoint(data: dict, name: str) -> None:
-        path = Path(f"data/leads/checkpoint_{name}.json")
-        path.parent.mkdir(parents=True, exist_ok=True)
-        with open(path, "w") as f:
-            json.dump(data, f, indent=2, default=str)
-        logger.debug(f"Checkpoint saved → {path}")
+def _checkpoint(data: dict, name: str) -> None:
+    path = Path(f"data/leads/checkpoint_{name}.json")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2, default=str)
+    logger.debug(f"Checkpoint saved → {path}")
