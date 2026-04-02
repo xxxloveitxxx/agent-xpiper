@@ -76,8 +76,9 @@ class ScraperAgent:
                 raw
             )
             # Also catch relative /profile/ URLs
+            base = "https://www.zillow.com"
             found += [
-                f"https://www.zillow.com{m.strip('\"')}"
+                base + m.strip("\"'")
                 for m in re.findall(r'["\'](/profile/[^"\'>\s]+)', raw)
             ]
 
