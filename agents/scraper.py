@@ -73,7 +73,7 @@ class ScraperAgent:
     #  Phase 1 helpers                                                     #
     # ------------------------------------------------------------------ #
 
-  import re
+import re
 
 async def _extract_profile_links(self, search_url: str) -> List[str]:
     try:
