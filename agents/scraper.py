@@ -1,36 +1,29 @@
 import asyncio
 import json
 import logging
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
 
-from groq import AsyncGroq
-
-from config.settings import GROQ_API_KEY_SCRAPER, SCRAPER_MODEL, REQUEST_DELAY
+from config.settings import GROQ_API_KEY_SCRAPER, GEMINI_API_KEY, SCRAPER_MODEL, PROVIDER, REQUEST_DELAY
+from core.llm_client import make_client
 from core.scraper_client import fetch_url
 from core.models import AgentProfile
 
 logger = logging.getLogger(__name__)
 
-# Max chars sent to the LLM — keeps prompts inside context window
 LIST_PAGE_LIMIT = 8_000
 PROFILE_PAGE_LIMIT = 12_000
 
 
 class ScraperAgent:
-    """
-    The Scraper Agent uses Jina AI to fetch Zillow pages and an LLM
-    to extract structured data from the raw markdown.
-    """
 
     def __init__(self):
-        self.client = AsyncGroq(api_key=GROQ_API_KEY_SCRAPER)
-        self.model = SCRAPER_MODEL
+        api_key = GEMINI_API_KEY if PROVIDER == "gemini" else GROQ_API_KEY_SCRAPER
+        _, self._chat = make_client(api_key, SCRAPER_MODEL)
 
-    # ------------------------------------------------------------------ #
-    #  Main entry point                                                    #
-    # ------------------------------------------------------------------ #
+    # ── Main entry point ───────────────────────────────────────────────────
 
     async def scrape_agents(self, instructions: dict) -> List[AgentProfile]:
         search_urls: List[str] = instructions.get("zillow_search_urls", [])
@@ -39,7 +32,7 @@ class ScraperAgent:
 
         logger.info(f"Scraper → {len(search_urls)} search pages | max {max_agents} agents")
 
-        # --- Phase 1: collect profile links ---
+        # Phase 1: collect profile links
         profile_links: List[str] = []
         for url in search_urls:
             if len(profile_links) >= max_agents:
@@ -54,7 +47,11 @@ class ScraperAgent:
         logger.info(f"Scraper → {len(profile_links)} unique profile links found")
         self._checkpoint({"profile_links": profile_links}, "phase1_links")
 
-        # --- Phase 2: scrape each profile ---
+        if not profile_links:
+            logger.warning("Scraper → no profile links found across all search pages")
+            return []
+
+        # Phase 2: scrape each profile
         agents: List[AgentProfile] = []
         for idx, link in enumerate(profile_links, 1):
             logger.info(f"Scraper → profile {idx}/{len(profile_links)}: {link}")
@@ -63,50 +60,43 @@ class ScraperAgent:
                 agents.append(agent)
             await asyncio.sleep(REQUEST_DELAY)
 
-        self._checkpoint(
-            {"agents": [a.model_dump() for a in agents]}, "phase2_profiles"
-        )
+        self._checkpoint({"agents": [a.model_dump() for a in agents]}, "phase2_profiles")
         logger.info(f"Scraper → done. {len(agents)} profiles scraped successfully.")
         return agents
 
-    # ------------------------------------------------------------------ #
-    #  Phase 1 helpers                                                     #
-    # ------------------------------------------------------------------ #
+    # ── Phase 1: extract profile links ────────────────────────────────────
 
-import re
+    async def _extract_profile_links(self, search_url: str) -> List[str]:
+        try:
+            raw = await fetch_url(search_url)
 
-async def _extract_profile_links(self, search_url: str) -> List[str]:
-    try:
-        raw = await fetch_url(search_url)
+            # Step 1: regex — fast and reliable
+            found = re.findall(
+                r'https?://(?:www\.)?zillow\.com/profile/[^/"\'>\s]+',
+                raw
+            )
+            # Also catch relative /profile/ URLs
+            found += [
+                f"https://www.zillow.com{m.strip('\"')}"
+                for m in re.findall(r'["\'](/profile/[^"\'>\s]+)', raw)
+            ]
 
-        # ── Step 1: Extract /profile/ links with regex (fast, reliable) ──
-        found = re.findall(
-            r'https?://(?:www\.)?zillow\.com/profile/[^/"\'>\s]+',
-            raw
-        )
-        # Also catch relative URLs
-        found += [
-            f"https://www.zillow.com{m}"
-            for m in re.findall(r'"/profile/[^"\'>\s]+', raw)
-        ]
+            clean = []
+            for link in found:
+                link = link.strip('",\' ').rstrip("/") + "/"
+                if "zillow.com/profile/" in link and link not in clean:
+                    clean.append(link)
 
-        # Clean and deduplicate
-        clean = []
-        for link in found:
-            link = link.strip('",\'').rstrip("/") + "/"
-            if "zillow.com/profile/" in link and link not in clean:
-                clean.append(link)
+            if clean:
+                logger.info(f"Scraper → {len(clean)} links from {search_url}")
+                return clean
 
-        if clean:
-            logger.info(f"Scraper → {len(clean)} links from {search_url}")
-            return clean
+            # Step 2: LLM fallback if regex found nothing
+            logger.warning(f"Scraper → regex found 0 links, trying LLM fallback for {search_url}")
+            content = raw[:LIST_PAGE_LIMIT]
 
-        # ── Step 2: Fallback to LLM only if regex found nothing ──
-        logger.warning(f"Scraper → regex found 0 links, trying LLM fallback for {search_url}")
-        content = raw[:LIST_PAGE_LIMIT]
-
-        prompt = f"""Extract all Zillow agent profile URLs from this HTML.
-Profile URLs follow this pattern: https://www.zillow.com/profile/AgentName/
+            prompt = f"""Extract all Zillow agent profile URLs from this HTML.
+Profile URLs look like: https://www.zillow.com/profile/AgentName/
 
 HTML:
 {content}
@@ -114,50 +104,42 @@ HTML:
 Return ONLY valid JSON:
 {{"profile_urls": ["https://www.zillow.com/profile/...", ...]}}
 
-If you find none, return {{"profile_urls": []}}"""
+If none found return {{"profile_urls": []}}"""
 
-        text = await self._chat(
-            [{"role": "user", "content": prompt}],
-            json_mode=True,
-            max_tokens=1500,
-        )
+            text = await self._chat(
+                [{"role": "user", "content": prompt}],
+                json_mode=True,
+                max_tokens=1500,
+            )
 
-        data = json.loads(text)
-        raw_links: List[str] = data.get("profile_urls", [])
+            data = json.loads(text)
+            for link in data.get("profile_urls", []):
+                if link.startswith("/profile/"):
+                    link = f"https://www.zillow.com{link}"
+                link = link.rstrip("/") + "/"
+                if "zillow.com/profile/" in link and link not in clean:
+                    clean.append(link)
 
-        for link in raw_links:
-            if link.startswith("/profile/"):
-                link = f"https://www.zillow.com{link}"
-            link = link.rstrip("/") + "/"
-            if "zillow.com/profile/" in link and link not in clean:
-                clean.append(link)
+            logger.info(f"Scraper → {len(clean)} links (LLM fallback) from {search_url}")
+            return clean
 
-        logger.info(f"Scraper → {len(clean)} links (via LLM) from {search_url}")
-        return clean
+        except Exception as exc:
+            logger.error(f"Scraper → failed on {search_url}: {exc}")
+            return []
 
-    except Exception as exc:
-        logger.error(f"Scraper → failed on {search_url}: {exc}")
-        return []
-    # ------------------------------------------------------------------ #
-    #  Phase 2 helpers                                                     #
-    # ------------------------------------------------------------------ #
+    # ── Phase 2: scrape individual profile ────────────────────────────────
 
-    async def _scrape_profile(
-        self, profile_url: str, fields: List[str]
-    ) -> Optional[AgentProfile]:
+    async def _scrape_profile(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
         try:
             raw = await fetch_url(profile_url)
             content = raw[:PROFILE_PAGE_LIMIT]
 
-            prompt = f"""You are parsing a Zillow real estate agent profile page (rendered as markdown).
+            prompt = f"""You are parsing a Zillow real estate agent profile page (raw HTML).
 
 Profile URL: {profile_url}
-Fields the business owner wants: {fields}
+Fields wanted: {fields}
 
-Content:
-{content}
-
-Extract all available data and return ONLY this JSON (use null for missing fields):
+Extract all available data and return ONLY this JSON (null for missing fields):
 {{
   "name": "Full name",
   "location": "City, State",
@@ -171,25 +153,24 @@ Extract all available data and return ONLY this JSON (use null for missing field
   "about": "Bio text (max 500 chars)",
   "phone": "305-555-0100 or null",
   "email": "agent@email.com or null"
-}}"""
+}}
 
-            resp = await self.client.chat.completions.create(
-                model=self.model,
-                messages=[{"role": "user", "content": prompt}],
-                response_format={"type": "json_object"},
-                temperature=0,
+HTML:
+{content}"""
+
+            text = await self._chat(
+                [{"role": "user", "content": prompt}],
+                json_mode=True,
                 max_tokens=800,
             )
 
-            data = json.loads(resp.choices[0].message.content)
+            data = json.loads(text)
             data["profile_url"] = profile_url
             data["scraped_at"] = datetime.utcnow().isoformat()
 
-            # Trim about field
             if data.get("about") and len(data["about"]) > 500:
                 data["about"] = data["about"][:500]
 
-            # Build model safely — ignore unknown keys
             known = set(AgentProfile.model_fields.keys())
             filtered = {k: v for k, v in data.items() if k in known}
             return AgentProfile(**filtered)
@@ -198,9 +179,7 @@ Extract all available data and return ONLY this JSON (use null for missing field
             logger.error(f"Scraper → failed on {profile_url}: {exc}")
             return None
 
-    # ------------------------------------------------------------------ #
-    #  Checkpointing                                                       #
-    # ------------------------------------------------------------------ #
+    # ── Checkpointing ──────────────────────────────────────────────────────
 
     @staticmethod
     def _checkpoint(data: dict, name: str) -> None:
