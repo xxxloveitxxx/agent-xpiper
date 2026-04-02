@@ -10,28 +10,34 @@ from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_excep
 
 logger = logging.getLogger(__name__)
 
-SCRAPEDO_API_KEY      = os.getenv("SCRAPEDO_API_KEY", "")
-WEBSCRAPINGAPI_KEY    = os.getenv("WEBSCRAPINGAPI_KEY", "")
-SCRAPINGANT_API_KEY   = os.getenv("SCRAPINGANT_API_KEY", "")
+
 
 TIMEOUT = 45.0
 
 
 # ── Individual provider functions ──────────────────────────────────────────
 
-async def _fetch_scrapedo(url: str) -> str:
-    """scrape.do — renders JS, rotates proxies automatically."""
-    if not SCRAPEDO_API_KEY:
-        raise ValueError("SCRAPEDO_API_KEY not set")
+def _key_for(name: str) -> bool:
+    keys = {
+        "scrape.do":      os.getenv("SCRAPEDO_API_KEY", ""),
+        "WebScrapingAPI": os.getenv("WEBSCRAPINGAPI_KEY", ""),
+        "ScrapingAnt":    os.getenv("SCRAPINGANT_API_KEY", ""),
+    }
+    return bool(keys.get(name, ""))
 
+
+async def _fetch_scrapedo(url: str) -> str:
+    api_key = os.getenv("SCRAPEDO_API_KEY", "")
+    if not api_key:
+        raise ValueError("SCRAPEDO_API_KEY not set")
     async with httpx.AsyncClient(timeout=TIMEOUT) as client:
         resp = await client.get(
             "https://api.scrape.do",
             params={
-                "token": SCRAPEDO_API_KEY,
+                "token": api_key,
                 "url": url,
-                "render": "true",          # JS rendering
-                "super": "true",           # premium residential proxies
+                "render": "true",
+                "super": "true",
                 "geoCode": "us",
             },
         )
@@ -43,20 +49,19 @@ async def _fetch_scrapedo(url: str) -> str:
 
 
 async def _fetch_webscrapingapi(url: str) -> str:
-    """WebScrapingAPI — JS rendering + residential proxies."""
-    if not WEBSCRAPINGAPI_KEY:
+    api_key = os.getenv("WEBSCRAPINGAPI_KEY", "")
+    if not api_key:
         raise ValueError("WEBSCRAPINGAPI_KEY not set")
-
     async with httpx.AsyncClient(timeout=TIMEOUT) as client:
         resp = await client.get(
             "https://api.webscrapingapi.com/v2",
             params={
-                "api_key": WEBSCRAPINGAPI_KEY,
+                "api_key": api_key,
                 "url": url,
                 "render_js": "1",
                 "proxy_type": "residential",
                 "country": "us",
-                "wait_for_css": ".agent-name",   # wait for agent cards to load
+                "wait_for_css": ".agent-name",
                 "timeout": "30000",
             },
         )
@@ -68,28 +73,25 @@ async def _fetch_webscrapingapi(url: str) -> str:
 
 
 async def _fetch_scrapingant(url: str) -> str:
-    """ScrapingAnt — headless Chrome + residential proxies."""
-    if not SCRAPINGANT_API_KEY:
+    api_key = os.getenv("SCRAPINGANT_API_KEY", "")
+    if not api_key:
         raise ValueError("SCRAPINGANT_API_KEY not set")
-
     async with httpx.AsyncClient(timeout=TIMEOUT) as client:
         resp = await client.get(
             "https://api.scrapingant.com/v2/general",
             params={
                 "url": url,
-                "x-api-key": SCRAPINGANT_API_KEY,
                 "browser": "true",
                 "proxy_type": "residential",
                 "wait_for_selector": ".agent-name",
             },
-            headers={"x-api-key": SCRAPINGANT_API_KEY},
+            headers={"x-api-key": api_key},
         )
         resp.raise_for_status()
         content = resp.text
     if not content or len(content) < 200:
         raise ValueError(f"ScrapingAnt returned empty content for {url}")
     return content
-
 
 # ── Provider registry & rotation ───────────────────────────────────────────
 
@@ -114,12 +116,6 @@ def _get_active_providers():
     return active
 
 
-def _key_for(name: str) -> bool:
-    return {
-        "scrape.do":      bool(SCRAPEDO_API_KEY),
-        "WebScrapingAPI": bool(WEBSCRAPINGAPI_KEY),
-        "ScrapingAnt":    bool(SCRAPINGANT_API_KEY),
-    }.get(name, False)
 
 
 # ── Public interface ────────────────────────────────────────────────────────
