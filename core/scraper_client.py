@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 
 
-TIMEOUT = 45.0
+TIMEOUT = 120.0
 
 
 # ── Individual provider functions ──────────────────────────────────────────
@@ -30,17 +30,10 @@ async def _fetch_scrapedo(url: str) -> str:
     api_key = os.getenv("SCRAPEDO_API_KEY", "")
     if not api_key:
         raise ValueError("SCRAPEDO_API_KEY not set")
-    async with httpx.AsyncClient(timeout=TIMEOUT) as client:
-        resp = await client.get(
-            f"https://api.scrape.do/",
-            params={
-                "token": api_key,
-                "url": url,
-                "render": "true",
-                "geoCode": "us",
-                # remove "super": "true" — that's a paid addon, causes 410 on free tier
-            },
-        )
+    # Build the request URL manually to prevent double-encoding
+    request_url = f"https://api.scrape.do/?token={api_key}&url={httpx.URL(url)}&render=true&geoCode=us"
+    async with httpx.AsyncClient(timeout=90.0) as client:
+        resp = await client.get(request_url)
         resp.raise_for_status()
         content = resp.text
     if not content or len(content) < 200:
@@ -76,14 +69,14 @@ async def _fetch_scrapingant(url: str) -> str:
     api_key = os.getenv("SCRAPINGANT_API_KEY", "")
     if not api_key:
         raise ValueError("SCRAPINGANT_API_KEY not set")
-    async with httpx.AsyncClient(timeout=90.0) as client:  # longer timeout
+    async with httpx.AsyncClient(timeout=120.0) as client:
         resp = await client.get(
             "https://api.scrapingant.com/v2/general",
             params={
                 "url": url,
-                "browser": "false",        # no browser = faster + no selector timeout
+                "browser": "true",          # must be true for Zillow
                 "proxy_type": "residential",
-                # removed wait_for_selector — was causing 409
+                "wait_for_selector": "body", # wait for anything, not a specific class
             },
             headers={"x-api-key": api_key},
         )
