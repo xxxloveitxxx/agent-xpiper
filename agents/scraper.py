@@ -75,11 +75,18 @@ class ScraperAgent:
                 r'https?://(?:www\.)?zillow\.com/profile/[^/"\'>\s]+',
                 raw
             )
-            # Also catch relative /profile/ URLs
+            found += re.findall(
+                r'https?://(?:www\.)?zillow\.com/professionals/[^/"\'>\s]+-agent/[^/"\'>\s]+',
+                raw
+            )
             base = "https://www.zillow.com"
             found += [
                 base + m.strip("\"'")
                 for m in re.findall(r'["\'](/profile/[^"\'>\s]+)', raw)
+            ]
+            found += [
+                base + m.strip("\"'")
+                for m in re.findall(r'["\'](/professionals/[^"\'>\s]+-agent/[^"\'>\s]+)', raw)
             ]
 
             clean = []
@@ -97,7 +104,9 @@ class ScraperAgent:
             content = raw[:LIST_PAGE_LIMIT]
 
             prompt = f"""Extract all Zillow agent profile URLs from this HTML.
-Profile URLs look like: https://www.zillow.com/profile/AgentName/
+Profile URLs follow these patterns:
+- https://www.zillow.com/profile/AgentName/
+- https://www.zillow.com/professionals/real-estate-agent-reviews/agent-name-id/
 
 HTML:
 {content}
