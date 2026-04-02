@@ -73,55 +73,71 @@ class ScraperAgent:
     #  Phase 1 helpers                                                     #
     # ------------------------------------------------------------------ #
 
-    async def _extract_profile_links(self, search_url: str) -> List[str]:
-        try:
-            raw = await fetch_url(search_url)
-            content = raw[:LIST_PAGE_LIMIT]
+  import re
 
-            prompt = f"""You are parsing a Zillow real estate agent search results page (rendered as markdown).
+async def _extract_profile_links(self, search_url: str) -> List[str]:
+    try:
+        raw = await fetch_url(search_url)
 
-Your only job: extract every link to an individual agent profile page.
-Agent profile URLs look like:
-  https://www.zillow.com/profile/SomeAgentName/
-  or /profile/SomeAgentName/
+        # ── Step 1: Extract /profile/ links with regex (fast, reliable) ──
+        found = re.findall(
+            r'https?://(?:www\.)?zillow\.com/profile/[^/"\'>\s]+',
+            raw
+        )
+        # Also catch relative URLs
+        found += [
+            f"https://www.zillow.com{m}"
+            for m in re.findall(r'"/profile/[^"\'>\s]+', raw)
+        ]
 
-Content:
-{content}
+        # Clean and deduplicate
+        clean = []
+        for link in found:
+            link = link.strip('",\'').rstrip("/") + "/"
+            if "zillow.com/profile/" in link and link not in clean:
+                clean.append(link)
 
-Return ONLY this JSON (no commentary):
-{{"profile_urls": ["https://www.zillow.com/profile/...", ...]}}
-
-Rules:
-- Make all URLs absolute (prefix /profile/ links with https://www.zillow.com)
-- Include ONLY /profile/ URLs
-- No duplicates"""
-
-            resp = await self.client.chat.completions.create(
-                model=self.model,
-                messages=[{"role": "user", "content": prompt}],
-                response_format={"type": "json_object"},
-                temperature=0,
-                max_tokens=1500,
-            )
-
-            data = json.loads(resp.choices[0].message.content)
-            raw_links: List[str] = data.get("profile_urls", [])
-
-            clean: List[str] = []
-            for link in raw_links:
-                if link.startswith("/profile/"):
-                    link = f"https://www.zillow.com{link}"
-                if "zillow.com/profile/" in link:
-                    clean.append(link.rstrip("/") + "/")
-
-            clean = list(dict.fromkeys(clean))  # preserve order, deduplicate
+        if clean:
             logger.info(f"Scraper → {len(clean)} links from {search_url}")
             return clean
 
-        except Exception as exc:
-            logger.error(f"Scraper → failed to extract links from {search_url}: {exc}")
-            return []
+        # ── Step 2: Fallback to LLM only if regex found nothing ──
+        logger.warning(f"Scraper → regex found 0 links, trying LLM fallback for {search_url}")
+        content = raw[:LIST_PAGE_LIMIT]
 
+        prompt = f"""Extract all Zillow agent profile URLs from this HTML.
+Profile URLs follow this pattern: https://www.zillow.com/profile/AgentName/
+
+HTML:
+{content}
+
+Return ONLY valid JSON:
+{{"profile_urls": ["https://www.zillow.com/profile/...", ...]}}
+
+If you find none, return {{"profile_urls": []}}"""
+
+        text = await self._chat(
+            [{"role": "user", "content": prompt}],
+            json_mode=True,
+            max_tokens=1500,
+        )
+
+        data = json.loads(text)
+        raw_links: List[str] = data.get("profile_urls", [])
+
+        for link in raw_links:
+            if link.startswith("/profile/"):
+                link = f"https://www.zillow.com{link}"
+            link = link.rstrip("/") + "/"
+            if "zillow.com/profile/" in link and link not in clean:
+                clean.append(link)
+
+        logger.info(f"Scraper → {len(clean)} links (via LLM) from {search_url}")
+        return clean
+
+    except Exception as exc:
+        logger.error(f"Scraper → failed on {search_url}: {exc}")
+        return []
     # ------------------------------------------------------------------ #
     #  Phase 2 helpers                                                     #
     # ------------------------------------------------------------------ #
