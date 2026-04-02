@@ -32,13 +32,13 @@ async def _fetch_scrapedo(url: str) -> str:
         raise ValueError("SCRAPEDO_API_KEY not set")
     async with httpx.AsyncClient(timeout=TIMEOUT) as client:
         resp = await client.get(
-            "https://api.scrape.do",
+            f"https://api.scrape.do/",
             params={
                 "token": api_key,
                 "url": url,
                 "render": "true",
-                "super": "true",
                 "geoCode": "us",
+                # remove "super": "true" — that's a paid addon, causes 410 on free tier
             },
         )
         resp.raise_for_status()
@@ -76,14 +76,14 @@ async def _fetch_scrapingant(url: str) -> str:
     api_key = os.getenv("SCRAPINGANT_API_KEY", "")
     if not api_key:
         raise ValueError("SCRAPINGANT_API_KEY not set")
-    async with httpx.AsyncClient(timeout=TIMEOUT) as client:
+    async with httpx.AsyncClient(timeout=90.0) as client:  # longer timeout
         resp = await client.get(
             "https://api.scrapingant.com/v2/general",
             params={
                 "url": url,
-                "browser": "true",
+                "browser": "false",        # no browser = faster + no selector timeout
                 "proxy_type": "residential",
-                "wait_for_selector": ".agent-name",
+                # removed wait_for_selector — was causing 409
             },
             headers={"x-api-key": api_key},
         )
@@ -92,7 +92,6 @@ async def _fetch_scrapingant(url: str) -> str:
     if not content or len(content) < 200:
         raise ValueError(f"ScrapingAnt returned empty content for {url}")
     return content
-
 # ── Provider registry & rotation ───────────────────────────────────────────
 
 PROVIDERS = [
