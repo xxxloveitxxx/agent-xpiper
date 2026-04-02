@@ -139,12 +139,12 @@ If none found return {{"profile_urls": []}}"""
 
     # ── Phase 2: scrape individual profile ────────────────────────────────
 
-    async def _scrape_profile(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
-        try:
-            raw = await fetch_url(profile_url)
-            content = raw[:PROFILE_PAGE_LIMIT]
+async def _scrape_profile(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
+    try:
+        raw = await fetch_url(profile_url)
+        content = raw[:PROFILE_PAGE_LIMIT]
 
-            prompt = f"""You are parsing a Zillow real estate agent profile page (raw HTML).
+        prompt = f"""You are parsing a Zillow real estate agent profile page (raw HTML).
 
 Profile URL: {profile_url}
 Fields wanted: {fields}
@@ -168,27 +168,34 @@ Extract all available data and return ONLY this JSON (null for missing fields):
 HTML:
 {content}"""
 
-            text = await self._chat(
-                [{"role": "user", "content": prompt}],
-                json_mode=True,
-                max_tokens=800,
-            )
+        text = await self._chat(
+            [{"role": "user", "content": prompt}],
+            json_mode=True,
+            max_tokens=800,
+        )
 
-            data = json.loads(text)
-            data["profile_url"] = profile_url
-            data["scraped_at"] = datetime.utcnow().isoformat()
+        data = json.loads(text)
+        data["profile_url"] = profile_url
+        data["scraped_at"] = datetime.utcnow().isoformat()
 
-            if data.get("about") and len(data["about"]) > 500:
-                data["about"] = data["about"][:500]
+        # Ensure list fields are always lists
+        for field in ("specialties", "languages"):
+            val = data.get(field)
+            if val is None:
+                data[field] = []
+            elif isinstance(val, str):
+                data[field] = [v.strip() for v in val.split(",") if v.strip()]
 
-            known = set(AgentProfile.model_fields.keys())
-            filtered = {k: v for k, v in data.items() if k in known}
-            return AgentProfile(**filtered)
+        if data.get("about") and len(data["about"]) > 500:
+            data["about"] = data["about"][:500]
 
-        except Exception as exc:
-            logger.error(f"Scraper → failed on {profile_url}: {exc}")
-            return None
+        known = set(AgentProfile.model_fields.keys())
+        filtered = {k: v for k, v in data.items() if k in known}
+        return AgentProfile(**filtered)
 
+    except Exception as exc:
+        logger.error(f"Scraper → failed on {profile_url}: {exc}")
+        return None
     # ── Checkpointing ──────────────────────────────────────────────────────
 
     @staticmethod
