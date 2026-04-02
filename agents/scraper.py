@@ -198,7 +198,7 @@ HTML:
         return None
     # ── Checkpointing ──────────────────────────────────────────────────────
 
-    @staticmethod
+@staticmethod
     def _checkpoint(data: dict, name: str) -> None:
         path = Path(f"data/leads/checkpoint_{name}.json")
         path.parent.mkdir(parents=True, exist_ok=True)
