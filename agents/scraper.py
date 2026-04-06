@@ -95,7 +95,7 @@ class ScraperAgent:
             logger.warning(f"Scraper → regex found 0 links, trying LLM fallback for {search_url}")
             content = raw[:LIST_PAGE_LIMIT]
 
-            prompt = f"""Extract all Zillow agent profile URLs from this HTML.
+            prompt = f"""Extract all Zillow agent profile URLs from this markdown page.
 Profile URLs follow these patterns:
 - https://www.zillow.com/profile/AgentName/
 - https://www.zillow.com/professionals/real-estate-agent-reviews/agent-name-id/
@@ -134,7 +134,7 @@ If none found return {{"profile_urls": []}}"""
             raw = await fetch_url(profile_url)
             content = raw[:PROFILE_PAGE_LIMIT]
 
-            prompt = f"""You are parsing a Zillow real estate agent profile page (raw HTML).
+            prompt = f"""You are parsing a Zillow real estate agent profile page (markdown format).
 
 Profile URL: {profile_url}
 Fields wanted: {fields}
