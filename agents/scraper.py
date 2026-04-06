@@ -13,8 +13,8 @@ from core.models import AgentProfile
 
 logger = logging.getLogger(__name__)
 
-LIST_PAGE_LIMIT = 8_000
-PROFILE_PAGE_LIMIT = 12_000
+LIST_PAGE_LIMIT = 15_000
+PROFILE_PAGE_LIMIT = 20_000
 
 
 class ScraperAgent:
