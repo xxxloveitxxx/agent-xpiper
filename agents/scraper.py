@@ -152,7 +152,7 @@ Extract all available data and return ONLY this JSON (null for missing fields):
   "languages": ["English"],
   "about": "Bio text (max 500 chars)",
   "phone": "305-555-0100 or null",
-  "email": "agent@email.com or null"
+  "email": "agent@email.com not null for example :"[clientcare+broker@8z.com](mailto:clientcare+broker@8z.com)" becomes "clientcare+broker@8z.com""
 }}
 
 HTML:
