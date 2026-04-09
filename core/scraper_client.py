@@ -2,12 +2,40 @@
 import httpx
 import asyncio
 import logging
-from typing import Optional
+import os
+import random
+from typing import Optional, List
 
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://urltomarkdown.herokuapp.com/"
-TIMEOUT = 35  # Slightly above Heroku's 30s limit
+TIMEOUT = 35
+
+# === Load & Parse Webshare Proxies ===
+def _load_proxies() -> List[dict]:
+    """Parse WEBSHARE_PROXIES env var into httpx-compatible proxy configs."""
+    proxies = []
+    raw = os.getenv("WEBSHARE_PROXIES", "").strip()
+    if not raw:
+        return proxies
+    
+    for line in raw.split("\n"):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        try:
+            host, port, username, password = line.split(":")
+            proxy_url = f"http://{username}:{password}@{host}:{port}"
+            proxies.append({
+                "http://": proxy_url,
+                "https://": proxy_url
+            })
+        except ValueError:
+            logger.warning(f"Skipping invalid proxy config: {line}")
+    return proxies
+
+PROXIES = _load_proxies()
+logger.info(f"Loaded {len(PROXIES)} Webshare.io proxies")
 
 
 def _sanitize_zillow_url(url: str) -> str:
@@ -18,16 +46,21 @@ def _sanitize_zillow_url(url: str) -> str:
     return clean
 
 
-async def fetch_url(url: str, max_retries: int = 3) -> str:
+async def fetch_url(url: str, max_retries: int = 2) -> str:
     """
-    Fetch webpage as markdown via public urltomarkdown API.
-    Implements your retry strategy for 429/502 errors.
+    Fetch webpage as markdown via urltomarkdown API with proxy rotation.
     """
     clean_url = _sanitize_zillow_url(url)
     
-    for attempt in range(max_retries):
+    for attempt in range(max_retries + 1):
+        # === Rotate proxy (random selection) ===
+        proxy_config = random.choice(PROXIES) if PROXIES else None
+        
         try:
-            async with httpx.AsyncClient(timeout=TIMEOUT) as client:
+            async with httpx.AsyncClient(
+                timeout=TIMEOUT,
+                proxies=proxy_config  # httpx handles auth via proxy URL
+            ) as client:
                 resp = await client.get(
                     BASE_URL,
                     params={
@@ -38,49 +71,50 @@ async def fetch_url(url: str, max_retries: int = 3) -> str:
                     },
                     headers={
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                        "Accept": "text/plain"
+                        "Accept": "text/plain",
+                        "Referer": "https://www.zillow.com/"
                     }
                 )
                 
-                # === HANDLE 429: Rate Limited ===
+                # === Handle 429: Rate Limited ===
                 if resp.status_code == 429:
-                    # Check Retry-After header first
                     retry_after = resp.headers.get("Retry-After")
-                    if retry_after:
-                        wait_time = int(retry_after)
-                    else:
-                        # Your recommendation: 60s base, exponential
-                        wait_time = 60 * (2 ** attempt)
-                    
-                    logger.warning(f"429 Rate limited. Waiting {wait_time}s (attempt {attempt+1}/{max_retries})")
+                    wait_time = int(retry_after) if retry_after else 60 * (2 ** attempt)
+                    logger.warning(f"429 on proxy {proxy_config['http://'][:30]}... Waiting {wait_time}s")
                     await asyncio.sleep(wait_time)
                     continue
                 
-                # === HANDLE 502/503/504: Bad Gateway ===
+                # === Handle 502/503/504: Gateway Errors ===
                 if resp.status_code in [502, 503, 504]:
-                    # Your recommendation: 10s → 30s → 60s
-                    wait_times = [10, 30, 60]
-                    wait_time = wait_times[attempt] if attempt < len(wait_times) else 60
-                    
-                    logger.warning(f"{resp.status_code} Gateway error. Waiting {wait_time}s (attempt {attempt+1}/{max_retries})")
-                    await asyncio.sleep(wait_time)
-                    continue
+                    if attempt < max_retries:
+                        wait_time = [15, 30, 60][attempt] if attempt < 3 else 60
+                        logger.warning(f"{resp.status_code} on proxy, retrying with new proxy in {wait_time}s")
+                        await asyncio.sleep(wait_time)
+                        continue
+                    else:
+                        logger.error(f"{resp.status_code} persistent after {max_retries} retries")
                 
-                # Success!
                 resp.raise_for_status()
                 return resp.text.strip()
                 
-        except httpx.TimeoutException:
-            wait_time = 15 * (attempt + 1)
-            logger.warning(f"Timeout. Waiting {wait_time}s before retry...")
-            await asyncio.sleep(wait_time)
-            continue
+        except httpx.ProxyError as e:
+            logger.warning(f"Proxy failed: {proxy_config['http://'][:30]}... | {e}")
+            # Try next retry with different proxy (random.choice handles this)
+            if attempt < max_retries:
+                await asyncio.sleep(5)
+                continue
+            raise
             
-        except httpx.RequestError as e:
-            if attempt < max_retries - 1:
+        except httpx.TimeoutException:
+            if attempt < max_retries:
                 await asyncio.sleep(10)
                 continue
-            logger.error(f"Request failed after {max_retries} attempts: {e}")
+            raise
+            
+        except httpx.RequestError as e:
+            if attempt < max_retries:
+                await asyncio.sleep(5)
+                continue
             raise
     
     raise RuntimeError(f"Failed to fetch {clean_url} after {max_retries} retries")
