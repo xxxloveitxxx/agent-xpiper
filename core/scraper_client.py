@@ -22,7 +22,7 @@ BASE = "https://urltomarkdown.herokuapp.com/"
 import httpx
 import asyncio
 
-async def fetch_url_as_markdown(url: str, max_retries: int = 2) -> str:
+async def fetch_url(url: str, max_retries: int = 2) -> str:
     """
     Fetch Zillow profile as markdown via public urltomarkdown API.
     Critical: Remove trailing )/ AND / to match browser behavior.
