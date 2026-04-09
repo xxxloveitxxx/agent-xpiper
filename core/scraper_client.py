@@ -18,7 +18,7 @@ BASE = "https://urltomarkdown.herokuapp.com/"
     retry=retry_if_exception_type((httpx.HTTPError, httpx.TimeoutException)),
 )
 # Replace the entire fetch_url_as_markdown function with:
-async def fetch_url_as_markdown(url: str) -> str:
+async def fetch_url(url: str) -> str:
     """Fetch via urltomarkdown public API with proper encoding + sanitization"""
     # Sanitize Zillow-specific URL artifacts
     clean_url = url.rstrip(')/').rstrip('/') + '/'
