@@ -32,12 +32,6 @@ logging.basicConfig(
 logger = logging.getLogger("xpiper")
 console = Console()
 # At the top of main.py, after imports:
-from core.scraper_client import init_proxies
-import os
-
-# Initialize proxies before scraping begins
-if os.getenv("WEBSHARE_API_KEY"):
-    init_proxies(os.getenv("WEBSHARE_API_KEY"))
 
 # ── Pipeline ───────────────────────────────────────────────────────────────
 
