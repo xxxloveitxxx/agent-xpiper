@@ -1,7 +1,7 @@
-"""
-Scraper client using urltomarkdown.herokuapp.com
-Returns clean markdown — much lighter for the LLM to parse than raw HTML.
-"""
+#"""
+#Scraper client using urltomarkdown.herokuapp.com
+#Returns clean markdown — much lighter for the LLM to parse than raw HTML.
+#"""
 import httpx
 import logging
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
@@ -23,10 +23,10 @@ import httpx
 import asyncio
 
 async def fetch_url(url: str, max_retries: int = 2) -> str:
-    """
-    Fetch Zillow profile as markdown via public urltomarkdown API.
-    Critical: Remove trailing )/ AND / to match browser behavior.
-    """
+#    """
+#    Fetch Zillow profile as markdown via public urltomarkdown API.
+#    Critical: Remove trailing )/ AND / to match browser behavior.
+ #   """
     # === SANITIZE ZILLOW URLS ===
     # Remove trailing artifacts: ")/" → "/" → ""
     clean_url = url.rstrip(')/').rstrip('/')
