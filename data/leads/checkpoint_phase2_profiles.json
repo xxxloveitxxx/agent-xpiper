@@ -1,51 +1,53 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/dixonsoldit)/",
-      "name": "Daniel Dixon",
-      "location": "Aurora, CO",
+      "profile_url": "https://www.zillow.com/profile/8zRealEstate)/",
+      "name": "8z Real Estate",
+      "location": "Boulder, CO",
       "rating": 5.0,
-      "review_count": 379,
-      "years_experience": 13,
-      "recent_sales": 1003,
+      "review_count": 5462,
+      "years_experience": 17,
+      "recent_sales": 1044,
       "specialties": [
         "Buyer's Agent",
         "Listing Agent",
-        "Relocation",
-        "Foreclosure"
+        "Relocation"
       ],
       "languages": [
         "English",
-        "Spanish"
+        "Spanish",
+        "French"
       ],
-      "brokerage": "Keller Williams Trilogy",
-      "about": "Welcome to The NexGen Network \u2013 your trusted partner for finding your perfect home in breathtaking Colorado! With over 2000 families served and more than 1000 glowing 5-star Google reviews, our team of licensed real estate professionals is committed to delivering exceptional service.",
+      "brokerage": "8z Real Estate",
+      "about": "Colorado's Highest Rated Brokerage. Need to sell? You've got options, choose what makes sense for you: 8z Select. In today's real estate market, you have to be prepared to make big decisions quickly.",
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-09T19:48:55.371991"
+      "scraped_at": "2026-04-09T19:59:39.356715"
     },
     {
-      "profile_url": "https://www.zillow.com/profile/Kim-Dozier)/",
-      "name": "Kim Dozier",
-      "location": "Denver, CO",
+      "profile_url": "https://www.zillow.com/profile/DaveNessRealtor)/",
+      "name": "Dave Ness",
+      "location": "Littleton, CO",
       "rating": 5.0,
-      "review_count": 175,
-      "years_experience": null,
-      "recent_sales": 37,
+      "review_count": 2165,
+      "years_experience": 14,
+      "recent_sales": 789,
       "specialties": [
         "Buyer's Agent",
         "Listing Agent",
         "Relocation",
-        "Staging",
-        "Property Management",
-        "Investment Properties"
+        "First Time Homebuyers",
+        "Investment Properties",
+        "Luxury Homes",
+        "New Construction",
+        "Lot/Land"
       ],
       "languages": [],
-      "brokerage": "4 Walls That Fit | Compass",
-      "about": "Our philosophy is simple: It's all about YOU! I fell in love with Colorado in 2001. What started as a six-month stay turned into a lifelong commitment to the vibrant communities of downtown Denver and the mountains of Vail. With an entrepreneurial background, a successful fashion business and a degree in interior design the transition to real estate became a natural step for me. My dedication to hard work and passion for helping clients find...",
+      "brokerage": "Thrive Real Estate Group",
+      "about": "Thrive Real Estate Group Advisors. We\u2019re a bit different than the normal, tired real estate firm from \u201cyesteryear\u201d. We are highly leveraged on technology, hyper-responsive, locally oriented, and absolute experts in advising Buyers and Sellers - and fun too.",
       "phone": null,
-      "email": null,
-      "scraped_at": "2026-04-09T19:49:00.411464"
+      "email": "dave.ness@thriverealestate.com",
+      "scraped_at": "2026-04-09T19:59:51.903129"
     }
   ]
 }
