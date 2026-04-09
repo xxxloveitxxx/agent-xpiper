@@ -1,30 +1,6 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/8zRealEstate)/",
-      "name": "8z Real Estate",
-      "location": "Boulder, CO",
-      "rating": 5.0,
-      "review_count": 5462,
-      "years_experience": 17,
-      "recent_sales": 1044,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation"
-      ],
-      "languages": [
-        "English",
-        "Spanish",
-        "French"
-      ],
-      "brokerage": "8z Real Estate",
-      "about": "Colorado's Highest Rated Brokerage. Need to sell? You've got options, choose what makes sense for you: 8z Select. In today's real estate market, you have to be prepared to make big decisions quickly.",
-      "phone": null,
-      "email": null,
-      "scraped_at": "2026-04-09T19:59:39.356715"
-    },
-    {
       "profile_url": "https://www.zillow.com/profile/DaveNessRealtor)/",
       "name": "Dave Ness",
       "location": "Littleton, CO",
@@ -47,7 +23,33 @@
       "about": "Thrive Real Estate Group Advisors. We\u2019re a bit different than the normal, tired real estate firm from \u201cyesteryear\u201d. We are highly leveraged on technology, hyper-responsive, locally oriented, and absolute experts in advising Buyers and Sellers - and fun too.",
       "phone": null,
       "email": "dave.ness@thriverealestate.com",
-      "scraped_at": "2026-04-09T19:59:51.903129"
+      "scraped_at": "2026-04-09T21:27:21.226856"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/CompassBe1Team)/",
+      "name": "Be1 Team",
+      "location": "Denver, CO",
+      "rating": 5.0,
+      "review_count": 1037,
+      "years_experience": null,
+      "recent_sales": 937,
+      "specialties": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Property Management"
+      ],
+      "languages": [
+        "English",
+        "Spanish",
+        "Korean",
+        "Polish"
+      ],
+      "brokerage": "Compass",
+      "about": "Meet Be1 Team",
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-09T21:30:54.647753"
     }
   ]
 }
