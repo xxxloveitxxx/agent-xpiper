@@ -1,55 +1,32 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/DaveNessRealtor)/",
-      "name": "Dave Ness",
-      "location": "Littleton, CO",
+      "profile_url": "https://www.zillow.com/profile/tampacentralkw)/",
+      "name": "Keller Williams Tampa Central",
+      "location": "Tampa, FL",
       "rating": 5.0,
-      "review_count": 2165,
-      "years_experience": 14,
-      "recent_sales": 789,
+      "review_count": 621,
+      "years_experience": null,
+      "recent_sales": 113,
       "specialties": [
         "Buyer's Agent",
         "Listing Agent",
         "Relocation",
         "First Time Homebuyers",
-        "Investment Properties",
-        "Luxury Homes",
-        "New Construction",
-        "Lot/Land"
-      ],
-      "languages": [],
-      "brokerage": "Thrive Real Estate Group",
-      "about": "Thrive Real Estate Group Advisors. We\u2019re a bit different than the normal, tired real estate firm from \u201cyesteryear\u201d. We are highly leveraged on technology, hyper-responsive, locally oriented, and absolute experts in advising Buyers and Sellers - and fun too.",
-      "phone": null,
-      "email": "dave.ness@thriverealestate.com",
-      "scraped_at": "2026-04-09T21:27:21.226856"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/CompassBe1Team)/",
-      "name": "Be1 Team",
-      "location": "Denver, CO",
-      "rating": 5.0,
-      "review_count": 1037,
-      "years_experience": null,
-      "recent_sales": 937,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation",
-        "Property Management"
+        "Luxury Homes"
       ],
       "languages": [
         "English",
         "Spanish",
-        "Korean",
-        "Polish"
+        "Russian",
+        "Turkish",
+        "Portuguese"
       ],
-      "brokerage": "Compass",
-      "about": "Meet Be1 Team",
+      "brokerage": "Keller Williams Realty",
+      "about": "Keller Williams Realty Tampa Central is the Tampa Bay area's premier real estate office.",
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-09T21:30:54.647753"
+      "scraped_at": "2026-04-09T22:03:40.560387"
     }
   ]
 }
