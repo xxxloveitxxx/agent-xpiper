@@ -11,6 +11,27 @@ logger = logging.getLogger(__name__)
 BASE_URL = "https://urltomarkdown.herokuapp.com/"
 TIMEOUT = 35
 
+def init_proxies(webshare_api_key: str, proxy_count: int = 10) -> bool:
+    """
+    Initialize Webshare proxy rotation.
+    Call this ONCE at app startup (e.g., in main.py).
+    
+    Returns: True if proxies loaded successfully, False otherwise.
+    """
+    global proxy_manager
+    try:
+        proxy_manager = WebshareProxyManager(
+            api_key=webshare_api_key,
+            proxy_count=proxy_count
+        )
+        # Pre-load proxies asynchronously (fire-and-forget for startup)
+        asyncio.create_task(proxy_manager.refresh())
+        logger.info("✓ Webshare proxy manager initialized")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to init proxies: {e}")
+        return False
+        
 # === Load & Parse Webshare Proxies ===
 def _load_proxies() -> List[dict]:
     """Parse WEBSHARE_PROXIES env var into httpx-compatible proxy configs."""
