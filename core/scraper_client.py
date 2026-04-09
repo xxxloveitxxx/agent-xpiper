@@ -11,26 +11,37 @@ logger = logging.getLogger(__name__)
 BASE_URL = "https://urltomarkdown.herokuapp.com/"
 TIMEOUT = 35
 
-def init_proxies(webshare_api_key: str, proxy_count: int = 10) -> bool:
+# === Add this near the top of core/scraper_client.py, after imports ===
+
+# Global proxy manager instance (initialized by init_proxies)
+_proxy_manager = None
+
+
+def init_proxies(webshare_api_key: str, proxy_count: int = 10):
     """
-    Initialize Webshare proxy rotation.
-    Call this ONCE at app startup (e.g., in main.py).
+    Initialize Webshare.io proxy rotation for scraper requests.
     
-    Returns: True if proxies loaded successfully, False otherwise.
+    Call this once at app startup:
+        from core.scraper_client import init_proxies
+        init_proxies(os.getenv("WEBSHARE_API_KEY"))
+    
+    Args:
+        webshare_api_key: Your Webshare.io API token
+        proxy_count: Number of proxies to load (default: 10)
     """
-    global proxy_manager
-    try:
-        proxy_manager = WebshareProxyManager(
-            api_key=webshare_api_key,
-            proxy_count=proxy_count
-        )
-        # Pre-load proxies asynchronously (fire-and-forget for startup)
-        asyncio.create_task(proxy_manager.refresh())
-        logger.info("✓ Webshare proxy manager initialized")
-        return True
-    except Exception as e:
-        logger.error(f"Failed to init proxies: {e}")
-        return False
+    global _proxy_manager
+    _proxy_manager = WebshareProxyManager(
+        api_key=webshare_api_key,
+        proxy_count=proxy_count
+    )
+    logger.info(f"✓ Webshare proxy manager initialized ({proxy_count} proxies)")
+
+
+def _get_proxy_for_request() -> Optional[str]:
+    """Helper: get next proxy URL for httpx request, or None if disabled."""
+    if _proxy_manager and _proxy_manager._proxies:
+        return _proxy_manager.get_next_proxy()
+    return None
         
 # === Load & Parse Webshare Proxies ===
 def _load_proxies() -> List[dict]:
