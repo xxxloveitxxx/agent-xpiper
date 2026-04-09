@@ -6,8 +6,8 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-TIMEOUT = 90.0
 BASE_URL = "https://urltomarkdown.herokuapp.com/"
+TIMEOUT = 35  # Slightly above Heroku's 30s limit
 
 
 def _sanitize_zillow_url(url: str) -> str:
@@ -18,17 +18,16 @@ def _sanitize_zillow_url(url: str) -> str:
     return clean
 
 
-async def fetch_url(url: str, max_retries: int = 2) -> str:
+async def fetch_url(url: str, max_retries: int = 3) -> str:
     """
     Fetch webpage as markdown via public urltomarkdown API.
-    Handles Zillow URL quirks, rate limits, and transient errors.
+    Implements your retry strategy for 429/502 errors.
     """
     clean_url = _sanitize_zillow_url(url)
     
-    for attempt in range(max_retries + 1):
+    for attempt in range(max_retries):
         try:
             async with httpx.AsyncClient(timeout=TIMEOUT) as client:
-                # ✅ httpx auto-encodes params safely - NO manual quote()
                 resp = await client.get(
                     BASE_URL,
                     params={
@@ -43,34 +42,45 @@ async def fetch_url(url: str, max_retries: int = 2) -> str:
                     }
                 )
                 
-                # Handle rate limiting (429)
+                # === HANDLE 429: Rate Limited ===
                 if resp.status_code == 429:
-                    wait_time = 8 * (attempt + 1)
-                    logger.warning(f"Rate limited, waiting {wait_time}s before retry {attempt+1}/{max_retries}")
+                    # Check Retry-After header first
+                    retry_after = resp.headers.get("Retry-After")
+                    if retry_after:
+                        wait_time = int(retry_after)
+                    else:
+                        # Your recommendation: 60s base, exponential
+                        wait_time = 60 * (2 ** attempt)
+                    
+                    logger.warning(f"429 Rate limited. Waiting {wait_time}s (attempt {attempt+1}/{max_retries})")
                     await asyncio.sleep(wait_time)
                     continue
                 
-                # Raise for other HTTP errors (502, 503, etc.)
+                # === HANDLE 502/503/504: Bad Gateway ===
+                if resp.status_code in [502, 503, 504]:
+                    # Your recommendation: 10s → 30s → 60s
+                    wait_times = [10, 30, 60]
+                    wait_time = wait_times[attempt] if attempt < len(wait_times) else 60
+                    
+                    logger.warning(f"{resp.status_code} Gateway error. Waiting {wait_time}s (attempt {attempt+1}/{max_retries})")
+                    await asyncio.sleep(wait_time)
+                    continue
+                
+                # Success!
                 resp.raise_for_status()
                 return resp.text.strip()
                 
-        except httpx.HTTPStatusError as e:
-            status = e.response.status_code
-            if status in [502, 503, 504] and attempt < max_retries:
-                wait_time = 3 * (attempt + 1)
-                logger.warning(f"Server error {status}, retrying in {wait_time}s...")
-                await asyncio.sleep(wait_time)
-                continue
-            logger.error(f"HTTP error {status} for {clean_url}: {e}")
-            raise
+        except httpx.TimeoutException:
+            wait_time = 15 * (attempt + 1)
+            logger.warning(f"Timeout. Waiting {wait_time}s before retry...")
+            await asyncio.sleep(wait_time)
+            continue
             
         except httpx.RequestError as e:
-            if attempt < max_retries:
-                wait_time = 2 ** attempt
-                logger.warning(f"Request error, retrying in {wait_time}s: {e}")
-                await asyncio.sleep(wait_time)
+            if attempt < max_retries - 1:
+                await asyncio.sleep(10)
                 continue
-            logger.error(f"Request failed after {max_retries} retries: {e}")
+            logger.error(f"Request failed after {max_retries} attempts: {e}")
             raise
     
     raise RuntimeError(f"Failed to fetch {clean_url} after {max_retries} retries")
