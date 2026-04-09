@@ -70,4 +70,7 @@ async def fetch_url(url: str, max_retries: int = 2) -> str:
                 logger.warning(f"Request error, retrying in {wait_time}s: {e}")
                 await asyncio.sleep(wait_time)
                 continue
-            logger.error(f"Request failed after {max_retries}
+            logger.error(f"Request failed after {max_retries} retries: {e}")
+            raise
+    
+    raise RuntimeError(f"Failed to fetch {clean_url} after {max_retries} retries")
