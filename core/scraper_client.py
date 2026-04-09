@@ -17,23 +17,26 @@ BASE = "https://urltomarkdown.herokuapp.com/"
     wait=wait_exponential(multiplier=2, min=4, max=20),
     retry=retry_if_exception_type((httpx.HTTPError, httpx.TimeoutException)),
 )
-async def fetch_url(url: str, get_links: bool = False) -> str:
-    """
-    Fetch a URL via urltomarkdown and return clean markdown.
-    """
-    async with httpx.AsyncClient(timeout=TIMEOUT) as client:
+# Replace the entire fetch_url_as_markdown function with:
+async def fetch_url_as_markdown(url: str) -> str:
+    """Fetch via urltomarkdown public API with proper encoding + sanitization"""
+    # Sanitize Zillow-specific URL artifacts
+    clean_url = url.rstrip(')/').rstrip('/') + '/'
+    
+    async with httpx.AsyncClient(timeout=90) as client:
+        # Let httpx handle encoding via params dict
         resp = await client.get(
-            BASE,
+            "https://urltomarkdown.herokuapp.com/",
             params={
-                "url": url,
-                "clean": "false",   # keep all content including links
+                "url": clean_url,  # raw URL - httpx encodes safely
+                "clean": "false",
+                "links": "true", 
+                "title": "false"
             },
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Accept": "text/plain"
+            }
         )
         resp.raise_for_status()
-        content = resp.text
-
-    if not content or len(content) < 100:
-        raise ValueError(f"urltomarkdown returned empty content for {url}")
-
-    logger.info(f"[urltomarkdown] ✓ {len(content):,} chars from {url[:60]}")
-    return content
+        return resp.text.strip()
