@@ -134,30 +134,49 @@ If none found return {{"profile_urls": []}}"""
             raw = await fetch_url(profile_url)
             content = raw[:PROFILE_PAGE_LIMIT]
 
-            prompt = f"""You are parsing a Zillow real estate agent profile page (markdown format).
+            prompt = f"""You are parsing a Zillow real estate agent profile page in MARKDOWN format.
 
 Profile URL: {profile_url}
-Fields wanted: {fields}
+Fields to extract: {fields}
 
-Extract all available data and return ONLY this JSON (null for missing fields):
+=== CRITICAL: EMAIL EXTRACTION FROM MARKDOWN ===
+Emails appear in mailto links like this:
+  [clientcare+broker@8z.com](mailto:clientcare+broker@8z.com)
+  [Contact Agent](mailto:dave.ness@thriverealestate.com)
+
+To extract emails:
+1. Find patterns: [any text](mailto:EMAIL_HERE)
+2. Extract ONLY the email inside mailto: (ignore the link text like "Contact")
+3. Remove the "mailto:" prefix — return clean email only
+4. If multiple emails exist, return the primary contact email
+5. If no mailto link, check for plain text: agent@brokerage.com
+6. If no email found anywhere, return null
+
+=== OUTPUT JSON SCHEMA (STRICT) ===
 {{
-  "name": "Full name",
+  "name": "Full name or team name",
   "location": "City, State",
   "rating": 4.8,
   "review_count": 42,
   "years_experience": 7,
   "recent_sales": 15,
-  "brokerage": "RE/MAX ...",
+  "brokerage": "Brokerage name",
   "specialties": ["Buyer's Agent", "Listing Agent"],
-  "languages": ["English"],
-  "about": "Bio text (max 500 chars)",
+  "languages": ["English", "Spanish"],
+  "about": "Bio text, max 500 characters",
   "phone": "305-555-0100 or null",
-  "email": "agent@email.com not null for example :"[clientcare+broker@8z.com](mailto:clientcare+broker@8z.com)" becomes "clientcare+broker@8z.com""
+  "email": "clientcare+broker@8z.com or null"
 }}
 
-HTML:
-{content}"""
+=== RULES ===
+- Return VALID JSON only, no markdown, no explanations
+- Use null (not "null" string) for missing fields
+- Keep "about" under 500 chars
+- Specialties/languages as arrays, not comma strings
+- Email must be clean: no "mailto:", no link text
 
+Markdown content:
+{content}"""
             text = await self._chat(
                 [{"role": "user", "content": prompt}],
                 json_mode=True,
