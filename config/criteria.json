@@ -2,14 +2,14 @@
   "business_info": {
     "name": "Replyzeai",
     "type": "other",
-    "description": "my saas pre qualify auto nurture and auto book showings for luxury real estate agents with 2 to 8 active listings (for sale)",
+    "description": "my saas pre qualify auto nurture and auto book showings and reactivate stale leads for real estate agents with 2 to 8 active listings (for sale)",
     "value_proposition": "take over the inquiry emails for active listings and only send buyers who are actually ready to tour.\n\nSaves the back-and-forth hassle."
   },
   "target_market": {
     "locations": [
-      "denver, co"
+      "Tampa, FL"
     ],
-    "agent_type": "luxury",
+    "agent_type": "any",
     "market_segment": "top_25"
   },
   "qualification_criteria": {
@@ -19,10 +19,10 @@
     "min_recent_sales": 3,
     "required_keywords": [],
     "excluded_keywords": [],
-    "custom_criteria": "only agents who have stagnant active listings"
+    "custom_criteria": "only agents who have active listings"
   },
   "scraping_config": {
-    "max_pages": 2,
-    "max_agents": 10
+    "max_pages": 1,
+    "max_agents": 6
   }
 }
