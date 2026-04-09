@@ -33,12 +33,11 @@ logger = logging.getLogger("xpiper")
 console = Console()
 # At the top of main.py, after imports:
 from core.scraper_client import init_proxies
-from config.settings import WEBSHARE_API_KEY  # Add to your .env
+import os
 
-# Before running scraper:
-if WEBSHARE_API_KEY:
-    init_proxies(WEBSHARE_API_KEY)
-    logger.info("✓ Webshare proxies initialized")
+# Initialize proxies before scraping begins
+if os.getenv("WEBSHARE_API_KEY"):
+    init_proxies(os.getenv("WEBSHARE_API_KEY"))
 
 # ── Pipeline ───────────────────────────────────────────────────────────────
 
