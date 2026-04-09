@@ -1,7 +1,4 @@
-#"""
-#Scraper client using urltomarkdown.herokuapp.com
-#Returns clean markdown — much lighter for the LLM to parse than raw HTML.
-#"""
+
 import httpx
 import logging
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
