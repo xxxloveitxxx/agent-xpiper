@@ -66,7 +66,7 @@ async def run():
     biz_name = criteria.get("business_info", {}).get("name", "Unknown")
     console.print(f"[green]✓  Criteria loaded for:[/green] {biz_name}")
 
-    scraping_plan = manager.generate_scraping_instructions(criteria)
+    scraping_plan = await manager.generate_scraping_instructions(criteria)
     n_urls = len(scraping_plan.get("zillow_search_urls", []))
     console.print(f"[green]✓  Scraping plan ready:[/green] {n_urls} Zillow search pages")
 
@@ -87,13 +87,13 @@ async def run():
         "available_fields": ["name", "rating", "review_count", "years_experience",
                              "recent_sales", "brokerage", "specialties", "about"],
     }
-    qual_rules = manager.generate_qualification_rules(criteria, summary)
+    qual_rules = await manager.generate_qualification_rules(criteria, summary)
     min_score = qual_rules.get("minimum_score_to_qualify", 60)
     console.print(f"[green]✓  Rules ready:[/green] minimum score {min_score}/100")
 
     # ── Step 4: Qualify leads ──────────────────────────────────────────
     console.print("\n[bold yellow]Step 4 — Qualifier: score & filter agents[/bold yellow]")
-    qualified = qualifier.qualify_leads(agent_profiles, qual_rules)
+    qualified = await qualifier.qualify_leads(agent_profiles, qual_rules)
     console.print(f"[green]✓  Qualified leads:[/green] {len(qualified)}/{len(agent_profiles)}")
 
     # ── Step 5: Export CSV ─────────────────────────────────────────────
