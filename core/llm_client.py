@@ -5,7 +5,7 @@ from typing import List, Dict, Optional
 
 from groq import AsyncGroq
 
-from config.settings import PROVIDER, REQUEST_DELAY
+from config.settings import REQUEST_DELAY
 
 logger = logging.getLogger(__name__)
 
