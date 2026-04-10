@@ -1,150 +1,170 @@
+# agents/manager.py
+import asyncio
 import json
 import logging
-from groq import Groq
 from pathlib import Path
-from config.settings import GROQ_API_KEY_MANAGER, MANAGER_MODEL
+from typing import List, Dict, Optional
+
+from config.settings import (
+    GROQ_API_KEY_MANAGER, MANAGER_MODEL, PROVIDER, GROQ_MODELS
+)
+from core.llm_client import make_client, chat_with_fallback
+from core.models import AgentProfile
 
 logger = logging.getLogger(__name__)
 
 
 class ManagerAgent:
-    """
-    The Manager Agent orchestrates the entire pipeline.
-    It reads the business criteria, generates a scraping plan,
-    and then generates qualification rules for the Qualifier.
-    """
 
     def __init__(self):
-        self.client = Groq(api_key=GROQ_API_KEY_MANAGER)
-        self.model = MANAGER_MODEL
+        api_key = GROQ_API_KEY_MANAGER
+        self._client, _ = make_client(api_key, MANAGER_MODEL)
+        self._model_chain = GROQ_MODELS.get("manager", [MANAGER_MODEL])
 
-    # ------------------------------------------------------------------ #
-    #  Criteria                                                            #
-    # ------------------------------------------------------------------ #
-
-    def load_criteria(self) -> dict:
-        path = Path("config/criteria.json")
+    def load_criteria(self, criteria_file: str = "data/criteria.json") -> dict:
+        path = Path(criteria_file)
         if not path.exists():
-            raise FileNotFoundError(
-                "config/criteria.json not found.\n"
-                "Open the GitHub Pages site and fill out the form to generate it."
-            )
-        with open(path) as f:
-            return json.load(f)
+            logger.warning(f"Criteria file not found: {path}, using defaults")
+            return self._default_criteria()
+        with open(path, "r") as f:
+            criteria = json.load(f)
+        logger.info(f"✓ Criteria loaded for: {criteria.get('campaign_name', 'Unknown')}")
+        return criteria
 
-    # ------------------------------------------------------------------ #
-    #  Step 1 — Scraping Plan                                             #
-    # ------------------------------------------------------------------ #
+    @staticmethod
+    def _default_criteria() -> dict:
+        return {
+            "campaign_name": "Default Campaign",
+            "target_locations": ["Denver, CO"],
+            "min_rating": 4.5,
+            "min_reviews": 20,
+            "min_experience_years": 3,
+            "min_recent_sales": 10,
+            "preferred_specialties": ["Buyer's Agent", "Listing Agent"],
+            "exclude_brokerages": [],
+            "max_agents_to_scrape": 50,
+            "zillow_search_urls": [
+                "https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/?page=1"
+            ],
+            "fields_to_extract": [
+                "name", "location", "brokerage", "rating", "review_count",
+                "years_experience", "recent_sales", "specialties", "languages",
+                "phone", "email", "about"
+            ]
+        }
 
-    def generate_scraping_instructions(self, criteria: dict) -> dict:
+    async def generate_scraping_instructions(self, criteria: dict) -> dict:
         logger.info("Manager → generating scraping plan...")
+        
+        search_urls = criteria.get("zillow_search_urls", [])
+        if not search_urls:
+            search_urls = [
+                f"https://www.zillow.com/professionals/real-estate-agent-reviews/{loc.lower().replace(', ', '-')}/?page=1"
+                for loc in criteria.get("target_locations", ["Denver, CO"])
+            ]
 
-        locations = criteria.get("target_market", {}).get("locations", ["United States"])
-        max_pages = criteria.get("scraping_config", {}).get("max_pages", 3)
-        max_agents = criteria.get("scraping_config", {}).get("max_agents", 50)
+        prompt = f"""You are a real estate lead generation strategist.
 
-        prompt = f"""You are the manager of an AI lead generation system targeting real estate agents on Zillow.
+Campaign: {criteria.get('campaign_name', 'Untitled')}
+Target locations: {criteria.get('target_locations')}
+Min requirements: rating ≥ {criteria.get('min_rating')}, reviews ≥ {criteria.get('min_reviews')}, experience ≥ {criteria.get('min_experience_years')}y
 
-Business context:
-{json.dumps(criteria, indent=2)}
-
-Your job: generate a precise JSON scraping plan.
+Generate a scraping plan in STRICT JSON format:
+{{
+  "zillow_search_urls": ["https://...", ...],
+  "fields_to_extract": ["name", "email", "phone", ...],
+  "max_agents": {criteria.get('max_agents_to_scrape', 50)}
+}}
 
 Rules:
-- Zillow agent search URL pattern: https://www.zillow.com/professionals/real-estate-agent-reviews/CITY-STATE/PAGE/?page=N
-- Generate one URL per page per location (up to {max_pages} pages each)
-- Format the location as lowercase with hyphens: "Santa Fe, NM" → "santa-fe-nm", "Denver, CO" → "denver-co"
-- URL-encode the location (spaces → +, commas → %2C)
-- Locations to cover: {locations}
+- Return ONLY valid JSON, no explanations
+- Include 1-3 Zillow search URLs for the target locations
+- fields_to_extract must include: name, brokerage, rating, review_count, email, phone
+- max_agents should not exceed {criteria.get('max_agents_to_scrape', 50)}
 
-Return ONLY valid JSON matching this schema exactly:
-{{
-  "zillow_search_urls": [
-    "https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/?page=1"
-  ],
-  "fields_to_extract": [
-    "name", "rating", "review_count", "years_experience",
-    "recent_sales", "brokerage", "specialties", "languages",
-    "phone", "about", "location"
-  ],
-  "max_agents": {max_agents},
-  "scraping_notes": "Brief note on what to prioritize"
-}}"""
+Criteria JSON:
+{json.dumps(criteria, indent=2)}"""
 
-        resp = self.client.chat.completions.create(
-            model=self.model,
+        resp_text = await chat_with_fallback(
+            client=self._client,
             messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"},
+            model_chain=self._model_chain,
+            json_mode=True,
+            max_tokens=1500,
             temperature=0.2,
         )
-
-        plan = json.loads(resp.choices[0].message.content)
+        
+        plan = json.loads(resp_text)
         logger.info(f"Manager → plan ready: {len(plan.get('zillow_search_urls', []))} URLs")
         return plan
 
-    # ------------------------------------------------------------------ #
-    #  Step 2 — Qualification Rules                                       #
-    # ------------------------------------------------------------------ #
-
-    def generate_qualification_rules(self, criteria: dict, agents_summary: dict) -> dict:
+    async def generate_qualification_rules(self, criteria: dict, agents_summary: dict) -> dict:
         logger.info("Manager → generating qualification rules...")
+        
+        prompt = f"""You are a real estate lead scoring expert.
 
-        prompt = f"""You are the manager of an AI lead qualification system.
+Campaign criteria:
+{json.dumps({k: v for k, v in criteria.items() if k not in ['zillow_search_urls']}, indent=2)}
 
-Business info:
-{json.dumps(criteria.get('business_info', {}), indent=2)}
+Sample agent data summary (from {agents_summary.get('count', 0)} scraped profiles):
+- Avg rating: {agents_summary.get('avg_rating', 'N/A')}
+- Avg reviews: {agents_summary.get('avg_reviews', 'N/A')}
+- Top brokerages: {agents_summary.get('top_brokerages', [])}
+- Common specialties: {agents_summary.get('common_specialties', [])}
 
-Qualification criteria from the business owner:
-{json.dumps(criteria.get('qualification_criteria', {}), indent=2)}
-
-We have scraped {agents_summary.get('total_agents', 0)} agent profiles with these fields:
-{agents_summary.get('available_fields', [])}
-
-Generate a precise qualification ruleset. Return ONLY valid JSON:
+Generate qualification rules in STRICT JSON format:
 {{
-  "hard_disqualifiers": [
-    "review_count < {criteria.get('qualification_criteria', {}).get('min_reviews', 5)}",
-    "rating < {criteria.get('qualification_criteria', {}).get('min_rating', 4.0)}"
+  "min_score": 60,
+  "scoring_rules": [
+    {{"field": "rating", "condition": ">=", "value": 4.5, "points": 20}},
+    {{"field": "review_count", "condition": ">=", "value": 50, "points": 15}},
+    ...
   ],
-  "minimum_score_to_qualify": 60,
-  "scoring_rubric": {{
-    "review_count": {{
-      "0-4": 0,
-      "5-14": 15,
-      "15-29": 25,
-      "30-59": 35,
-      "60+": 45
-    }},
-    "rating": {{
-      "below_3.5": 0,
-      "3.5-3.9": 10,
-      "4.0-4.4": 20,
-      "4.5-4.7": 28,
-      "4.8-5.0": 35
-    }},
-    "years_experience": {{
-      "0": 0,
-      "1-2": 8,
-      "3-5": 15,
-      "6-10": 20,
-      "10+": 25
-    }},
-    "recent_sales_bonus": "Describe bonus points for high recent sales",
-    "custom_bonus": "Describe any business-specific bonuses"
-  }},
-  "qualification_context": "Plain-English summary of what makes a great lead for this specific business",
-  "priority_fields": ["review_count", "rating", "years_experience"]
-}}"""
+  "disqualifiers": [
+    {{"field": "brokerage", "condition": "in", "value": ["Bad Brokerage Inc"]}}
+  ],
+  "bonus_rules": [
+    {{"field": "recent_sales", "condition": ">=", "value": 20, "points": 10}}
+  ]
+}}
 
-        resp = self.client.chat.completions.create(
-            model=self.model,
+Rules:
+- Return ONLY valid JSON, no explanations
+- min_score should be between 50-80
+- Each scoring rule: field, condition (>=, <=, ==, in, contains), value, points (5-25)
+- disqualifiers: if ANY match, agent is auto-rejected
+- bonus_rules: extra points for exceptional attributes
+- Total possible score should be ~100 points
+
+Output JSON only:"""
+
+        resp_text = await chat_with_fallback(
+            client=self._client,
             messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"},
+            model_chain=self._model_chain,
+            json_mode=True,
+            max_tokens=2000,
             temperature=0.2,
         )
-
-        rules = json.loads(resp.choices[0].message.content)
-        logger.info(
-            f"Manager → rules ready (min score: {rules.get('minimum_score_to_qualify', 60)})"
-        )
+        
+        rules = json.loads(resp_text)
+        logger.info(f"Manager → rules ready (min score: {rules.get('min_score', 'N/A')}/100)")
         return rules
+
+    @staticmethod
+    def _summarize_agents(agents: List[AgentProfile]) -> dict:
+        if not agents:
+            return {"count": 0}
+        
+        ratings = [a.rating for a in agents if a.rating]
+        reviews = [a.review_count for a in agents if a.review_count]
+        brokerages = [a.brokerage for a in agents if a.brokerage]
+        specialties = [s for a in agents if a.specialties for s in a.specialties]
+        
+        return {
+            "count": len(agents),
+            "avg_rating": round(sum(ratings)/len(ratings), 2) if ratings else None,
+            "avg_reviews": round(sum(reviews)/len(reviews)) if reviews else None,
+            "top_brokerages": list(set(brokerages))[:5],
+            "common_specialties": list(set(specialties))[:10]
+        }
