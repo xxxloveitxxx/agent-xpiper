@@ -7,7 +7,7 @@ load_dotenv()
 PROVIDER = "groq"
 # Groq API keys (one per agent role for better rate limit distribution)
 GROQ_API_KEY_MANAGER   = os.getenv("GROQ_API_KEY_MANAGER", "")
-GROQ_API_KEY_SCRAPER   = os.getenv("ROQ_API_KEY_SCRAPER", "")
+GROQ_API_KEY_SCRAPER   = os.getenv("GROQ_API_KEY_SCRAPER", "")
 GROQ_API_KEY_QUALIFIER = os.getenv("GROQ_API_KEY_QUALIFIER", "")
 
 # === GROQ MODEL FALLBACK CHAINS (Free Tier Only) ===
