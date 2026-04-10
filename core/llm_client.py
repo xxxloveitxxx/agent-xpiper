@@ -1,77 +1,74 @@
-import os
-from config.settings import PROVIDER
+# core/llm_client.py
+import asyncio
+import logging
+from typing import List, Dict, Optional, Tuple
+
+from groq import AsyncGroq
+from google import genai
+from google.genai import types
+
+from config.settings import PROVIDER, GROQ_MODELS, REQUEST_DELAY
+
+logger = logging.getLogger(__name__)
 
 
-def _groq_client(api_key: str, model: str):
-    from groq import Groq, AsyncGroq
-    sync_client  = Groq(api_key=api_key)
-    async_client = AsyncGroq(api_key=api_key)
-
-    def sync_chat(messages, json_mode=False, max_tokens=1000):
-        kwargs = dict(model=model, messages=messages, max_tokens=max_tokens, temperature=0.1)
-        if json_mode:
-            kwargs["response_format"] = {"type": "json_object"}
-        resp = sync_client.chat.completions.create(**kwargs)
-        return resp.choices[0].message.content
-
-    async def async_chat(messages, json_mode=False, max_tokens=1000):
-        kwargs = dict(model=model, messages=messages, max_tokens=max_tokens, temperature=0.1)
-        if json_mode:
-            kwargs["response_format"] = {"type": "json_object"}
-        resp = await async_client.chat.completions.create(**kwargs)
-        return resp.choices[0].message.content
-
-    return sync_chat, async_chat
-
-
-def _gemini_client(api_key: str, model: str):
-    import google.generativeai as genai
-    genai.configure(api_key=api_key)
-    gemini = genai.GenerativeModel(model)
-    JSON_HINT = "\n\nRespond with ONLY valid JSON. No markdown, no backticks."
-
-    def _extract(response) -> str:
-        text = response.text.strip()
-        if text.startswith("```"):
-            text = text.split("```")[1]
-            if text.startswith("json"):
-                text = text[4:]
-        return text.strip()
-
-    def _convert(messages, json_mode):
-        parts = []
-        for m in messages:
-            role = m.get("role", "user")
-            content = m.get("content", "")
-            if role == "system":
-                parts.append(f"[System]: {content}")
-            elif role == "assistant":
-                parts.append(f"[Assistant]: {content}")
-            else:
-                parts.append(content)
-        prompt = "\n\n".join(parts)
-        if json_mode:
-            prompt += JSON_HINT
-        return prompt
-
-    def sync_chat(messages, json_mode=False, max_tokens=1000):
-        resp = gemini.generate_content(
-            _convert(messages, json_mode),
-            generation_config=genai.types.GenerationConfig(max_output_tokens=max_tokens, temperature=0.1),
-        )
-        return _extract(resp)
-
-    async def async_chat(messages, json_mode=False, max_tokens=1000):
-        resp = await gemini.generate_content_async(
-            _convert(messages, json_mode),
-            generation_config=genai.types.GenerationConfig(max_output_tokens=max_tokens, temperature=0.1),
-        )
-        return _extract(resp)
-
-    return sync_chat, async_chat
-
-
-def make_client(api_key: str, model: str):
+def make_client(api_key: str, model: str) -> Tuple[Optional[genai.Client], Optional[AsyncGroq]]:
+    """Return initialized client for Groq or Gemini."""
     if PROVIDER == "gemini":
-        return _gemini_client(api_key, model)
-    return _groq_client(api_key, model)
+        return genai.Client(api_key=api_key), None
+    else:
+        return None, AsyncGroq(api_key=api_key)
+
+
+async def chat_with_fallback(
+    client: AsyncGroq,
+    messages: List[Dict[str, str]],
+    model_chain: List[str],
+    json_mode: bool = False,
+    max_tokens: int = 1000,
+    temperature: float = 0.1,
+) -> str:
+    """
+    Try models in order until one succeeds or all fail.
+    Handles 429 rate limits by falling back to next model.
+    """
+    last_error = None
+    
+    for i, model in enumerate(model_chain):
+        try:
+            logger.info(f"LLM → trying model: {model} (attempt {i+1}/{len(model_chain)})")
+            
+            response = await client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens,
+                response_format={"type": "json_object"} if json_mode else None,
+            )
+            
+            content = response.choices[0].message.content
+            if not content:
+                raise ValueError("Empty response from LLM")
+                
+            # If we succeeded on a fallback, log it
+            if i > 0:
+                logger.warning(f"✓ Fallback succeeded with {model} after {i} failed attempt(s)")
+                
+            return content.strip()
+            
+        except Exception as e:
+            last_error = e
+            error_str = str(e).lower()
+            
+            # Only fallback on rate limits or model-specific errors
+            if "429" in error_str or "rate limit" in error_str or "model_not_found" in error_str:
+                logger.warning(f"⚠ {model} failed ({type(e).__name__}), trying next in chain...")
+                await asyncio.sleep(2)  # Brief pause before next attempt
+                continue
+            else:
+                # Non-recoverable error (auth, bad JSON, etc.) — don't fallback
+                logger.error(f"❌ Non-recoverable error with {model}: {e}")
+                raise
+    
+    # All models failed
+    raise RuntimeError(f"All models failed. Last error: {last_error}")
