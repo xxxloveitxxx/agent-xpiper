@@ -1,6 +1,30 @@
 {
   "agents": [
     {
+      "profile_url": "https://www.zillow.com/profile/TheDuncanDuo)/",
+      "name": "The Duncan Duo",
+      "location": "Tampa, FL",
+      "rating": 4.9,
+      "review_count": 973,
+      "years_experience": 21,
+      "recent_sales": 190,
+      "specialties": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation"
+      ],
+      "languages": [
+        "English",
+        "Spanish",
+        "Russian"
+      ],
+      "brokerage": "LPT Realty",
+      "about": "Best Tampa Real Estate Agents Team. The Duncan Duo Team have been the top selling real estate agents in Tampa Bay for several years.",
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-10T10:45:32.281837"
+    },
+    {
       "profile_url": "https://www.zillow.com/profile/tampacentralkw)/",
       "name": "Keller Williams Tampa Central",
       "location": "Tampa, FL",
@@ -26,7 +50,83 @@
       "about": "Keller Williams Realty Tampa Central is the Tampa Bay area's premier real estate office.",
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-09T22:03:40.560387"
+      "scraped_at": "2026-04-10T10:45:44.473984"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/christinacgriffin79)/",
+      "name": "Christina Griffin",
+      "location": "Tampa, FL",
+      "rating": 5.0,
+      "review_count": 550,
+      "years_experience": 25,
+      "recent_sales": 93,
+      "specialties": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Foreclosure",
+        "Investment Properties",
+        "Luxury Homes"
+      ],
+      "languages": [
+        "English",
+        "Spanish",
+        "French",
+        "Arabic",
+        "Italian",
+        "Turkish",
+        "Portuguese",
+        "Greek",
+        "Tagalog (Filipino)"
+      ],
+      "brokerage": "GENSTONE REALTY",
+      "about": "Christina Griffin is a nationally recognized real estate executive, coach, and growth strategist with a 20-year track record of success across every corner of the real estate industry.",
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-10T10:46:20.794165"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/czoller04)/",
+      "name": "Chris Zoller",
+      "location": "Tampa, FL",
+      "rating": 5.0,
+      "review_count": 474,
+      "years_experience": 11,
+      "recent_sales": 151,
+      "specialties": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Property Management"
+      ],
+      "languages": [],
+      "brokerage": "Brainard Realty",
+      "about": "Celebrating over a decade of excellence, Welcome Home Team has firmly established itself as a leader in Florida's real estate market.",
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-10T10:46:54.134248"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/KristyDarragh)/",
+      "name": "Kristy Darragh",
+      "location": "Tampa, FL",
+      "rating": 5.0,
+      "review_count": 182,
+      "years_experience": null,
+      "recent_sales": 46,
+      "specialties": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Staging",
+        "Luxury Homes"
+      ],
+      "languages": [],
+      "brokerage": "Florida Executive Realty",
+      "about": "Born and raised in the Midwest, Kristy was one of seven children. Her father, a Baptist minister, raised a spiritual family with modest means. Kristy was taught the tough work ethic that has stayed with her to this day.",
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-10T10:47:29.093833"
     }
   ]
 }
