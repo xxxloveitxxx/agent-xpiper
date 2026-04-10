@@ -26,7 +26,7 @@ class ScraperAgent:
         if not api_key:
             raise ValueError("GROQ_API_KEY_SCRAPER is required in .env")
         # make_client returns (_, chat_fn) tuple
-        _, self._chat = make_client(api_key, SCRAPER_MODEL)
+           self._chat = make_client(api_key, SCRAPER_MODEL)
 
     async def scrape_agents(self, instructions: dict) -> List[AgentProfile]:
         search_urls: List[str] = instructions.get("zillow_search_urls", [])
