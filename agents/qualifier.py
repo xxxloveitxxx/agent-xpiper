@@ -20,7 +20,7 @@ class QualifierAgent:
 
     def __init__(self):
         api_key = GROQ_API_KEY_QUALIFIER
-        self._client, _ = make_client(api_key, QUALIFIER_MODEL)
+        self._client = make_client(api_key, QUALIFIER_MODEL)
         self._model_chain = GROQ_MODELS.get("qualifier", [QUALIFIER_MODEL])
 
     async def qualify_leads(self, agents: List[AgentProfile], rules: dict) -> List[QualifiedLead]:
