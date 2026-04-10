@@ -1,3 +1,4 @@
+# agents/scraper.py
 import asyncio
 import json
 import logging
@@ -6,9 +7,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
 
-from config.settings import GROQ_API_KEY_SCRAPER, GEMINI_API_KEY, SCRAPER_MODEL, PROVIDER, REQUEST_DELAY
-from core.llm_client import make_client
-from core.scraper_client import fetch_url
+from config.settings import (
+    GROQ_API_KEY_SCRAPER, GEMINI_API_KEY, SCRAPER_MODEL, 
+    PROVIDER, REQUEST_DELAY, GROQ_MODELS
+)
+from core.llm_client import make_client, chat_with_fallback
 from core.models import AgentProfile
 
 logger = logging.getLogger(__name__)
@@ -21,7 +24,8 @@ class ScraperAgent:
 
     def __init__(self):
         api_key = GEMINI_API_KEY if PROVIDER == "gemini" else GROQ_API_KEY_SCRAPER
-        _, self._chat = make_client(api_key, SCRAPER_MODEL)
+        self._client, _ = make_client(api_key, SCRAPER_MODEL)
+        self._model_chain = GROQ_MODELS.get("scraper", [SCRAPER_MODEL])
 
     async def scrape_agents(self, instructions: dict) -> List[AgentProfile]:
         search_urls: List[str] = instructions.get("zillow_search_urls", [])
@@ -62,6 +66,7 @@ class ScraperAgent:
 
     async def _extract_profile_links(self, search_url: str) -> List[str]:
         try:
+            from core.scraper_client import fetch_url
             raw = await fetch_url(search_url)
 
             found = re.findall(
@@ -100,7 +105,7 @@ Profile URLs follow these patterns:
 - https://www.zillow.com/profile/AgentName/
 - https://www.zillow.com/professionals/real-estate-agent-reviews/agent-name-id/
 
-HTML:
+Markdown:
 {content}
 
 Return ONLY valid JSON:
@@ -108,8 +113,10 @@ Return ONLY valid JSON:
 
 If none found return {{"profile_urls": []}}"""
 
-            text = await self._chat(
-                [{"role": "user", "content": prompt}],
+            text = await chat_with_fallback(
+                client=self._client,
+                messages=[{"role": "user", "content": prompt}],
+                model_chain=self._model_chain,
                 json_mode=True,
                 max_tokens=1500,
             )
@@ -131,6 +138,7 @@ If none found return {{"profile_urls": []}}"""
 
     async def _scrape_profile(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
         try:
+            from core.scraper_client import fetch_url
             raw = await fetch_url(profile_url)
             content = raw[:PROFILE_PAGE_LIMIT]
 
@@ -177,8 +185,11 @@ To extract emails:
 
 Markdown content:
 {content}"""
-            text = await self._chat(
-                [{"role": "user", "content": prompt}],
+
+            text = await chat_with_fallback(
+                client=self._client,
+                messages=[{"role": "user", "content": prompt}],
+                model_chain=self._model_chain,
                 json_mode=True,
                 max_tokens=800,
             )
