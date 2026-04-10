@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 
 from config.settings import (
-    GROQ_API_KEY_MANAGER, MANAGER_MODEL, GROQ_MODELS
+    GROQ_API_KEY_MANAGER, MANAGER_MODEL, PROVIDER, GROQ_MODELS
 )
 from core.llm_client import make_client, chat_with_fallback
 from core.models import AgentProfile
