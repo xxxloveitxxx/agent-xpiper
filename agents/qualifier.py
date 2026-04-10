@@ -2,18 +2,18 @@
 import asyncio
 import json
 import logging
-from typing import List, Dict, Optional
+from typing import List
 from datetime import datetime
 
 from config.settings import (
-    GROQ_API_KEY_QUALIFIER, QUALIFIER_MODEL, PROVIDER, GROQ_MODELS
+    GROQ_API_KEY_QUALIFIER, QUALIFIER_MODEL, GROQ_MODELS
 )
 from core.llm_client import make_client, chat_with_fallback
 from core.models import AgentProfile, QualifiedLead
 
 logger = logging.getLogger(__name__)
 
-BATCH_SIZE = 6  # Process agents in batches to manage context window
+BATCH_SIZE = 6
 
 
 class QualifierAgent:
@@ -25,18 +25,17 @@ class QualifierAgent:
 
     async def qualify_leads(self, agents: List[AgentProfile], rules: dict) -> List[QualifiedLead]:
         logger.info(f"Qualifier → processing {len(agents)} agents in batches of {BATCH_SIZE}")
-        
+
         all_leads: List[QualifiedLead] = []
         batches = [agents[i: i + BATCH_SIZE] for i in range(0, len(agents), BATCH_SIZE)]
-        
+
         for idx, batch in enumerate(batches, 1):
             logger.info(f"Qualifier → batch {idx}/{len(batches)}")
             results = await self._qualify_batch(batch, rules)
             all_leads.extend(results)
-            # Small delay between batches to avoid rate limits
             if idx < len(batches):
                 await asyncio.sleep(1)
-        
+
         qualified = [l for l in all_leads if l.qualified]
         logger.info(f"Qualifier → {len(qualified)}/{len(agents)} agents qualified")
         return qualified
@@ -46,11 +45,11 @@ class QualifierAgent:
         scoring_rules = rules.get("scoring_rules", [])
         disqualifiers = rules.get("disqualifiers", [])
         bonus_rules = rules.get("bonus_rules", [])
-        
-        # Prepare batch payload
+
         agents_payload = []
         for a in agents:
             agents_payload.append({
+                "profile_url": a.profile_url,
                 "name": a.name,
                 "brokerage": a.brokerage,
                 "rating": a.rating,
@@ -62,7 +61,6 @@ class QualifierAgent:
                 "phone": a.phone,
                 "email": a.email,
                 "about": a.about[:200] if a.about else None,
-                "profile_url": a.profile_url
             })
 
         prompt = f"""You are a real estate lead qualification expert.
@@ -83,24 +81,27 @@ Bonus rules (extra points):
 {json.dumps(agents_payload, indent=2)}
 
 === OUTPUT FORMAT ===
-Return a JSON array of qualification results. For EACH agent, output:
-{{
-  "profile_url": "https://...",
-  "score": 85,
-  "qualified": true,
-  "reasons": ["Rating 5.0 earns max points", "Recent sales bonus: 10"],
-  "disqualified_reason": null  // or string if disqualified
-}}
+Return a JSON array with one object per agent, in the same order as input:
+[
+  {{
+    "profile_url": "https://...",
+    "score": 85,
+    "qualified": true,
+    "qualification_reasons": ["Rating 5.0 earns max points", "10+ recent sales bonus"],
+    "disqualification_reason": null
+  }},
+  ...
+]
 
 Rules:
-- Return ONLY a valid JSON array, no explanations, no markdown
-- Score must be integer 0-100
+- Return ONLY a valid JSON array, no markdown, no explanations
+- score must be integer 0-100
 - qualified = true ONLY if score >= {min_score} AND no disqualifier matched
-- reasons: list 2-4 specific, human-readable justifications for the score
-- If disqualified, set qualified=false and populate disqualified_reason
-- Process ALL agents in the input array
+- qualification_reasons: 2-4 specific human-readable justifications
+- disqualification_reason: null if qualified, otherwise a string explaining why
+- Output exactly {len(agents_payload)} objects, one per agent
 
-Output JSON array only:"""
+JSON array only:"""
 
         try:
             resp_text = await chat_with_fallback(
@@ -111,65 +112,63 @@ Output JSON array only:"""
                 max_tokens=2000,
                 temperature=0.1,
             )
-            
-            results = json.loads(resp_text)
-            if not isinstance(results, list):
-                logger.warning("Qualifier → LLM returned non-array, wrapping in list")
-                results = [results]
-            
+
+            # Strip markdown fences if present
+            cleaned = resp_text.strip().strip("```json").strip("```").strip()
+            parsed = json.loads(cleaned)
+
+            # LLM sometimes returns {"results": [...]} instead of bare array
+            if isinstance(parsed, dict):
+                for key in ("results", "agents", "leads", "data"):
+                    if key in parsed and isinstance(parsed[key], list):
+                        parsed = parsed[key]
+                        break
+                else:
+                    # Single object returned — wrap it
+                    parsed = [parsed]
+
+            results = parsed if isinstance(parsed, list) else [parsed]
+
+            # Build a lookup by profile_url in case LLM reorders
+            result_map = {r.get("profile_url", ""): r for r in results if isinstance(r, dict)}
+
             leads = []
             for i, agent in enumerate(agents):
                 try:
-                    r = results[i] if i < len(results) else {}
+                    # Match by profile_url first, fall back to positional
+                    r = result_map.get(agent.profile_url) or (results[i] if i < len(results) else {})
+
                     lead = QualifiedLead(
-                        name=agent.name,
-                        profile_url=agent.profile_url,
-                        location=agent.location,
-                        brokerage=agent.brokerage,
-                        rating=agent.rating,
-                        reviews=agent.review_count,
-                        years_experience=agent.years_experience,
-                        recent_sales=agent.recent_sales,
-                        specialties=agent.specialties,
-                        languages=agent.languages,
-                        phone=agent.phone,
-                        email=agent.email,
-                        about=agent.about,
-                        qualification_score=r.get("score", 0),
-                        qualification_reasons=r.get("reasons", []),
-                        disqualified_reason=r.get("disqualified_reason"),
-                        scraped_at=agent.scraped_at,
+                        agent=agent,
+                        score=int(r.get("score", 0)),
+                        qualified=bool(r.get("qualified", False)),
+                        qualification_reasons=r.get("qualification_reasons", []),
+                        disqualification_reason=r.get("disqualification_reason"),
                         qualified_at=datetime.utcnow().isoformat(),
-                        qualified=r.get("qualified", False)
                     )
                     leads.append(lead)
+
                 except Exception as e:
-                    logger.error(f"Qualifier → failed to parse result for agent {i}: {e}")
-                    # Fallback: create minimal lead
+                    logger.error(f"Qualifier → failed to parse result for agent {i} ({agent.profile_url}): {e}")
                     leads.append(QualifiedLead(
-                        name=agent.name,
-                        profile_url=agent.profile_url,
-                        qualification_score=0,
-                        qualification_reasons=["Parsing error"],
+                        agent=agent,
+                        score=0,
                         qualified=False,
-                        scraped_at=agent.scraped_at,
-                        qualified_at=datetime.utcnow().isoformat()
+                        qualification_reasons=["Parsing error — scored 0 by default"],
+                        qualified_at=datetime.utcnow().isoformat(),
                     ))
-            
+
             return leads
-            
+
         except Exception as exc:
             logger.error(f"Qualifier → batch failed: {exc}")
-            # Fallback: return all as unqualified
             return [
                 QualifiedLead(
-                    name=a.name,
-                    profile_url=a.profile_url,
-                    qualification_score=0,
-                    qualification_reasons=[f"Error: {str(exc)[:100]}"],
+                    agent=a,
+                    score=0,
                     qualified=False,
-                    scraped_at=a.scraped_at,
-                    qualified_at=datetime.utcnow().isoformat()
+                    qualification_reasons=[f"Batch error: {str(exc)[:100]}"],
+                    qualified_at=datetime.utcnow().isoformat(),
                 )
                 for a in agents
             ]
