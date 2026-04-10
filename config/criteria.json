@@ -7,14 +7,13 @@
   },
   "target_market": {
     "locations": [
-      "Tampa, FL"
     ],
     "agent_type": "any",
     "market_segment": "top_25"
   },
   "qualification_criteria": {
-    "min_reviews": 5,
-    "min_rating": 4,
+    "min_reviews": 0,
+    "min_rating": 0,
     "min_years_experience": 1,
     "min_recent_sales": 3,
     "required_keywords": [],
