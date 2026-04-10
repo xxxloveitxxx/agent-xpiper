@@ -8,8 +8,7 @@ from pathlib import Path
 from typing import List, Optional
 
 from config.settings import (
-    GROQ_API_KEY_SCRAPER, GEMINI_API_KEY, SCRAPER_MODEL, 
-    PROVIDER, REQUEST_DELAY, GROQ_MODELS
+    GROQ_API_KEY_SCRAPER, GEMINI_API_KEY, SCRAPER_MODEL, REQUEST_DELAY, GROQ_MODELS
 )
 from core.llm_client import make_client, chat_with_fallback
 from core.models import AgentProfile
