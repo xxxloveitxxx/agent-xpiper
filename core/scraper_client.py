@@ -1,4 +1,5 @@
 # core/scraper_client.py
+import re  
 import httpx
 import asyncio
 import logging
