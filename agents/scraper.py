@@ -23,7 +23,7 @@ class ScraperAgent:
 
     def __init__(self):
         api_key = GEMINI_API_KEY if PROVIDER == "gemini" else GROQ_API_KEY_SCRAPER
-        self._client, _ = make_client(api_key, SCRAPER_MODEL)
+        self._client = make_client(api_key, SCRAPER_MODEL)
         self._model_chain = GROQ_MODELS.get("scraper", [SCRAPER_MODEL])
 
     async def scrape_agents(self, instructions: dict) -> List[AgentProfile]:
