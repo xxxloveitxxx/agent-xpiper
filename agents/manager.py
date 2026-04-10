@@ -18,7 +18,7 @@ class ManagerAgent:
 
     def __init__(self):
         api_key = GROQ_API_KEY_MANAGER
-        self._client, _ = make_client(api_key, MANAGER_MODEL)
+        self._client = make_client(api_key, MANAGER_MODEL)
         self._model_chain = GROQ_MODELS.get("manager", [MANAGER_MODEL])
 
     def load_criteria(self, criteria_file: str = "data/criteria.json") -> dict:
