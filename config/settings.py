@@ -13,19 +13,19 @@ GROQ_API_KEY_QUALIFIER = os.getenv("GROQ_API_KEY_QUALIFIER", "")
 # === GROQ MODEL FALLBACK CHAINS (Free Tier Only) ===
 GROQ_MODELS = {
     "manager": [
-        "llama-3.3-70b-versatile",  # Primary: best reasoning
-        "mixtral-8x7b-32768",       # Fallback 1: good balance
-        "llama-3.1-8b-instant"      # Fallback 2: fast, low limits
+        "llama-3.3-70b-versatile",  # Primary: Best reasoning & instruction following
+        "gemma2-9b-it",             # Fallback 1: Strong balance, good context handling
+        "llama-3.1-8b-instant" # Fallback 2: fast, low limits
     ],
     "scraper": [
-        "llama-3.3-70b-versatile",
-        "mixtral-8x7b-32768", 
-        "llama-3.1-8b-instant"
+        "llama-3.3-70b-versatile",  # Primary: Best reasoning & instruction following
+        "gemma2-9b-it",             # Fallback 1: Strong balance, good context handling
+        "llama-3.1-8b-instant" 
     ],
     "qualifier": [
-        "llama-3.3-70b-versatile",
-        "mixtral-8x7b-32768",
-        "llama-3.1-8b-instant"
+        "llama-3.3-70b-versatile",  # Primary: Best reasoning & instruction following
+        "gemma2-9b-it",             # Fallback 1: Strong balance, good context handling
+        "llama-3.1-8b-instant" 
     ]
 }
 
