@@ -20,7 +20,7 @@ from core.llm_client import make_client, chat_with_fallback
 from core.models import AgentProfile
 
 
-async def _scrape_profile(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
+async def scraperagent(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
     """
     Extract agent data using regex patterns instead of LLM.
     Faster, free, and deterministic.
