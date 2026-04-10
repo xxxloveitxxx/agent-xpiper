@@ -4,8 +4,7 @@ import logging
 from typing import List, Dict, Optional, Tuple
 
 from groq import AsyncGroq
-from google import genai
-from google.genai import types
+
 
 from config.settings import PROVIDER, GROQ_MODELS, REQUEST_DELAY
 
