@@ -22,8 +22,8 @@ from core.models import AgentProfile
 
 class ScraperAgent:  # ← CLASS DEFINITION MUST BE HERE
 
-    def __init__(self):
-        self._chat = make_client(api_key, SCRAPER_MODEL)
+#    def __init__(self):
+ #       self._chat = make_client(api_key, SCRAPER_MODEL)
 
 async def scraperagent(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
     """
