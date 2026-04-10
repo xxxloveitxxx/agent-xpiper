@@ -5,6 +5,21 @@ from datetime import datetime
 from typing import Optional
 from core.models import AgentProfile
 
+
+# agents/scraper.py — TOP OF FILE (first 10 lines)
+import asyncio
+import json
+import logging
+import re
+from datetime import datetime
+from pathlib import Path
+from typing import List, Optional  # ← ADD THIS LINE
+
+from config.settings import GROQ_API_KEY_SCRAPER, SCRAPER_MODEL, REQUEST_DELAY, GROQ_MODELS
+from core.llm_client import make_client, chat_with_fallback
+from core.models import AgentProfile
+
+
 async def _scrape_profile(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
     """
     Extract agent data using regex patterns instead of LLM.
