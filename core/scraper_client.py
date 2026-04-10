@@ -2,85 +2,72 @@
 import httpx
 import asyncio
 import logging
-from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-BASE_URL = "https://urltomarkdown.herokuapp.com/"
-TIMEOUT = 35  # Slightly above Heroku's 30s limit
-
+URLTOMARKDOWN = "https://urltomarkdown.herokuapp.com/"
+JINA = "https://r.jina.ai/"
+TIMEOUT = 60
 
 def _sanitize_zillow_url(url: str) -> str:
-    """Remove trailing )/ or / artifacts from Zillow profile URLs."""
-    clean = url.rstrip(')/').rstrip('/')
+    clean = re.sub(r'[)/]+$', '', url)
     if not clean.startswith('http'):
         clean = 'https://' + clean.lstrip('/')
     return clean
 
+def _is_profile_url(url: str) -> bool:
+    """Profile pages need Jina; list/search pages use urltomarkdown."""
+    return "/profile/" in url or (
+        "/professionals/" in url and not url.rstrip('/').endswith("page=1") 
+        and "agent-reviews" not in url
+    )
 
 async def fetch_url(url: str, max_retries: int = 3) -> str:
-    """
-    Fetch webpage as markdown via public urltomarkdown API.
-    Implements your retry strategy for 429/502 errors.
-    """
+    import re
     clean_url = _sanitize_zillow_url(url)
-    
+
+    if _is_profile_url(clean_url):
+        # Jina: just prepend, no params needed
+        request_url = JINA + clean_url
+        params = None
+        headers = {"Accept": "text/plain", "X-Return-Format": "markdown"}
+    else:
+        # urltomarkdown: works fine for list pages
+        request_url = URLTOMARKDOWN
+        params = {"url": clean_url, "clean": "false", "links": "true", "title": "false"}
+        headers = {"Accept": "text/plain"}
+
     for attempt in range(max_retries):
         try:
-            async with httpx.AsyncClient(timeout=TIMEOUT) as client:
-                resp = await client.get(
-                    BASE_URL,
-                    params={
-                        "url": clean_url,
-                        "clean": "false",
-                        "links": "true",
-                        "title": "false"
-                    },
-                    headers={
-                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                        "Accept": "text/plain"
-                    }
-                )
-                
-                # === HANDLE 429: Rate Limited ===
+            async with httpx.AsyncClient(timeout=TIMEOUT, follow_redirects=True) as client:
+                resp = await client.get(request_url, params=params, headers=headers)
+
                 if resp.status_code == 429:
-                    # Check Retry-After header first
-                    retry_after = resp.headers.get("Retry-After")
-                    if retry_after:
-                        wait_time = int(retry_after)
-                    else:
-                        # Your recommendation: 60s base, exponential
-                        wait_time = 60 * (2 ** attempt)
-                    
-                    logger.warning(f"429 Rate limited. Waiting {wait_time}s (attempt {attempt+1}/{max_retries})")
-                    await asyncio.sleep(wait_time)
+                    wait = int(resp.headers.get("Retry-After", 60 * (2 ** attempt)))
+                    logger.warning(f"429 Rate limited. Waiting {wait}s (attempt {attempt+1}/{max_retries})")
+                    await asyncio.sleep(wait)
                     continue
-                
-                # === HANDLE 502/503/504: Bad Gateway ===
+
                 if resp.status_code in [502, 503, 504]:
-                    # Your recommendation: 10s → 30s → 60s
-                    wait_times = [10, 30, 60]
-                    wait_time = wait_times[attempt] if attempt < len(wait_times) else 60
-                    
-                    logger.warning(f"{resp.status_code} Gateway error. Waiting {wait_time}s (attempt {attempt+1}/{max_retries})")
-                    await asyncio.sleep(wait_time)
+                    wait = [10, 30, 60][attempt] if attempt < 3 else 60
+                    logger.warning(f"{resp.status_code} on {'Jina' if _is_profile_url(clean_url) else 'urltomarkdown'}. Waiting {wait}s (attempt {attempt+1}/{max_retries})")
+                    await asyncio.sleep(wait)
                     continue
-                
-                # Success!
+
                 resp.raise_for_status()
                 return resp.text.strip()
-                
+
         except httpx.TimeoutException:
-            wait_time = 15 * (attempt + 1)
-            logger.warning(f"Timeout. Waiting {wait_time}s before retry...")
-            await asyncio.sleep(wait_time)
+            wait = 15 * (attempt + 1)
+            logger.warning(f"Timeout. Waiting {wait}s before retry...")
+            await asyncio.sleep(wait)
             continue
-            
+
         except httpx.RequestError as e:
             if attempt < max_retries - 1:
                 await asyncio.sleep(10)
                 continue
             logger.error(f"Request failed after {max_retries} attempts: {e}")
             raise
-    
+
     raise RuntimeError(f"Failed to fetch {clean_url} after {max_retries} retries")
