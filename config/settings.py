@@ -14,17 +14,20 @@ GROQ_API_KEY_QUALIFIER = os.getenv("GROQ_API_KEY_QUALIFIER", "")
 GROQ_MODELS = {
     "manager": [
         "llama-3.3-70b-versatile",  # Primary: Best reasoning & instruction following
-        "gemma2-9b-it",             # Fallback 1: Strong balance, good context handling
+        "gpt-oss-120b",
+        "qwen3-32b",# Fallback 1: Strong balance, good context handling
         "llama-3.1-8b-instant" # Fallback 2: fast, low limits
     ],
     "scraper": [
         "llama-3.3-70b-versatile",  # Primary: Best reasoning & instruction following
-        "gemma2-9b-it",             # Fallback 1: Strong balance, good context handling
-        "llama-3.1-8b-instant" 
+        "gpt-oss-120b",
+        "qwen3-32b",# Fallback 1: Strong balance, good context handling
+        "llama-3.1-8b-instant"
     ],
     "qualifier": [
         "llama-3.3-70b-versatile",  # Primary: Best reasoning & instruction following
-        "gemma2-9b-it",             # Fallback 1: Strong balance, good context handling
+        "gpt-oss-120b",
+        "qwen3-32b",# Fallback 1: Strong balance, good context handling
         "llama-3.1-8b-instant" 
     ]
 }
