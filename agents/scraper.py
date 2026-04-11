@@ -52,12 +52,42 @@ class ScraperAgent:
             return []
 
         agents: List[AgentProfile] = []
+        failed_links: List[str] = []
+
+        # ── First pass ────────────────────────────────────────────────
         for idx, link in enumerate(profile_links, 1):
             logger.info(f"Scraper → profile {idx}/{len(profile_links)}: {link}")
-            agent = await self._scrape_profile(link, fields)
-            if agent:
-                agents.append(agent)
+            try:
+                agent = await self._scrape_profile(link, fields)
+                if agent:
+                    agents.append(agent)
+                else:
+                    failed_links.append(link)
+            except Exception:
+                logger.warning(f"Scraper → all strategies failed, skipping for now: {link}")
+                failed_links.append(link)
             await asyncio.sleep(REQUEST_DELAY)
+
+        # ── Retry pass (once, after 60s cooldown) ─────────────────────
+        if failed_links:
+            logger.info(
+                f"Scraper → {len(failed_links)} profiles failed. "
+                f"Waiting 60s before retry..."
+            )
+            await asyncio.sleep(60)
+
+            for idx, link in enumerate(failed_links, 1):
+                logger.info(f"Scraper → retry {idx}/{len(failed_links)}: {link}")
+                try:
+                    agent = await self._scrape_profile(link, fields)
+                    if agent:
+                        agents.append(agent)
+                        logger.info(f"Scraper → retry succeeded: {link}")
+                    else:
+                        logger.warning(f"Scraper → retry returned no data, skipping: {link}")
+                except Exception as e:
+                    logger.warning(f"Scraper → retry failed, permanently skipping {link}: {e}")
+                await asyncio.sleep(REQUEST_DELAY * 2)
 
         self._checkpoint({"agents": [a.model_dump() for a in agents]}, "phase2_profiles")
         logger.info(f"Scraper → done. {len(agents)} profiles scraped successfully.")
@@ -129,7 +159,7 @@ If none found return {{"profile_urls": []}}"""
 
     async def _scrape_profile(self, profile_url: str, fields: List[str]) -> Optional[AgentProfile]:
         try:
-            raw     = await fetch_url(profile_url)
+            raw     = await fetch_url(profile_url)  # raises RuntimeError if all strategies fail
             content = raw[:PROFILE_PAGE_LIMIT]
 
             # ── Helpers ───────────────────────────────────────────────────
@@ -252,14 +282,12 @@ If none found return {{"profile_urls": []}}"""
                 return None
 
             def extract_for_sale_count(md: str) -> Optional[int]:
-                # "For Sale (12)" section header
                 match = re.search(r'For Sale \(([\d,]+)\)', md)
                 if match:
                     return int(match.group(1).replace(",", ""))
                 return None
 
             def extract_for_sale_address(md: str) -> Optional[str]:
-                # Isolate the For Sale section, grab first address
                 section = re.search(
                     r'For Sale[^\n]*\n-+\n(.*?)(?:\nFor Rent|\nSold\s*\(|\Z)',
                     md, re.DOTALL
@@ -272,14 +300,12 @@ If none found return {{"profile_urls": []}}"""
                 )
                 if addr:
                     raw_addr = addr.group(1).strip()
-                    # Insert comma+space before the state abbreviation city transition
                     raw_addr = re.sub(r'([a-z])([A-Z])', r'\1, \2', raw_addr)
                     raw_addr = re.sub(r'Bed/Bath.*$', '', raw_addr).strip().rstrip(',')
                     return raw_addr
                 return None
 
             def extract_recent_sale_address(md: str) -> Optional[str]:
-                # Isolate the Sold section, grab first address
                 section = re.search(
                     r'\nSold[^\n]*\n-+\n(.*?)(?:\nLoading|\*\s+1\n|\Z)',
                     md, re.DOTALL
@@ -299,23 +325,23 @@ If none found return {{"profile_urls": []}}"""
             # ── Run all extractors ────────────────────────────────────────
 
             data = {
-                "name":                 extract_name(content),
-                "location":             extract_location(content),
-                "brokerage":            extract_brokerage(content),
-                "rating":               extract_rating(content),
-                "review_count":         extract_reviews(content),
-                "years_experience":     extract_years_experience(content),
-                "recent_sales":         extract_recent_sales(content),
-                "specialties":          extract_specialties(content),
-                "languages":            extract_languages(content),
-                "phone":                extract_phone(content),
-                "email":                extract_email(content),
-                "about":                extract_about(content),
-                "for_sale_count":       extract_for_sale_count(content),
-                "for_sale_address":     extract_for_sale_address(content),
-                "recent_sale_address":  extract_recent_sale_address(content),
-                "profile_url":          re.sub(r'[)/]+$', '', profile_url) + '/',
-                "scraped_at":           datetime.utcnow().isoformat(),
+                "name":                extract_name(content),
+                "location":            extract_location(content),
+                "brokerage":           extract_brokerage(content),
+                "rating":              extract_rating(content),
+                "review_count":        extract_reviews(content),
+                "years_experience":    extract_years_experience(content),
+                "recent_sales":        extract_recent_sales(content),
+                "specialties":         extract_specialties(content),
+                "languages":           extract_languages(content),
+                "phone":               extract_phone(content),
+                "email":               extract_email(content),
+                "about":               extract_about(content),
+                "for_sale_count":      extract_for_sale_count(content),
+                "for_sale_address":    extract_for_sale_address(content),
+                "recent_sale_address": extract_recent_sale_address(content),
+                "profile_url":         re.sub(r'[)/]+$', '', profile_url) + '/',
+                "scraped_at":          datetime.utcnow().isoformat(),
             }
 
             known    = set(AgentProfile.model_fields.keys())
@@ -329,6 +355,8 @@ If none found return {{"profile_urls": []}}"""
 
             return AgentProfile(**filtered)
 
+        except RuntimeError:
+            raise  # bubble up to scrape_agents for retry handling
         except Exception as exc:
             logger.error(f"Scraper → extraction failed on {profile_url}: {exc}")
             return None
