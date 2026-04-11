@@ -1,14 +1,13 @@
 # agents/manager.py
-import asyncio
 import json
 import logging
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List
 
 from config.settings import (
-    GROQ_API_KEY_MANAGER, MANAGER_MODEL, PROVIDER, GROQ_MODELS
+    GROQ_API_KEY_MANAGER, MANAGER_MODEL, GROQ_MODELS
 )
-from core.llm_client import make_client, chat_with_fallback
+from core.llm_client import make_client
 from core.models import AgentProfile
 
 logger = logging.getLogger(__name__)
@@ -43,9 +42,6 @@ class ManagerAgent:
             "preferred_specialties": ["Buyer's Agent", "Listing Agent"],
             "exclude_brokerages": [],
             "max_agents_to_scrape": 50,
-            "zillow_search_urls": [
-                "https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/?page=1"
-            ],
             "fields_to_extract": [
                 "name", "location", "brokerage", "rating", "review_count",
                 "years_experience", "recent_sales", "specialties", "languages",
@@ -54,104 +50,50 @@ class ManagerAgent:
         }
 
     async def generate_scraping_instructions(self, criteria: dict) -> dict:
-    logger.info("Manager → generating scraping plan...")
+        logger.info("Manager → generating scraping plan...")
 
-    # Build URLs deterministically — don't trust LLM to format Zillow URLs
-    target_locations = criteria.get("target_locations", ["Denver, CO"])
-    max_agents = criteria.get("max_agents_to_scrape", 50)
-    
-    # Calculate how many pages we need (15 agents per page)
-    pages_needed = max(1, -(-max_agents // 15))  # ceiling division
-    pages_needed = min(pages_needed, 5)           # cap at 5 pages
-    
-    search_urls = []
-    for loc in target_locations:
-        slug = loc.lower().replace(", ", "-").replace(" ", "-")
-        for page in range(1, pages_needed + 1):
-            search_urls.append(
-                f"https://www.zillow.com/professionals/real-estate-agent-reviews/{slug}/?page={page}"
-            )
+        target_locations = criteria.get("target_locations", ["Denver, CO"])
+        max_agents = criteria.get("max_agents_to_scrape", 50)
 
-    plan = {
-        "zillow_search_urls": search_urls,
-        "fields_to_extract": criteria.get("fields_to_extract", [
-            "name", "location", "brokerage", "rating", "review_count",
-            "years_experience", "recent_sales", "specialties", "languages",
-            "phone", "email", "about"
-        ]),
-        "max_agents": max_agents,
-    }
+        # Calculate pages needed — Zillow shows ~15 agents per page, cap at 5 pages
+        pages_needed = max(1, -(-max_agents // 15))  # ceiling division
+        pages_needed = min(pages_needed, 5)
 
-    logger.info(f"Manager → plan ready: {len(plan['zillow_search_urls'])} URLs")
-    return plan
+        search_urls = []
+        for loc in target_locations:
+            slug = loc.lower().replace(", ", "-").replace(" ", "-")
+            for page in range(1, pages_needed + 1):
+                search_urls.append(
+                    f"https://www.zillow.com/professionals/real-estate-agent-reviews/{slug}/?page={page}"
+                )
 
-    async def generate_qualification_rules(self, criteria: dict, agents_summary: dict) -> dict:
-        logger.info("Manager → generating qualification rules...")
-        
-        prompt = f"""You are a real estate lead scoring expert.
+        plan = {
+            "zillow_search_urls": search_urls,
+            "fields_to_extract": criteria.get("fields_to_extract", [
+                "name", "location", "brokerage", "rating", "review_count",
+                "years_experience", "recent_sales", "specialties", "languages",
+                "phone", "email", "about"
+            ]),
+            "max_agents": max_agents,
+        }
 
-Campaign criteria:
-{json.dumps({k: v for k, v in criteria.items() if k not in ['zillow_search_urls']}, indent=2)}
-
-Sample agent data summary (from {agents_summary.get('count', 0)} scraped profiles):
-- Avg rating: {agents_summary.get('avg_rating', 'N/A')}
-- Avg reviews: {agents_summary.get('avg_reviews', 'N/A')}
-- Top brokerages: {agents_summary.get('top_brokerages', [])}
-- Common specialties: {agents_summary.get('common_specialties', [])}
-
-Generate qualification rules in STRICT JSON format:
-{{
-  "min_score": 60,
-  "scoring_rules": [
-    {{"field": "rating", "condition": ">=", "value": 4.5, "points": 20}},
-    {{"field": "review_count", "condition": ">=", "value": 50, "points": 15}},
-    ...
-  ],
-  "disqualifiers": [
-    {{"field": "brokerage", "condition": "in", "value": ["Bad Brokerage Inc"]}}
-  ],
-  "bonus_rules": [
-    {{"field": "recent_sales", "condition": ">=", "value": 20, "points": 10}}
-  ]
-}}
-
-Rules:
-- Return ONLY valid JSON, no explanations
-- min_score should be between 50-80
-- Each scoring rule: field, condition (>=, <=, ==, in, contains), value, points (5-25)
-- disqualifiers: if ANY match, agent is auto-rejected
-- bonus_rules: extra points for exceptional attributes
-- Total possible score should be ~100 points
-
-Output JSON only:"""
-
-        resp_text = await chat_with_fallback(
-            client=self._client,
-            messages=[{"role": "user", "content": prompt}],
-            model_chain=self._model_chain,
-            json_mode=True,
-            max_tokens=2000,
-            temperature=0.2,
-        )
-        
-        rules = json.loads(resp_text)
-        logger.info(f"Manager → rules ready (min score: {rules.get('min_score', 'N/A')}/100)")
-        return rules
+        logger.info(f"Manager → plan ready: {len(plan['zillow_search_urls'])} URLs")
+        return plan
 
     @staticmethod
     def _summarize_agents(agents: List[AgentProfile]) -> dict:
         if not agents:
             return {"count": 0}
-        
+
         ratings = [a.rating for a in agents if a.rating]
         reviews = [a.review_count for a in agents if a.review_count]
         brokerages = [a.brokerage for a in agents if a.brokerage]
         specialties = [s for a in agents if a.specialties for s in a.specialties]
-        
+
         return {
             "count": len(agents),
-            "avg_rating": round(sum(ratings)/len(ratings), 2) if ratings else None,
-            "avg_reviews": round(sum(reviews)/len(reviews)) if reviews else None,
+            "avg_rating": round(sum(ratings) / len(ratings), 2) if ratings else None,
+            "avg_reviews": round(sum(reviews) / len(reviews)) if reviews else None,
             "top_brokerages": list(set(brokerages))[:5],
-            "common_specialties": list(set(specialties))[:10]
+            "common_specialties": list(set(specialties))[:10],
         }
