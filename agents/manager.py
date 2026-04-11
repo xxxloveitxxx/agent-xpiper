@@ -21,7 +21,7 @@ class ManagerAgent:
         self._client = make_client(api_key, MANAGER_MODEL)
         self._model_chain = GROQ_MODELS.get("manager", [MANAGER_MODEL])
 
-    def load_criteria(self, criteria_file: str = "data/criteria.json") -> dict:
+    def load_criteria(self, criteria_file: str = "config/criteria.json") -> dict:
         path = Path(criteria_file)
         if not path.exists():
             logger.warning(f"Criteria file not found: {path}, using defaults")
