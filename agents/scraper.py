@@ -67,17 +67,12 @@ class ScraperAgent:
         try:
             raw = await fetch_url(search_url)
 
-            found = re.findall(
-                r'https?://(?:www\.)?zillow\.com/profile/[^/"\'>\s]+', raw
-            )
+            found = re.findall(r'https?://(?:www\.)?zillow\.com/profile/[^/"\'>\s]+', raw)
             found += re.findall(
                 r'https?://(?:www\.)?zillow\.com/professionals/[^/"\'>\s]+-agent/[^/"\'>\s]+', raw
             )
             base = "https://www.zillow.com"
-            found += [
-                base + m.strip("\"'")
-                for m in re.findall(r'["\'](/profile/[^"\'>\s]+)', raw)
-            ]
+            found += [base + m.strip("\"'") for m in re.findall(r'["\'](/profile/[^"\'>\s]+)', raw)]
             found += [
                 base + m.strip("\"'")
                 for m in re.findall(r'["\'](/professionals/[^"\'>\s]+-agent/[^"\'>\s]+)', raw)
@@ -137,23 +132,20 @@ If none found return {{"profile_urls": []}}"""
             raw     = await fetch_url(profile_url)
             content = raw[:PROFILE_PAGE_LIMIT]
 
-            # ── Extraction helpers ────────────────────────────────────────
+            # ── Helpers ───────────────────────────────────────────────────
 
             def extract_name(md: str) -> Optional[str]:
-                # H1 uses === underline on Zillow via Jina
                 match = re.search(r'^([^\n#\[*!]{3,60})\n=+', md, re.MULTILINE)
                 if match:
                     name = match.group(1).strip()
-                    # Reject reviewer sentences or overly long strings
-                    if (len(name.split()) <= 7 and not any(
+                    if len(name.split()) <= 7 and not any(
                         w in name.lower()
                         for w in ["bought", "sold", "home", "review", "worked", "skip", "zillow"]
-                    )):
+                    ):
                         return name
                 return None
 
             def extract_location(md: str) -> Optional[str]:
-                # Breadcrumb: [Tampa](zillow.com/.../tampa-fl/)
                 match = re.search(
                     r'\[([A-Z][a-zA-Z\s]+)\]\(https://www\.zillow\.com/professionals/'
                     r'real-estate-agent-reviews/[a-z]+-([a-z]{2})/\)',
@@ -161,14 +153,12 @@ If none found return {{"profile_urls": []}}"""
                 )
                 if match:
                     return f"{match.group(1)}, {match.group(2).upper()}"
-                # Fallback: "City, ST" pattern
                 match = re.search(r'([A-Z][a-z]{2,},\s*[A-Z]{2})(?:\s|$)', md)
                 if match:
                     return match.group(1).strip()
                 return None
 
             def extract_brokerage(md: str) -> Optional[str]:
-                # Standalone line that looks like a brokerage name
                 match = re.search(
                     r'^([^\n]{3,60}(?:Realty|Realtors?|Real Estate|Properties|Group|'
                     r'LLC|Inc\.?|Team|Homes|KW|RE/MAX|Compass|eXp|Coldwell|Century|'
@@ -180,32 +170,27 @@ If none found return {{"profile_urls": []}}"""
                 return None
 
             def extract_rating(md: str) -> Optional[float]:
-                # "5.0[182 reviews]" or "4.9[5,462 team reviews]"
                 match = re.search(r'^(\d\.\d)\[[\d,]+\s+(?:team\s+)?reviews', md, re.MULTILINE)
                 if match:
                     return float(match.group(1))
-                # Fallback: standalone rating value
                 match = re.search(r'(\d\.\d)\s*out\s*of\s*5', md, re.IGNORECASE)
                 if match:
                     return float(match.group(1))
                 return None
 
             def extract_reviews(md: str) -> Optional[int]:
-                # "[5,462 team reviews]" or "[182 reviews]"
                 match = re.search(r'\[([\d,]+)\s+(?:team\s+)?reviews?\]', md)
                 if match:
                     return int(match.group(1).replace(",", ""))
                 return None
 
             def extract_years_experience(md: str) -> Optional[int]:
-                # "17 Years of experience"
                 match = re.search(r'(\d{1,2})\s+[Yy]ears?\s+of\s+experience', md)
                 if match:
                     return int(match.group(1))
                 return None
 
             def extract_recent_sales(md: str) -> Optional[int]:
-                # Number on its own line directly above "Sales last 12 months"
                 match = re.search(r'([\d,]+)\s*\n\nSales last 12 months', md)
                 if match:
                     return int(match.group(1).replace(",", ""))
@@ -214,7 +199,6 @@ If none found return {{"profile_urls": []}}"""
             def extract_specialties(md: str) -> List[str]:
                 match = re.search(r'Specialties\n\n([^\n]+)', md)
                 if not match:
-                    # Fallback: inline "Specialties" label
                     match = re.search(r'Specialties?[:\s]+([^\n]+)', md, re.IGNORECASE)
                 if not match:
                     return []
@@ -231,12 +215,10 @@ If none found return {{"profile_urls": []}}"""
                 return found if found else [raw_spec]
 
             def extract_languages(md: str) -> List[str]:
-                # "SpeaksEnglish, Spanish" — no space after Speaks
                 match = re.search(r'Speaks([A-Z][^\n]+)', md)
                 if match:
                     langs = re.split(r',\s*', match.group(1).strip())
                     return [l.strip() for l in langs if l.strip()]
-                # Fallback: "Languages: English, Spanish"
                 match = re.search(r'Languages?[:\s]+([^\n]+)', md, re.IGNORECASE)
                 if match:
                     langs = re.split(r'[,|]', match.group(1).strip())
@@ -253,17 +235,15 @@ If none found return {{"profile_urls": []}}"""
                 match = re.search(r'\[.*?\]\(mailto:([^)]+)\)', md, re.IGNORECASE)
                 if match:
                     return match.group(1).strip().lower()
-                match = re.search(
-                    r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-zA-Z]{2,}\b', md
-                )
+                match = re.search(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-zA-Z]{2,}\b', md)
                 if match:
                     return match.group(0).lower()
                 return None
 
             def extract_about(md: str) -> Optional[str]:
-                # "Get to know X" or "About X" section
                 match = re.search(
-                    r'(?:Get to know|About)[^\n]*\n-+\n\n(.*?)(?:\n\nSpecialties|\n\n[A-Z][^\n]{0,40}\n[-=]|\Z)',
+                    r'(?:Get to know|About)[^\n]*\n-+\n\n(.*?)'
+                    r'(?:\n\nSpecialties|\n\n[A-Z][^\n]{0,40}\n[-=]|\Z)',
                     md, re.DOTALL
                 )
                 if match:
@@ -271,23 +251,71 @@ If none found return {{"profile_urls": []}}"""
                     return about[:500]
                 return None
 
+            def extract_for_sale_count(md: str) -> Optional[int]:
+                # "For Sale (12)" section header
+                match = re.search(r'For Sale \(([\d,]+)\)', md)
+                if match:
+                    return int(match.group(1).replace(",", ""))
+                return None
+
+            def extract_for_sale_address(md: str) -> Optional[str]:
+                # Isolate the For Sale section, grab first address
+                section = re.search(
+                    r'For Sale[^\n]*\n-+\n(.*?)(?:\nFor Rent|\nSold\s*\(|\Z)',
+                    md, re.DOTALL
+                )
+                if not section:
+                    return None
+                addr = re.search(
+                    r'Address:\s*([^\n]+?[A-Z]{2}[\s,]+\d{5})',
+                    section.group(1)
+                )
+                if addr:
+                    raw_addr = addr.group(1).strip()
+                    # Insert comma+space before the state abbreviation city transition
+                    raw_addr = re.sub(r'([a-z])([A-Z])', r'\1, \2', raw_addr)
+                    raw_addr = re.sub(r'Bed/Bath.*$', '', raw_addr).strip().rstrip(',')
+                    return raw_addr
+                return None
+
+            def extract_recent_sale_address(md: str) -> Optional[str]:
+                # Isolate the Sold section, grab first address
+                section = re.search(
+                    r'\nSold[^\n]*\n-+\n(.*?)(?:\nLoading|\*\s+1\n|\Z)',
+                    md, re.DOTALL
+                )
+                if not section:
+                    return None
+                addr = re.search(
+                    r'Address:\s*([^\n]+?[A-Z]{2}(?:,\s*)?\d{5})',
+                    section.group(1)
+                )
+                if addr:
+                    raw_addr = addr.group(1).strip()
+                    raw_addr = re.sub(r'Sold date.*$', '', raw_addr).strip().rstrip(',')
+                    return raw_addr
+                return None
+
             # ── Run all extractors ────────────────────────────────────────
 
             data = {
-                "name":             extract_name(content),
-                "location":         extract_location(content),
-                "brokerage":        extract_brokerage(content),
-                "rating":           extract_rating(content),
-                "review_count":     extract_reviews(content),
-                "years_experience": extract_years_experience(content),
-                "recent_sales":     extract_recent_sales(content),
-                "specialties":      extract_specialties(content),
-                "languages":        extract_languages(content),
-                "phone":            extract_phone(content),
-                "email":            extract_email(content),
-                "about":            extract_about(content),
-                "profile_url":      re.sub(r'[)/]+$', '', profile_url) + '/',
-                "scraped_at":       datetime.utcnow().isoformat(),
+                "name":                 extract_name(content),
+                "location":             extract_location(content),
+                "brokerage":            extract_brokerage(content),
+                "rating":               extract_rating(content),
+                "review_count":         extract_reviews(content),
+                "years_experience":     extract_years_experience(content),
+                "recent_sales":         extract_recent_sales(content),
+                "specialties":          extract_specialties(content),
+                "languages":            extract_languages(content),
+                "phone":                extract_phone(content),
+                "email":                extract_email(content),
+                "about":                extract_about(content),
+                "for_sale_count":       extract_for_sale_count(content),
+                "for_sale_address":     extract_for_sale_address(content),
+                "recent_sale_address":  extract_recent_sale_address(content),
+                "profile_url":          re.sub(r'[)/]+$', '', profile_url) + '/',
+                "scraped_at":           datetime.utcnow().isoformat(),
             }
 
             known    = set(AgentProfile.model_fields.keys())
