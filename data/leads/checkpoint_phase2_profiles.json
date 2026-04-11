@@ -2,21 +2,19 @@
   "agents": [
     {
       "profile_url": "https://www.zillow.com/profile/8zRealEstate/",
-      "name": null,
-      "location": "Boulder, CO",
-      "rating": 8.9,
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
       "review_count": null,
-      "years_experience": 17,
+      "years_experience": null,
       "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent Listing Agent Relocation"
-      ],
+      "specialties": [],
       "languages": [],
-      "brokerage": "Need to sell? You've got options, choose what makes sense for you: [8z Select](https://8z.com/8z-select/) .",
+      "brokerage": null,
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:19:27.138301"
+      "scraped_at": "2026-04-11T11:21:52.931024"
     },
     {
       "profile_url": "https://www.zillow.com/profile/DaveNessRealtor/",
@@ -32,7 +30,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:19:30.847048"
+      "scraped_at": "2026-04-11T11:22:00.031248"
     },
     {
       "profile_url": "https://www.zillow.com/profile/navrealestate/",
@@ -48,7 +46,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:19:38.463775"
+      "scraped_at": "2026-04-11T11:22:05.983386"
     },
     {
       "profile_url": "https://www.zillow.com/profile/wisdomrealestate/",
@@ -62,9 +60,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "598820-3533",
+      "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:19:42.421993"
+      "scraped_at": "2026-04-11T11:22:12.174264"
     },
     {
       "profile_url": "https://www.zillow.com/profile/CompassBe1Team/",
@@ -80,7 +78,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:19:51.558726"
+      "scraped_at": "2026-04-11T11:22:19.450628"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Scott-and-Lora-/",
@@ -96,7 +94,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:19:56.652140"
+      "scraped_at": "2026-04-11T11:22:31.186802"
     },
     {
       "profile_url": "https://www.zillow.com/profile/EliteHomePartners/",
@@ -110,9 +108,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "793381-3598",
       "email": null,
-      "scraped_at": "2026-04-10T23:20:00.673735"
+      "scraped_at": "2026-04-11T11:22:38.024660"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Mimi-and-Justen/",
@@ -128,7 +126,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:20:10.455427"
+      "scraped_at": "2026-04-11T11:22:47.978006"
     },
     {
       "profile_url": "https://www.zillow.com/profile/edpratherRE/",
@@ -142,9 +140,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "811578-3598",
       "email": null,
-      "scraped_at": "2026-04-10T23:20:16.443620"
+      "scraped_at": "2026-04-11T11:22:55.270084"
     },
     {
       "profile_url": "https://www.zillow.com/profile/KristenLAbell/",
@@ -160,7 +158,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:20:24.921479"
+      "scraped_at": "2026-04-11T11:23:04.051700"
     },
     {
       "profile_url": "https://www.zillow.com/profile/JoePhillips/",
@@ -174,9 +172,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "185359-3598",
       "email": null,
-      "scraped_at": "2026-04-10T23:20:29.258168"
+      "scraped_at": "2026-04-11T11:23:09.981782"
     },
     {
       "profile_url": "https://www.zillow.com/profile/GriffithHomeTeam/",
@@ -192,7 +190,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:20:35.544318"
+      "scraped_at": "2026-04-11T11:23:17.379688"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Trelora/",
@@ -208,7 +206,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:20:39.558315"
+      "scraped_at": "2026-04-11T11:23:24.437911"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Aaron-Hart/",
@@ -222,9 +220,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "374265-3598",
       "email": null,
-      "scraped_at": "2026-04-10T23:20:45.526802"
+      "scraped_at": "2026-04-11T11:23:33.769673"
     },
     {
       "profile_url": "https://www.zillow.com/profile/ljensen80/",
@@ -240,7 +238,247 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:20:51.518039"
+      "scraped_at": "2026-04-11T11:23:38.768020"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/dixonsoldit/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:23:46.532703"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/Kim-Dozier/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:23:53.818199"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/5281EHR/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:23:59.650346"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/KimberlyAustin/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:04.337897"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/TeamVivi/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:10.849692"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/DianaNelsonPeterson/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:18.947781"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/Jody-E-Donley-NPRE/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:24.208381"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/Tim-Aberle/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:33.705455"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/AlexAndDerek/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:41.364138"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/JennyUsaj/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:47.897992"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/atlasregroup/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:24:54.421843"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/salepeau/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:25:02.457635"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/mkissel/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:25:06.507066"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/Preferred_Properties/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:25:12.551364"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/Kelly-in-Denver/",
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
+      "review_count": null,
+      "years_experience": null,
+      "recent_sales": null,
+      "specialties": [],
+      "languages": [],
+      "brokerage": null,
+      "about": null,
+      "phone": null,
+      "email": null,
+      "scraped_at": "2026-04-11T11:25:19.538328"
     },
     {
       "profile_url": "https://www.zillow.com/profile/GuideRealEstate/",
@@ -256,7 +494,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:20:57.739674"
+      "scraped_at": "2026-04-11T11:25:26.923685"
     },
     {
       "profile_url": "https://www.zillow.com/profile/schlichterteam/",
@@ -272,7 +510,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:21:04.611851"
+      "scraped_at": "2026-04-11T11:25:34.783042"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Robert-and-Jani/",
@@ -288,7 +526,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:21:12.272672"
+      "scraped_at": "2026-04-11T11:25:38.818554"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Wayne-Keith/",
@@ -304,7 +542,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:21:19.092238"
+      "scraped_at": "2026-04-11T11:25:44.534510"
     },
     {
       "profile_url": "https://www.zillow.com/profile/CJV-Real-Estate/",
@@ -320,7 +558,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:21:27.334335"
+      "scraped_at": "2026-04-11T11:25:49.621457"
     },
     {
       "profile_url": "https://www.zillow.com/profile/JoshLarsen/",
@@ -336,7 +574,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:21:34.418522"
+      "scraped_at": "2026-04-11T11:25:56.627940"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Wilson-Leonard/",
@@ -352,7 +590,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:21:40.489863"
+      "scraped_at": "2026-04-11T11:26:02.665382"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Saab-Properties/",
@@ -366,9 +604,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "866918-3599",
       "email": null,
-      "scraped_at": "2026-04-10T23:21:46.776742"
+      "scraped_at": "2026-04-11T11:26:08.501398"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Team-MadCo/",
@@ -384,7 +622,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:21:55.141481"
+      "scraped_at": "2026-04-11T11:26:15.031925"
     },
     {
       "profile_url": "https://www.zillow.com/profile/The-Apollo-Group/",
@@ -400,23 +638,25 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:22:01.212757"
+      "scraped_at": "2026-04-11T11:26:21.033590"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Gerlock-Homes/",
-      "name": "Access to this page has been denied",
-      "location": null,
-      "rating": null,
+      "name": "Gerlock Homes - Real Estate Agent in Denver, CO - Reviews | Zillow",
+      "location": "Denver, CO",
+      "rating": 8.9,
       "review_count": null,
-      "years_experience": null,
+      "years_experience": 45,
       "recent_sales": null,
-      "specialties": [],
+      "specialties": [
+        "Buyer's Agent Listing Agent Relocation"
+      ],
       "languages": [],
-      "brokerage": null,
+      "brokerage": "every step of the real",
       "about": null,
-      "phone": null,
+      "phone": "1846482100",
       "email": null,
-      "scraped_at": "2026-04-10T23:22:19.085881"
+      "scraped_at": "2026-04-11T11:26:32.238989"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Sultan-Newman-Group/",
@@ -430,9 +670,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "278729-3599",
       "email": null,
-      "scraped_at": "2026-04-10T23:22:26.319030"
+      "scraped_at": "2026-04-11T11:26:40.429249"
     },
     {
       "profile_url": "https://www.zillow.com/profile/caseyknowscolorado/",
@@ -448,7 +688,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:22:43.214698"
+      "scraped_at": "2026-04-11T11:26:47.499814"
     },
     {
       "profile_url": "https://www.zillow.com/profile/BlankBingham/",
@@ -464,25 +704,23 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:22:54.139401"
+      "scraped_at": "2026-04-11T11:26:53.562875"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Foxtrot-Realty/",
-      "name": "Lake Bishop - Real Estate Agent in Denver, CO - Reviews | Zillow",
-      "location": "Denver, CO",
-      "rating": 8.9,
+      "name": "Access to this page has been denied",
+      "location": null,
+      "rating": null,
       "review_count": null,
       "years_experience": null,
       "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent Listing Agent Military/Veterans"
-      ],
+      "specialties": [],
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "4121945313",
+      "phone": null,
       "email": null,
-      "scraped_at": "2026-04-10T23:22:57.008709"
+      "scraped_at": "2026-04-11T11:27:00.928812"
     }
   ]
 }
