@@ -54,49 +54,36 @@ class ManagerAgent:
         }
 
     async def generate_scraping_instructions(self, criteria: dict) -> dict:
-        logger.info("Manager → generating scraping plan...")
-        
-        search_urls = criteria.get("zillow_search_urls", [])
-        if not search_urls:
-            search_urls = [
-                f"https://www.zillow.com/professionals/real-estate-agent-reviews/{loc.lower().replace(', ', '-')}/?page=1"
-                for loc in criteria.get("target_locations", ["Denver, CO"])
-            ]
+    logger.info("Manager → generating scraping plan...")
 
-        prompt = f"""You are a real estate lead generation strategist.
+    # Build URLs deterministically — don't trust LLM to format Zillow URLs
+    target_locations = criteria.get("target_locations", ["Denver, CO"])
+    max_agents = criteria.get("max_agents_to_scrape", 50)
+    
+    # Calculate how many pages we need (15 agents per page)
+    pages_needed = max(1, -(-max_agents // 15))  # ceiling division
+    pages_needed = min(pages_needed, 5)           # cap at 5 pages
+    
+    search_urls = []
+    for loc in target_locations:
+        slug = loc.lower().replace(", ", "-").replace(" ", "-")
+        for page in range(1, pages_needed + 1):
+            search_urls.append(
+                f"https://www.zillow.com/professionals/real-estate-agent-reviews/{slug}/?page={page}"
+            )
 
-Campaign: {criteria.get('campaign_name', 'Untitled')}
-Target locations: {criteria.get('target_locations')}
-Min requirements: rating ≥ {criteria.get('min_rating')}, reviews ≥ {criteria.get('min_reviews')}, experience ≥ {criteria.get('min_experience_years')}y
+    plan = {
+        "zillow_search_urls": search_urls,
+        "fields_to_extract": criteria.get("fields_to_extract", [
+            "name", "location", "brokerage", "rating", "review_count",
+            "years_experience", "recent_sales", "specialties", "languages",
+            "phone", "email", "about"
+        ]),
+        "max_agents": max_agents,
+    }
 
-Generate a scraping plan in STRICT JSON format:
-{{
-  "zillow_search_urls": ["https://...", ...],
-  "fields_to_extract": ["name", "email", "phone", ...],
-  "max_agents": {criteria.get('max_agents_to_scrape', 5)}
-}}
-
-Rules:
-- Return ONLY valid JSON, no explanations
-- Include 1 Zillow search URLs for the target locations
-- fields_to_extract must include: name, brokerage, rating, review_count, email, phone
-- max_agents should not exceed {criteria.get('max_agents_to_scrape', 50)}
-
-Criteria JSON:
-{json.dumps(criteria, indent=2)}"""
-
-        resp_text = await chat_with_fallback(
-            client=self._client,
-            messages=[{"role": "user", "content": prompt}],
-            model_chain=self._model_chain,
-            json_mode=True,
-            max_tokens=1500,
-            temperature=0.2,
-        )
-        
-        plan = json.loads(resp_text)
-        logger.info(f"Manager → plan ready: {len(plan.get('zillow_search_urls', []))} URLs")
-        return plan
+    logger.info(f"Manager → plan ready: {len(plan['zillow_search_urls'])} URLs")
+    return plan
 
     async def generate_qualification_rules(self, criteria: dict, agents_summary: dict) -> dict:
         logger.info("Manager → generating qualification rules...")
