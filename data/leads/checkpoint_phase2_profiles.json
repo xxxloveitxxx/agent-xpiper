@@ -22,16 +22,19 @@
       "about": "Best Tampa Real Estate Agents Team [OFFICIAL REAL ESTATE AGENTS OF THE TAMPA BAY LIGHTNING - TheDuncanDuo.com!](http://www.theduncanduo.com/) [](http://www.soldorwebuyit.com/) [YOUR TAMPA BAY AND SARASOTA HOME SOLD GUARANTEED IN 14 DAYS OR WE BUY IT OR AN IMMEDIATE CASH OFFER- SEE TESTIMONIALS FROM CLIENTS AND CELEBRITIES, SEE OUR RADIO AND TV ADS AND WATCH OUR LISTING VIDEO](https://www.youtube.com/watch?v=RKSXrbqjBnk) . The Duncan Duo Team have been the top selling real estate agents in Tampa ",
       "phone": "4105316691",
       "email": "zillow@theduncanduo.com",
-      "scraped_at": "2026-04-11T19:02:32.809254"
+      "for_sale_count": 48,
+      "for_sale_address": "11809 Dunwoodie Manor Dr, Thonotosassa, FL 33592",
+      "recent_sale_address": "8308 Sandwedge Cir #CHudson, FL, 34667",
+      "scraped_at": "2026-04-11T19:20:08.997430"
     },
     {
       "profile_url": "https://www.zillow.com/profile/tampacentralkw/",
-      "name": "Keller Williams Tampa Central",
+      "name": null,
       "location": "Tampa, FL",
-      "rating": 5.0,
+      "rating": null,
       "review_count": 622,
       "years_experience": null,
-      "recent_sales": 113,
+      "recent_sales": null,
       "specialties": [
         "Buyer's Agent",
         "Listing Agent",
@@ -39,18 +42,15 @@
         "First Time Homebuyers",
         "Luxury Homes"
       ],
-      "languages": [
-        "English",
-        "Spanish",
-        "Russian",
-        "Turkish",
-        "Portuguese"
-      ],
-      "brokerage": "Contact the team",
-      "about": "Keller Williams Realty Tampa Central is the Tampa Bay area's premier real estate office. We specialize in all levels of sales and our agents operate throughout the Hillsborough, Pinellas, and Pasco county area. From luxury waterfront and golf course estates, historic homes, condominiums to starter homes and suburban communities, Keller Williams Tampa Central should be your real estate office of choice.",
-      "phone": "2016020805",
+      "languages": [],
+      "brokerage": "URL Source: https://www.zillow.com/profile/tampacentralkw",
+      "about": null,
+      "phone": "5814984752",
       "email": "frontdesk738@kw.com",
-      "scraped_at": "2026-04-11T19:03:22.717173"
+      "for_sale_count": 19,
+      "for_sale_address": null,
+      "recent_sale_address": null,
+      "scraped_at": "2026-04-11T19:21:09.258751"
     },
     {
       "profile_url": "https://www.zillow.com/profile/christinacgriffin79/",
@@ -82,7 +82,10 @@
       "about": "#1 Zillow Requested Realtor Christina Griffin is a nationally recognized real estate executive, coach, and growth strategist with a 20-year track record of success across every corner of the real estate industry. With more than 5,000 homes personally sold, 20,000 property valuations completed, and 30,000+ agents coached nationwide, Christina has built her career on one mission - help people grow, build legacy, and thrive in every market. As Senior Vice President of Agent Gr... Show more",
       "phone": "7754234879",
       "email": "operations@thegriffingroup.net",
-      "scraped_at": "2026-04-11T19:04:14.042195"
+      "for_sale_count": 27,
+      "for_sale_address": "1226 Magnolia Dr, Clearwater, FL 33756",
+      "recent_sale_address": "5551 Mosaic DrHoliday, FL, 34690",
+      "scraped_at": "2026-04-11T19:22:55.126493"
     },
     {
       "profile_url": "https://www.zillow.com/profile/czoller04/",
@@ -103,7 +106,10 @@
       "about": "Celebrating over a decade of excellence, Welcome Home Team has firmly established itself as a leader in Florida's real estate market. Our consistent recognition as 'Best of Zillow' every month and being honored as 'Best of Florida' in Guide to Florida for two consecutive years are testaments to our unwavering commitment to client satisfaction. Additionally, our multiple awards for social media excellence highlight our innovative approach to engag... Show more",
       "phone": "4315630994",
       "email": "chris@whttampa.com",
-      "scraped_at": "2026-04-11T19:05:05.340055"
+      "for_sale_count": 28,
+      "for_sale_address": "522 Country Meadows Way, Bradenton, FL 34212",
+      "recent_sale_address": "500 Webster Rd Lot 360Auburn, AL, 36832",
+      "scraped_at": "2026-04-11T19:23:50.429901"
     },
     {
       "profile_url": "https://www.zillow.com/profile/KristyDarragh/",
@@ -125,7 +131,10 @@
       "about": "Broker Associate Born and raised in the Midwest, Kristy was one of seven children. Her father, a Baptist minister, raised a spiritual family with modest means. Kristy was taught the tough work ethic that has stayed with her to this day. When Kristy was 19 she headed to the big city, San Francisco, California. There she learned the sophisticated business savvy that is her trademark. At 30 she met her husband, married, and moved to Los Angeles where she reigned as ... Show more",
       "phone": "8978916032",
       "email": "kristyd.darragh@gmail.com",
-      "scraped_at": "2026-04-11T19:06:51.321082"
+      "for_sale_count": 7,
+      "for_sale_address": "18008 Pinnacle Ct, Tampa, FL 33647",
+      "recent_sale_address": "16303 Heathrow DrTampa, FL, 33647",
+      "scraped_at": "2026-04-11T19:24:39.450092"
     },
     {
       "profile_url": "https://www.zillow.com/profile/AgileGroup/",
@@ -152,7 +161,10 @@
       "about": "Agile Group Realty provides expert market knowledge to help you throughout all of your real estate needs. Our team is made up of expert Realtors in their respected markets. Our goal is to provide value to our clients as quickly as possible. Our team is equipped to adapt to each client's needs. We are responsive, personal, and flexible. We strive to build strong relationships with our clients based on transparency and confidentiality. Whether you... Show more",
       "phone": "0069804114",
       "email": "info@agilegrouprealty.com",
-      "scraped_at": "2026-04-11T19:07:40.703465"
+      "for_sale_count": 21,
+      "for_sale_address": "10740 Pleasant Knoll Dr, Tampa, FL 33647",
+      "recent_sale_address": "6403 Auburn AveBradenton, FL, 34207",
+      "scraped_at": "2026-04-11T19:25:34.203696"
     }
   ]
 }
