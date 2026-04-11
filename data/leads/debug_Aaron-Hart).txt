@@ -1,353 +1,11 @@
-Aaron Hart - Real Estate Agent in Denver, CO - Reviews | Zillow
+Title: Aaron Hart - Real Estate Agent in Denver, CO - Reviews | Zillow
 
-[Skip main navigation](#skip-topnav-target)
+URL Source: https://www.zillow.com/profile/Aaron-Hart
 
-[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+Markdown Content:
+## Meet Team 1858
 
-*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
-*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
-
-[Homepage](https://www.zillow.com/ "Zillow Real Estate")
-
-*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
-    
-    *   ###### Homes for sale
-        
-        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
-            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
-            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
-            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
-        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
-            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
-            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
-            *   [All homes](https://www.zillow.com/browse/homes/)
-    *   ###### Resources
-        
-        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
-            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
-            *   [Real estate app](https://www.zillow.com/buy/app-download/)
-            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
-    
-*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
-    
-    *   ###### Rental listings
-        
-        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
-            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
-            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
-            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
-    *   ###### Tools for renters
-        
-        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
-            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
-            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
-            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
-        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
-            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
-            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
-            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
-    
-*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
-    
-    *   ###### Resources
-        
-        *   *   [Explore your options](https://www.zillow.com/sell/)
-            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
-            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
-            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
-    *   ###### Selling options
-        
-        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
-            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
-    
-*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
-    
-    *   ###### Started a loan application?
-        
-        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
-                
-                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
-    *   ###### Your mortgage
-        
-        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
-            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
-            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
-    *   ###### Mortgage tools
-        
-        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
-            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
-            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
-    
-*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
-    
-    *   ###### Looking for pros?
-        
-        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
-            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
-        *   *   [Home builders](https://www.zillow.com/home-builders/)
-            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
-    *   ###### I'm a pro
-        
-        *   *   [Agent solutions](https://www.zillow.com/agents/)
-            *   [Agent advertising](https://www.zillow.com/premier-agent/)
-            *   [Agent resource center](https://www.zillow.com/agent-resources/)
-            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
-        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
-            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
-            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
-    
-
-*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
-    
-    *   ###### Management tasks
-        
-        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
-            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
-            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
-    *   ###### Tools for rental managers
-        
-        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
-            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
-            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
-            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
-        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
-            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
-            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
-    
-*   [Advertise](https://www.zillow.com/partners/advertise/)
-
-*   [Get help](https://www.zillow.help/)
-
-*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
-*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
-
-1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
-2.  [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
-3.  Aaron Hart
-
-Report a problemReport a problem
-
-![](https://photos.zillowstatic.com/fp/f8009f7b40193b716e14c29b6605cbeb-h_l.jpg)
-
-Aaron Hart
-==========
-
-1858 Real EstateLead of Team 1858
-
-5.0[209 team reviews](#reviews)
-
-[Contact the team](#contact-form-section-mobile)
-
-Team
-
-Recent Sales
-------------
-
-Sales numbers represent all team members
-
-Previous itemsNext items
-
-[Skip to the end of the carousel](#)
-
-*   $420,000
-    
-    **2** bd**1** ba**925** sqft Denver, CO
-    
-    **2** bd**1** ba**925** sqft
-    
-    Denver, CO
-    
-    Sold 2 days ago
-    
-    Buyer
-    
-    ![3653 Forest Street, Denver, CO, 80207](https://photos.zillowstatic.com/fp/f849dd973d400630b3dd0e4bf2a5a256-p_d.jpg)
-    
-    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
-    
-*   $1,500,000
-    
-    **5** bd**3** ba**4,010** sqft Golden, CO
-    
-    **5** bd**3** ba**4,010** sqft
-    
-    Golden, CO
-    
-    Sold 5 days ago
-    
-    Seller
-    
-    ![1715 Foothills Drive, Golden, CO, 80401](https://photos.zillowstatic.com/fp/e1b363cf546beb9b9418895fd1cdc6f2-p_d.jpg)
-    
-    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
-    
-*   $475,000
-    
-    **2** bd**3** ba**1,312** sqft Denver, CO
-    
-    **2** bd**3** ba**1,312** sqft
-    
-    Denver, CO
-    
-    Sold 23 days ago
-    
-    Seller
-    
-    ![85 Uinta Way #106, Denver, CO, 80230](https://photos.zillowstatic.com/fp/2dbc80cf9a65c6234ba7f3ffcd0c5258-p_d.jpg)
-    
-    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
-    
-*   $435,000
-    
-    **2** bd**1** ba**1,226** sqft Denver, CO
-    
-    **2** bd**1** ba**1,226** sqft
-    
-    Denver, CO
-    
-    Sold 2 months ago
-    
-    Seller
-    
-    ![709 27th Street, Denver, CO, 80205](https://photos.zillowstatic.com/fp/98f5fedd105e49bdd8916d2e03a8e0ab-p_d.jpg)
-    
-    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
-    
-*   $470,000
-    
-    **5** bd**2** ba**2,830** sqft Denver, CO
-    
-    **5** bd**2** ba**2,830** sqft
-    
-    Denver, CO
-    
-    Sold 2 months ago
-    
-    Buyer
-    
-    ![4400 Clayton Street, Denver, CO, 80216](https://photos.zillowstatic.com/fp/907a2065c58afa00f0d63ba6a0a16c7d-p_d.jpg)
-    
-    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
-    
-*   [See more](#listings-and-sales) 
-    
-
-[Skip to the beginning of the carousel](#)
-
-24
-
-Sales last 12 months
-
-658
-
-Total sales
-
-$213K-$1.5M
-
-Price range
-
-$669K
-
-Average price
-
-Meet Team 1858
---------------
-
-[![](https://photos.zillowstatic.com/fp/1366ef9ff4bf249331de67b3359bb2b4-h_l.jpg)
-
-### Kelly O'Dell
-
-4.8 (24)
-
-Loading
-
-price range
-
-sales last 12 months
-
-
-
-
-
-
-
-
-
-
-
-](/profile/Kelly Jo ODell)
-[![](https://photos.zillowstatic.com/fp/67e5cc04c51f6e50d4cc0480c0c5c0d8-h_l.jpg)
-
-### Nicole Van Volkinburg
-
-5.0 (11)
-
-Loading
-
-price range
-
-sales last 12 months
-
-
-
-
-
-
-
-
-
-
-
-](/profile/nicolevanv)
-[![](https://photos.zillowstatic.com/fp/eb970ada67cf5d5ff82cc50d0ecc724e-h_l.jpg)
-
-### Allison Connor
-
-5.0 (3)
-
-Loading
-
-price range
-
-sales last 12 months
-
-
-
-
-
-
-
-
-
-
-
-](/profile/allisonconnor)
-[![](https://photos.zillowstatic.com/fp/fc8bb8e9bf3f02ebb03a2b1b3c2943f0-h_l.jpg)
-
-### Stevenson Farnsworth
-
-5.0 (1)
-
-Loading
-
-price range
-
-sales last 12 months
-
-
-
-
-
-
-
-
-
-
-
-](/profile/Stevenson1858)
-
-Get to know Team 1858
----------------------
+## Get to know Team 1858
 
 Broker / Owner
 
@@ -355,21 +13,13 @@ Since 2008, I’ve helped clients buy and sell homes throughout the Denver Metro
 
 I’ve personally closed over 250 transactions, mentored more than 100 agents, leased dozens of homes, and worked as an owner, partner, or project manager on dozens of rehabs (...
 
-Show more
-
 Specialties
 
-Buyer's AgentListing AgentForeclosureInsuranceInvestment PropertiesRentalsMilitary/VeteransNew Construction
+Buyer's Agent Listing Agent Foreclosure Insurance Investment Properties Rentals Military/Veterans New Construction
 
-18 Years of experience
+18 Year s of experience
 
-[Visit team website](http://www.1858realestate.com)
-
-[Facebook](http://www.facebook.com/1858realestate.com)
-[LinkedIn](http://www.linkedin.com/in/aehart)
-
-Team listings & sales (662)
----------------------------
+## Team listings & sales (662)
 
 For Sale
 
@@ -377,245 +27,488 @@ For Rent
 
 Sold
 
+![Image 1](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i106!3i193!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=73155)
+
+![Image 2](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i105!3i194!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=90098)
+
+![Image 3](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i105!3i193!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=47509)
+
+![Image 4](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i108!3i194!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=35965)
+
+![Image 5](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i107!3i194!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=10319)
+
+![Image 6](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i107!3i193!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=98801)
+
+![Image 7](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i106!3i194!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=115744)
+
+![Image 8](https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i9!2i108!3i193!4i256!2m3!1e0!2sm!3i774538303!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmYscy50OjIxfHAudjpvZmYscy50OjJ8cy5lOmwudHxwLnY6b2ZmLHMudDozN3xwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNHxzLmU6bC5pfHAudjpvZmYscy50OjM2fHMuZTpsLml8cC52Om9mZixzLnQ6MzZ8cy5lOmwudHxwLnY6b24scy50OjQwfHMuZTpsfHAudjpvbixzLnQ6Mzh8cy5lOmwuaXxwLnY6b2ZmLHMudDozNXxzLmU6bC5pfHAudjpvZmYscy50OjM5fHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6bC50fHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyD4w61UyrLSs5ozaHmCCrhvnyPrJdNkZQ0&token=124447)
+
+[![Image 9: Google](blob:http://localhost/7f87a532a17fcdab36cbfea76d0c1984)](https://maps.google.com/maps?ll=39.765923,-104.878843&z=9&t=m&hl=en-US&gl=US&mapclient=apiv3 "Open this area in Google Maps (opens a new window)")
+
+Map data ©2026 Google
+
+Map data ©2026 Google
+
 This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
 
-For Sale (4)
-------------
+## For Sale (4)
 
+| Address | Bed/Bath | Listing price |
+| --- | --- | --- |
+| [![Image 10](https://photos.zillowstatic.com/fp/3826013d73576008679fbba614b04259-a_a.jpg) 2441 N Broadway #217 Denver, CO 80205 Bed/Bath:1 Bed, 1 Bath Listing price:$525,000](https://www.zillow.com/homedetails/2441-N-Broadway-217-Denver-CO-80205/2062188549_zpid/) | 1 Bed, 1 Bath | $525,000 |
+| [![Image 11](https://photos.zillowstatic.com/fp/7c524d16dc4039ae059bc41be6e3b2cf-a_a.jpg) 2441 N Broadway Unit 304 Denver, CO 80205 Bed/Bath:2 Bed, 2 Bath Listing price:$750,000](https://www.zillow.com/homedetails/2441-N-Broadway-UNIT-304-Denver-CO-80205/2092753687_zpid/) | 2 Bed, 2 Bath | $750,000 |
+| [![Image 12](https://photos.zillowstatic.com/fp/04aa4ce67c2edd5b57679c4b1a8809d1-a_a.jpg) 4264 W Radcliff Ave Denver, CO 80236 Bed/Bath:5 Bed, 3 Bath Listing price:$700,000](https://www.zillow.com/homedetails/4264-W-Radcliff-Ave-Denver-CO-80236/13427752_zpid/) | 5 Bed, 3 Bath | $700,000 |
+| [![Image 13](https://photos.zillowstatic.com/fp/98ca472508e80559b8f04d923eec7d28-a_a.jpg) 2530 Lawrence St #Ra108 Denver, CO 80205 Bed/Bath:3 Bed, 3 Bath Listing price:$1,025,000](https://www.zillow.com/homedetails/2530-Lawrence-St-RA108-Denver-CO-80205/303876897_zpid/) | 3 Bed, 3 Bath | $1,025,000 |
 
+## Sold (658)
 
-* Address: 2441 N Broadway #217Denver, CO 80205Bed/Bath:1 Bed, 1 BathListing price:$525,000
-  * Bed/Bath: 1 Bed, 1 Bath
-  * Listing price: $525,000
-* Address: 2441 N Broadway Unit 304Denver, CO 80205Bed/Bath:2 Bed, 2 BathListing price:$750,000
-  * Bed/Bath: 2 Bed, 2 Bath
-  * Listing price: $750,000
-* Address: 4264 W Radcliff AveDenver, CO 80236Bed/Bath:5 Bed, 3 BathListing price:$700,000
-  * Bed/Bath: 5 Bed, 3 Bath
-  * Listing price: $700,000
-* Address: 2530 Lawrence St #Ra108Denver, CO 80205Bed/Bath:3 Bed, 3 BathListing price:$1,025,000
-  * Bed/Bath: 3 Bed, 3 Bath
-  * Listing price: $1,025,000
+| Address | Sold date | Closing price | Represented | Flag Sale |
+| --- | --- | --- | --- | --- |
+| [![Image 14](https://photos.zillowstatic.com/fp/f849dd973d400630b3dd0e4bf2a5a256-p_b.jpg) 3653 Forest Street Denver, CO, 80207 Sold date:4/10/2026 Closing price:$420,000 Represented:Buyer](https://www.zillow.com/homedetails/3653-Forest-St-Denver-CO-80207/67455742_zpid/) | 4/10/2026 | $420,000 | Buyer |  |
+| [![Image 15](https://photos.zillowstatic.com/fp/e1b363cf546beb9b9418895fd1cdc6f2-p_b.jpg) 1715 Foothills Drive Golden, CO, 80401 Sold date:4/7/2026 Closing price:$1,500,000 Represented:Seller](https://www.zillow.com/homedetails/1715-Foothills-Dr-S-Golden-CO-80401/13757069_zpid/) | 4/7/2026 | $1,500,000 | Seller |  |
+| [![Image 16](https://photos.zillowstatic.com/fp/2dbc80cf9a65c6234ba7f3ffcd0c5258-p_b.jpg) 85 Uinta Way #106 Denver, CO, 80230 Sold date:3/20/2026 Closing price:$475,000 Represented:Seller](https://www.zillow.com/homedetails/85-Uinta-Way-UNIT-106-Denver-CO-80230/444134403_zpid/) | 3/20/2026 | $475,000 | Seller |  |
+| [![Image 17](https://photos.zillowstatic.com/fp/98f5fedd105e49bdd8916d2e03a8e0ab-p_b.jpg) 709 27th Street Denver, CO, 80205 Sold date:2/25/2026 Closing price:$435,000 Represented:Seller](https://www.zillow.com/homedetails/709-27th-St-Denver-CO-80205/72296805_zpid/) | 2/25/2026 | $435,000 | Seller |  |
+| [![Image 18](https://photos.zillowstatic.com/fp/907a2065c58afa00f0d63ba6a0a16c7d-p_b.jpg) 4400 Clayton Street Denver, CO, 80216 Sold date:2/20/2026 Closing price:$470,000 Represented:Buyer](https://www.zillow.com/homedetails/4400-Clayton-St-Denver-CO-80216/13302036_zpid/) | 2/20/2026 | $470,000 | Buyer |  |
 
-
-Loading
-
-Sold (658)
-----------
-
-
-
-* Address: 3653 Forest StreetDenver, CO, 80207Sold date:4/10/2026Closing price:$420,000Represented:BuyerReport a problem
-  * Sold date: 4/10/2026
-  * Closing price: $420,000
-  * Represented: Buyer
-  * Flag Sale: Report a problem
-* Address: 1715 Foothills DriveGolden, CO, 80401Sold date:4/7/2026Closing price:$1,500,000Represented:SellerReport a problem
-  * Sold date: 4/7/2026
-  * Closing price: $1,500,000
-  * Represented: Seller
-  * Flag Sale: Report a problem
-* Address: 85 Uinta Way #106Denver, CO, 80230Sold date:3/20/2026Closing price:$475,000Represented:SellerReport a problem
-  * Sold date: 3/20/2026
-  * Closing price: $475,000
-  * Represented: Seller
-  * Flag Sale: Report a problem
-* Address: 709 27th StreetDenver, CO, 80205Sold date:2/25/2026Closing price:$435,000Represented:SellerReport a problem
-  * Sold date: 2/25/2026
-  * Closing price: $435,000
-  * Represented: Seller
-  * Flag Sale: Report a problem
-* Address: 4400 Clayton StreetDenver, CO, 80216Sold date:2/20/2026Closing price:$470,000Represented:BuyerReport a problem
-  * Sold date: 2/20/2026
-  * Closing price: $470,000
-  * Represented: Buyer
-  * Flag Sale: Report a problem
-
-
-Loading
-
-*   1
-*   2
-*   3
-*   4
-*   5
-*   6
-*   7
-*   Page 1 of 20
-
-Team reviews (209)
-------------------
+## Team reviews (209)
 
 Reviews represent all team members.
 
-Previous itemsNext items
-
-[Skip to the end of the carousel](#)
-
-*   5.0
-    
-    Report a problem
-    
+[Skip to the end of the carousel](https://www.zillow.com/profile/Aaron-Hart#)
+*   
+5.0 
     *   2/19/2026
-    *   • Leslie Kinson
-    
-    ### Sold a Single Family home in 2026 in Whittier, Denver, CO.
-    
-    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
-    
-    Aaron did an amazing job navigating the presentation and sale of this house through a tough time in the market. His knowledge of the market and strategic recommendations ...
-    
-    Aaron did an amazing job navigating the presentation and sale of this house through a tough time in the market. His knowledge of t...
-    
-    Show more
-    
-    5.0
-    
-    Report a problem
-    
+    *    • Leslie Kinson
+
+### Sold a Single Family home in 2026 in Whittier, Denver, CO.
+
+Review for:[**Aaron Hart**](https://www.zillow.com/profile/Aaron%20Hart)
+
+Aaron did an amazing job navigating the presentation and sale of this house through a tough time in the market. His knowledge of the market and strategic recommendations ...
+
+Aaron did an amazing job navigating the presentation and sale of this house through a tough time in the market. His knowledge of t...
+
+5.0
+
     *   10/26/2023
-    *   • ismith121
-    
-    ### Bought and sold a Townhouse home in 2023 in Congress park, Denver, CO.
-    
-    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
-    
-    Aaron is an outstanding agent and one we would highly recommend. We initially purchased our house with his help almost 10 years ago and just recently sold it. We now live...
-    
-    Aaron is an outstanding agent and one we would highly recommend. We initially purchased our house with his help almost 10 years ag...
-    
-    Show more
-    
-*   5.0
-    
-    Report a problem
-    
+    *    • ismith121
+
+### Bought and sold a Townhouse home in 2023 in Congress park, Denver, CO.
+
+Review for:[**Aaron Hart**](https://www.zillow.com/profile/Aaron%20Hart)
+
+Aaron is an outstanding agent and one we would highly recommend. We initially purchased our house with his help almost 10 years ago and just recently sold it. We now live...
+
+Aaron is an outstanding agent and one we would highly recommend. We initially purchased our house with his help almost 10 years ag...
+
+*   
+5.0 
     *   8/11/2023
-    *   • stevebizier1026
-    
-    ### Sold a Townhouse home in 2023 in West colfax, Denver, CO.
-    
-    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
-    
-    Aaron is the most amazing realtor I have ever worked with! He is extremely professional and easy to work with. He has the best communication skills of any realtor I hav...
-    
-    Aaron is the most amazing realtor I have ever worked with! He is extremely professional and easy to work with. He has the best c...
-    
-    Show more
-    
-    5.0
-    
-    Report a problem
-    
+    *    • stevebizier1026
+
+### Sold a Townhouse home in 2023 in West colfax, Denver, CO.
+
+Review for:[**Aaron Hart**](https://www.zillow.com/profile/Aaron%20Hart)
+
+Aaron is the most amazing realtor I have ever worked with! He is extremely professional and easy to work with. He has the best communication skills of any realtor I hav...
+
+Aaron is the most amazing realtor I have ever worked with! He is extremely professional and easy to work with. He has the best c...
+
+5.0
+
     *   7/13/2023
-    *   • safim1991
-    
-    ### Bought a Condo home in 2023 in Goldsmith, Denver, CO.
-    
-    Review for: [**Allison Connor**](https://www.zillow.com/profile/allisonconnor)
-    
-    From start to finish Allison was awesome. She made everything so simple. Responded to any issues in a rapid way and very professional. She listened and understood all of ...
-    
-    From start to finish Allison was awesome. She made everything so simple. Responded to any issues in a rapid way and very professio...
-    
-    Show more
-    
-*   5.0
-    
-    Report a problem
-    
+    *    • safim1991
+
+### Bought a Condo home in 2023 in Goldsmith, Denver, CO.
+
+Review for:[**Allison Connor**](https://www.zillow.com/profile/allisonconnor)
+
+From start to finish Allison was awesome. She made everything so simple. Responded to any issues in a rapid way and very professional. She listened and understood all of ...
+
+From start to finish Allison was awesome. She made everything so simple. Responded to any issues in a rapid way and very professio...
+
+*   
+5.0 
     *   6/3/2023
-    *   • jrscooks
-    
-    ### Bought and sold a home in 2023.
-    
-    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
-    
-    Aaron has done a wonderful job now for me twice in the real estate market. I recommend him and his diligent team to anyone looking to buy or sell in Denver and beyond. Aa...
-    
-    Aaron has done a wonderful job now for me twice in the real estate market. I recommend him and his diligent team to anyone looking...
-    
-    Show more
-    
-    5.0
-    
-    Report a problem
-    
+    *    • jrscooks
+
+### Bought and sold a home in 2023.
+
+Review for:[**Aaron Hart**](https://www.zillow.com/profile/Aaron%20Hart)
+
+Aaron has done a wonderful job now for me twice in the real estate market. I recommend him and his diligent team to anyone looking to buy or sell in Denver and beyond. Aa...
+
+Aaron has done a wonderful job now for me twice in the real estate market. I recommend him and his diligent team to anyone looking...
+
+5.0
+
     *   3/24/2023
-    *   • zuser20180101210701469
-    
-    ### Bought and sold a home in 2023.
-    
-    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
-    
-    Looking to buy or sell? Look no further! Aaron went above and beyond to make sure our condo sold quickly. He is organized, efficient, fun to work with, and communicate...
-    
-    Looking to buy or sell? Look no further! Aaron went above and beyond to make sure our condo sold quickly. He is organized, effi...
-    
-    Show more
-    
-*   5.0
-    
-    Report a problem
-    
+    *    • zuser20180101210701469
+
+### Bought and sold a home in 2023.
+
+Review for:[**Aaron Hart**](https://www.zillow.com/profile/Aaron%20Hart)
+
+Looking to buy or sell? Look no further! Aaron went above and beyond to make sure our condo sold quickly. He is organized, efficient, fun to work with, and communicate...
+
+Looking to buy or sell? Look no further! Aaron went above and beyond to make sure our condo sold quickly. He is organized, effi...
+
+*   
+5.0 
     *   8/8/2022
-    *   • abigaylepjohnson
-    
-    ### Bought and sold a Single Family home in 2022 in Highlands ranch, CO.
-    
-    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
-    
-    Aaron is a Real Estate superstar! He knows the market and Colorado Real Estate better than anyone and has the negotiating skills to beat out competitive offers. He helped...
-    
-    Aaron is a Real Estate superstar! He knows the market and Colorado Real Estate better than anyone and has the negotiating skills t...
-    
-    Show more
-    
-    5.0
-    
-    Report a problem
-    
+    *    • abigaylepjohnson
+
+### Bought and sold a Single Family home in 2022 in Highlands ranch, CO.
+
+Review for:[**Aaron Hart**](https://www.zillow.com/profile/Aaron%20Hart)
+
+Aaron is a Real Estate superstar! He knows the market and Colorado Real Estate better than anyone and has the negotiating skills to beat out competitive offers. He helped...
+
+Aaron is a Real Estate superstar! He knows the market and Colorado Real Estate better than anyone and has the negotiating skills t...
+
+5.0
+
     *   8/3/2022
-    *   • KristenWood07
-    
-    ### Bought a Condo home in 2022 in Wheat ridge, CO.
-    
-    Review for: [**Kelly O'Dell**](https://www.zillow.com/profile/Kelly Jo ODell)
-    
-    As a single female in my early 30s I was a ball of anxiety and doubt when I decided to buy my first home in this market. Kelly was amazing throughout the whole process an...
-    
-    As a single female in my early 30s I was a ball of anxiety and doubt when I decided to buy my first home in this market. Kelly was...
-    
-    Show more
-    
-*   5.0
-    
-    Report a problem
-    
+    *    • KristenWood07
+
+### Bought a Condo home in 2022 in Wheat ridge, CO.
+
+Review for:[**Kelly O'Dell**](https://www.zillow.com/profile/Kelly%20Jo%20ODell)
+
+As a single female in my early 30s I was a ball of anxiety and doubt when I decided to buy my first home in this market. Kelly was amazing throughout the whole process an...
+
+As a single female in my early 30s I was a ball of anxiety and doubt when I decided to buy my first home in this market. Kelly was...
+
+*   
+5.0 
     *   7/8/2022
-    *   • smoreland8500
-    
-    ### Bought a Single Family home in 2022 in Gateway - green valley ranch, Denver, CO.
-    
-    Review for: [**Melanie Schutten**](https://www.zillow.com/profile/mel82039)
-    
-    Mel has been so amazing to work with. This market is crazy right now to say the least, and she has made this process so much less stressful. She is upfront and does not...
-    
-    Mel has been so amazing to work with. This market is crazy right now to say the least, and she has made this process so much less...
-    
-    Show more
-    
-    5.0
-    
-    Report a problem
-    
+    *    • smoreland8500
+
+### Bought a Single Family home in 2022 in Gateway - green valley ranch, Denver, CO.
+
+Review for:[**Melanie Schutten**](https://www.zillow.com/profile/mel82039)
+
+Mel has been so amazing to work with. This market is crazy right now to say the least, and she has made this process so much less stressful. She is upfront and does not...
+
+Mel has been so amazing to work with. This market is crazy right now to say the least, and she has made this process so much less...
+
+5.0
+
     *   6/7/2022
-    *   • Facundo Torino
-    
-    ### Bought a Condo home in 2022 in Lincoln park, Denver, CO.
-    
-    Review for: [**Stevenson Farnsworth**](https://www.zillow.com/profile/Stevenson1858)
-    
-    I doubt there’s any realtor that will have your interests in mind as much as Stevenson has. Always professional, very efficient, and extremely knowledgeable of the area a...
-    
-    I doubt there’s any realtor that will have your int
+    *    • Facundo Torino
+
+I doubt there’s any realtor that will have your interests in mind as much as Stevenson has. Always professional, very efficient, and extremely knowledgeable of the area a...
+
+I doubt there’s any realtor that will have your interests in mind as much as Stevenson has. Always professional, very efficient, a...
+
+[Skip to the beginning of the carousel](https://www.zillow.com/profile/Aaron-Hart#)
+
+## Service areas (58)
+
+*   [Colorado Springs, CO](https://www.zillow.com/colorado-springs-co/)
+*   [Englewood, CO](https://www.zillow.com/englewood-co/)
+*   [Fort Collins, CO](https://www.zillow.com/fort-collins-co/)
+*   [Henderson, Commerce City, CO](https://www.zillow.com/henderson-commerce-city-co/)
+*   [Lakewood, CO](https://www.zillow.com/lakewood-co/)
+*   [Monument, CO](https://www.zillow.com/monument-co/)
+*   [Arvada, CO](https://www.zillow.com/arvada-co/)
+*   [Denver, CO](https://www.zillow.com/denver-co/)
+*   [Aurora, CO](https://www.zillow.com/aurora-co/)
+*   [Commerce City, CO](https://www.zillow.com/commerce-city-co/)
+*   [Littleton, CO](https://www.zillow.com/littleton-co/)
+*   [Thornton, CO](https://www.zillow.com/thornton-co/)
+*   [Castle Rock, CO](https://www.zillow.com/castle-rock-co/)
+*   [Boulder, CO](https://www.zillow.com/boulder-co/)
+*   [Parker, CO](https://www.zillow.com/parker-co/)
+*   [Westminster, CO](https://www.zillow.com/westminster-co/)
+*   [Avondale, CO](https://www.zillow.com/avondale-co/)
+*   [Sheridan, CO](https://www.zillow.com/sheridan-co/)
+*   [Edgewater, CO](https://www.zillow.com/edgewater-co/)
+*   [Greenwood Village, CO](https://www.zillow.com/greenwood-village-co/)
+*   [Highlands Ranch, CO](https://www.zillow.com/highlands-ranch-co/)
+*   [Skyland, Denver, CO](https://www.zillow.com/skyland-denver-co/)
+*   [Vail, CO](https://www.zillow.com/vail-co/)
+*   [Centennial, CO](https://www.zillow.com/centennial-co/)
+*   [Golden, CO](https://www.zillow.com/golden-co/)
+*   [Hale, Denver, CO](https://www.zillow.com/hale-denver-co/)
+*   [Lone Tree, CO](https://www.zillow.com/lone-tree-co/)
+*   [Telluride, CO](https://www.zillow.com/telluride-co/)
+*   [Wheat Ridge, CO](https://www.zillow.com/wheat-ridge-co/)
+*   [Acres Green, CO](https://www.zillow.com/acres-green-co/)
+*   [Hilltop, Denver, CO](https://www.zillow.com/hilltop-denver-co/)
+*   [Ken Caryl, CO](https://www.zillow.com/ken-caryl-littleton-jefferson-county-co/)
+*   [Baker, Denver, CO](https://www.zillow.com/baker-denver-co/)
+*   [Barnum, Denver, CO](https://www.zillow.com/barnum-denver-co/)
+*   [Belcaro, Denver, CO](https://www.zillow.com/belcaro-denver-co/)
+*   [Capitol Hill, Denver, CO](https://www.zillow.com/capitol-hill-denver-co/)
+*   [Chaffee Park, Denver, CO](https://www.zillow.com/chaffee-park-denver-co/)
+*   [Cherry Creek, Denver, CO](https://www.zillow.com/cherry-creek-denver-co/)
+*   [City Park, Denver, CO](https://www.zillow.com/city-park-denver-co/)
+*   [Five Points, Denver, CO](https://www.zillow.com/five-points-denver-co/)
+*   [Platt Park, Denver, CO](https://www.zillow.com/platt-park-denver-co/)
+*   [Regis, Denver, CO](https://www.zillow.com/regis-denver-co/)
+*   [Villa Park, Denver, CO](https://www.zillow.com/villa-park-denver-co/)
+*   [Virginia Village, Denver, CO](https://www.zillow.com/virginia-village-denver-co/)
+*   [Washington Park, Denver, CO](https://www.zillow.com/washington-park-denver-co/)
+*   [West Colfax, Denver, CO](https://www.zillow.com/west-colfax-denver-co/)
+*   [West Highland, Denver, CO](https://www.zillow.com/west-highland-denver-co/)
+*   [Whittier, Denver, CO](https://www.zillow.com/whittier-denver-co/)
+*   [Golden Triangle, Denver, CO](https://www.zillow.com/golden-triangle-denver-co/)
+*   [Park Hill, Denver, CO](https://www.zillow.com/park-hill-denver-co/)
+*   [Central Park, Denver, CO](https://www.zillow.com/central-park-denver-co/)
+*   [Clayton, Denver, CO](https://www.zillow.com/clayton-denver-co/)
+*   [Valverde, Denver, CO](https://www.zillow.com/valverde-denver-co/)
+*   [Sloan Lake, Denver, CO](https://www.zillow.com/sloan-lake-denver-co/)
+*   [Sunnyside, Denver, CO](https://www.zillow.com/sunnyside-denver-co/)
+*   [Rosedale, Denver, CO](https://www.zillow.com/rosedale-denver-co/)
+*   [Cheesman Park, Denver, CO](https://www.zillow.com/cheesman-park-denver-co/)
+*   [Cole, Denver, CO](https://www.zillow.com/cole-denver-co/)
+
+## Contact Team 1858
+
+By submitting your information, you agree that the real estate professional identified above may call/text you about your search, which may involve use of automated means and pre-recorded/artificial voices. You don't need to consent as a condition of buying any property, goods, or services. Message/data rates may apply. You also agree to our [Terms of Use](https://www.zillow.com/corp/Terms.htm).
+
+## Contact Team 1858
+
+By submitting your information, you agree that the real estate professional identified above may call/text you about your search, which may involve use of automated means and pre-recorded/artificial voices. You don't need to consent as a condition of buying any property, goods, or services. Message/data rates may apply. You also agree to our [Terms of Use](https://www.zillow.com/corp/Terms.htm).
+
+Links/Buttons:
+- [Skip main navigation](https://www.zillow.com/profile/Aaron-Hart#skip-topnav-target)
+- [](https://www.zillow.com/buy/app-download/?itc=zw_zw_zw_zillow-footer_btn_android-download)
+- [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+- [Buy](https://www.zillow.com/homes/for_sale/)
+- [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+- [For sale by owner](https://www.zillow.com/homes/fsbo/)
+- [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+- [New construction](https://www.zillow.com/homes/new_homes/)
+- [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+- [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+- [All homes](https://www.zillow.com/browse/homes/)
+- [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+- [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+- [Real estate app](https://www.zillow.com/buy/app-download/)
+- [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+- [Rent](https://www.zillow.com/homes/for_rent/)
+- [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+- [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+- [Browse all rental buildings](https://www.zillow.com/browse/b/)
+- [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+- [See your applications](https://www.zillow.com/renter-hub/applications/)
+- [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+- [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+- [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+- [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+- [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+- [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+- [Sell](https://www.zillow.com/sell/)
+- [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+- [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+- [Sellers guide](https://www.zillow.com/learn/category/selling/)
+- [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+- [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+- [Get a mortgage](https://www.zillow.com/homeloans/)
+- [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+- [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+- [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+- [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+- [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+- [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+- [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+- [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+- [Home builders](https://www.zillow.com/home-builders/)
+- [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+- [Agent solutions](https://www.zillow.com/agents/)
+- [Agent advertising](https://www.zillow.com/premier-agent/)
+- [Agent resource center](https://www.zillow.com/agent-resources/)
+- [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+- [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+- [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+- [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+- [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav)
+- [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+- [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+- [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+- [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+- [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+- [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+- [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+- [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+- [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+- [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+- [Advertise](https://www.zillow.com/partners/advertise/)
+- [Get help](https://www.zillow.help/)
+- [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+- [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
+- [209 team reviews](https://www.zillow.com/profile/Aaron-Hart#reviews)
+- [Contact the team](https://www.zillow.com/profile/Aaron-Hart#contact-form-section-mobile)
+- [Skip to the end of the carousel](https://www.zillow.com/profile/Aaron-Hart#)
+- [See more](https://www.zillow.com/profile/Aaron-Hart#listings-and-sales)
+- [Kelly O'Dell4.8 (24)$365K - $1.5M price range5 sales last 12 months](https://www.zillow.com/profile/Kelly%20Jo%20ODell)
+- [Nicole Van Volkinburg5.0 (11) No recent price range No sales last 12 months](https://www.zillow.com/profile/nicolevanv)
+- [Allison Connor5.0 (3)$213K - $690K price range4 sales last 12 months](https://www.zillow.com/profile/allisonconnor)
+- [Stevenson Farnsworth5.0 (1)$357K - $1.1M price range5 sales last 12 months](https://www.zillow.com/profile/Stevenson1858)
+- [Visit team website](http://www.1858realestate.com/)
+- [Facebook](http://www.facebook.com/1858realestate.com)
+- [LinkedIn](http://www.linkedin.com/in/aehart)
+- [Terms](https://www.google.com/intl/en-US_US/help/terms_maps.html)
+- [Report a map error](https://www.google.com/maps/@39.765923,-104.878843,9z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3)
+- [2441 N Broadway #217Denver, CO 80205Bed/Bath:1 Bed, 1 BathListing price:$525,000](https://www.zillow.com/homedetails/2441-N-Broadway-217-Denver-CO-80205/2062188549_zpid/)
+- [2441 N Broadway Unit 304Denver, CO 80205Bed/Bath:2 Bed, 2 BathListing price:$750,000](https://www.zillow.com/homedetails/2441-N-Broadway-UNIT-304-Denver-CO-80205/2092753687_zpid/)
+- [4264 W Radcliff AveDenver, CO 80236Bed/Bath:5 Bed, 3 BathListing price:$700,000](https://www.zillow.com/homedetails/4264-W-Radcliff-Ave-Denver-CO-80236/13427752_zpid/)
+- [2530 Lawrence St #Ra108Denver, CO 80205Bed/Bath:3 Bed, 3 BathListing price:$1,025,000](https://www.zillow.com/homedetails/2530-Lawrence-St-RA108-Denver-CO-80205/303876897_zpid/)
+- [3653 Forest StreetDenver, CO, 80207Sold date:4/10/2026Closing price:$420,000Represented:Buyer](https://www.zillow.com/homedetails/3653-Forest-St-Denver-CO-80207/67455742_zpid/)
+- [1715 Foothills DriveGolden, CO, 80401Sold date:4/7/2026Closing price:$1,500,000Represented:Seller](https://www.zillow.com/homedetails/1715-Foothills-Dr-S-Golden-CO-80401/13757069_zpid/)
+- [85 Uinta Way #106Denver, CO, 80230Sold date:3/20/2026Closing price:$475,000Represented:Seller](https://www.zillow.com/homedetails/85-Uinta-Way-UNIT-106-Denver-CO-80230/444134403_zpid/)
+- [709 27th StreetDenver, CO, 80205Sold date:2/25/2026Closing price:$435,000Represented:Seller](https://www.zillow.com/homedetails/709-27th-St-Denver-CO-80205/72296805_zpid/)
+- [4400 Clayton StreetDenver, CO, 80216Sold date:2/20/2026Closing price:$470,000Represented:Buyer](https://www.zillow.com/homedetails/4400-Clayton-St-Denver-CO-80216/13302036_zpid/)
+- [Aaron Hart](https://www.zillow.com/profile/Aaron%20Hart)
+- [Melanie Schutten](https://www.zillow.com/profile/mel82039)
+- [Add a review](https://www.zillow.com/reviews/write/?s=X1-ZUyt8lpo378cnd_7galw)
+- [Colorado Springs, CO](https://www.zillow.com/colorado-springs-co/)
+- [Englewood, CO](https://www.zillow.com/englewood-co/)
+- [Fort Collins, CO](https://www.zillow.com/fort-collins-co/)
+- [Henderson, Commerce City, CO](https://www.zillow.com/henderson-commerce-city-co/)
+- [Lakewood, CO](https://www.zillow.com/lakewood-co/)
+- [Monument, CO](https://www.zillow.com/monument-co/)
+- [Arvada, CO](https://www.zillow.com/arvada-co/)
+- [Denver, CO](https://www.zillow.com/denver-co/)
+- [Aurora, CO](https://www.zillow.com/aurora-co/)
+- [Commerce City, CO](https://www.zillow.com/commerce-city-co/)
+- [Littleton, CO](https://www.zillow.com/littleton-co/)
+- [Thornton, CO](https://www.zillow.com/thornton-co/)
+- [Castle Rock, CO](https://www.zillow.com/castle-rock-co/)
+- [Boulder, CO](https://www.zillow.com/boulder-co/)
+- [Parker, CO](https://www.zillow.com/parker-co/)
+- [Westminster, CO](https://www.zillow.com/westminster-co/)
+- [Avondale, CO](https://www.zillow.com/avondale-co/)
+- [Sheridan, CO](https://www.zillow.com/sheridan-co/)
+- [Edgewater, CO](https://www.zillow.com/edgewater-co/)
+- [Greenwood Village, CO](https://www.zillow.com/greenwood-village-co/)
+- [Highlands Ranch, CO](https://www.zillow.com/highlands-ranch-co/)
+- [Skyland, Denver, CO](https://www.zillow.com/skyland-denver-co/)
+- [Vail, CO](https://www.zillow.com/vail-co/)
+- [Centennial, CO](https://www.zillow.com/centennial-co/)
+- [Golden, CO](https://www.zillow.com/golden-co/)
+- [Hale, Denver, CO](https://www.zillow.com/hale-denver-co/)
+- [Lone Tree, CO](https://www.zillow.com/lone-tree-co/)
+- [Telluride, CO](https://www.zillow.com/telluride-co/)
+- [Wheat Ridge, CO](https://www.zillow.com/wheat-ridge-co/)
+- [Acres Green, CO](https://www.zillow.com/acres-green-co/)
+- [Hilltop, Denver, CO](https://www.zillow.com/hilltop-denver-co/)
+- [Ken Caryl, CO](https://www.zillow.com/ken-caryl-littleton-jefferson-county-co/)
+- [Baker, Denver, CO](https://www.zillow.com/baker-denver-co/)
+- [Barnum, Denver, CO](https://www.zillow.com/barnum-denver-co/)
+- [Belcaro, Denver, CO](https://www.zillow.com/belcaro-denver-co/)
+- [Capitol Hill, Denver, CO](https://www.zillow.com/capitol-hill-denver-co/)
+- [Chaffee Park, Denver, CO](https://www.zillow.com/chaffee-park-denver-co/)
+- [Cherry Creek, Denver, CO](https://www.zillow.com/cherry-creek-denver-co/)
+- [City Park, Denver, CO](https://www.zillow.com/city-park-denver-co/)
+- [Five Points, Denver, CO](https://www.zillow.com/five-points-denver-co/)
+- [Platt Park, Denver, CO](https://www.zillow.com/platt-park-denver-co/)
+- [Regis, Denver, CO](https://www.zillow.com/regis-denver-co/)
+- [Villa Park, Denver, CO](https://www.zillow.com/villa-park-denver-co/)
+- [Virginia Village, Denver, CO](https://www.zillow.com/virginia-village-denver-co/)
+- [Washington Park, Denver, CO](https://www.zillow.com/washington-park-denver-co/)
+- [West Colfax, Denver, CO](https://www.zillow.com/west-colfax-denver-co/)
+- [West Highland, Denver, CO](https://www.zillow.com/west-highland-denver-co/)
+- [Whittier, Denver, CO](https://www.zillow.com/whittier-denver-co/)
+- [Golden Triangle, Denver, CO](https://www.zillow.com/golden-triangle-denver-co/)
+- [Park Hill, Denver, CO](https://www.zillow.com/park-hill-denver-co/)
+- [Central Park, Denver, CO](https://www.zillow.com/central-park-denver-co/)
+- [Clayton, Denver, CO](https://www.zillow.com/clayton-denver-co/)
+- [Valverde, Denver, CO](https://www.zillow.com/valverde-denver-co/)
+- [Sloan Lake, Denver, CO](https://www.zillow.com/sloan-lake-denver-co/)
+- [Sunnyside, Denver, CO](https://www.zillow.com/sunnyside-denver-co/)
+- [Rosedale, Denver, CO](https://www.zillow.com/rosedale-denver-co/)
+- [Cheesman Park, Denver, CO](https://www.zillow.com/cheesman-park-denver-co/)
+- [Cole, Denver, CO](https://www.zillow.com/cole-denver-co/)
+- [Terms of Use](https://www.zillow.com/corp/Terms.htm)
+- [(303) 877-2390](tel:(303) 877-2390)
+- [aaron@1858realestate.com](mailto:aaron@1858realestate.com)
+- [3335 N Downing StDenver, CO, 80205](https://maps.google.com/?q=3335+N+Downing+St%2C+Denver%2C+CO%2C+80205)
+- [Homes For Sale in Cherry Creek](https://www.zillow.com/cherry-creek-co/)
+- [Homes For Sale in Cherry Hills Village](https://www.zillow.com/cherry-hills-village-co/)
+- [Homes For Sale in Derby](https://www.zillow.com/derby-co/)
+- [Homes For Sale in Federal Heights](https://www.zillow.com/federal-heights-co/)
+- [Homes For Sale in Glendale](https://www.zillow.com/glendale-co/)
+- [Homes For Sale in Lakeside](https://www.zillow.com/lakeside-co/)
+- [Homes For Sale in Mountain View](https://www.zillow.com/mountain-view-co/)
+- [Homes For Sale in North Washington](https://www.zillow.com/north-washington-co/)
+- [Homes For Sale in Northglenn](https://www.zillow.com/northglenn-co/)
+- [Homes For Sale in North Aurora](https://www.zillow.com/north-aurora-aurora-co/)
+- [Homes For Sale in East Colfax](https://www.zillow.com/east-colfax-denver-co/)
+- [Homes For Sale in Morris Heights](https://www.zillow.com/morris-heights-aurora-co/)
+- [Homes For Sale in Delmar Parkway](https://www.zillow.com/delmar-parkway-aurora-co/)
+- [Homes For Sale in North Park Hill](https://www.zillow.com/north-park-hill-denver-co/)
+- [Homes For Sale in Northeast Park Hill](https://www.zillow.com/northeast-park-hill-denver-co/)
+- [Homes For Sale in Fitzsimons](https://www.zillow.com/fitzsimons-aurora-co/)
+- [Homes For Sale in Montbello](https://www.zillow.com/montbello-denver-co/)
+- [Homes For Sale in South Park Hill](https://www.zillow.com/south-park-hill-denver-co/)
+- [Homes For Sale in Montclair](https://www.zillow.com/montclair-denver-co/)
+- [Homes For Sale in Jewell Heights - Hoffman Heights](https://www.zillow.com/jewell-heights-hoffman-heights-aurora-co/)
+- [Homes For Sale in Sunny Vale](https://www.zillow.com/sunny-vale-aurora-co/)
+- [Homes For Sale in Highland Park](https://www.zillow.com/highland-park-aurora-co/)
+- [Homes For Sale in Lowry Field](https://www.zillow.com/lowry-field-denver-co/)
+- [Homes For Sale in Sable Altura Chambers](https://www.zillow.com/sable-altura-chambers-aurora-co/)
+- [Homes For Sale in Highline Villages](https://www.zillow.com/highline-villages-aurora-co/)
+- [Homes For Sale in Lyn Knoll](https://www.zillow.com/lyn-knoll-aurora-co/)
+- [Homes For Sale in 80238](https://www.zillow.com/denver-co-80238/)
+- [Homes For Sale in 80207](https://www.zillow.com/denver-co-80207/)
+- [Homes For Sale in 80010](https://www.zillow.com/aurora-co-80010/)
+- [Homes For Sale in 80266](https://www.zillow.com/denver-co-80266/)
+- [Homes For Sale in 80045](https://www.zillow.com/aurora-co-80045/)
+- [Homes For Sale in 80220](https://www.zillow.com/denver-co-80220/)
+- [Homes For Sale in 80230](https://www.zillow.com/denver-co-80230/)
+- [Homes For Sale in 80239](https://www.zillow.com/denver-co-80239/)
+- [Homes For Sale in 80247](https://www.zillow.com/denver-co-80247/)
+- [Homes For Sale in 80205](https://www.zillow.com/denver-co-80205/)
+- [Homes For Sale in 80206](https://www.zillow.com/denver-co-80206/)
+- [Homes For Sale in 80216](https://www.zillow.com/denver-co-80216/)
+- [Homes For Sale in 80011](https://www.zillow.com/aurora-co-80011/)
+- [Homes For Sale in 80012](https://www.zillow.com/aurora-co-80012/)
+- [Homes For Sale in 80246](https://www.zillow.com/denver-co-80246/)
+- [Homes For Sale in 80218](https://www.zillow.com/denver-co-80218/)
+- [Homes For Sale in 80224](https://www.zillow.com/denver-co-80224/)
+- [Homes For Sale in 80285](https://www.zillow.com/denver-co-80285/)
+- [Homes For Sale in 80264](https://www.zillow.com/denver-co-80264/)
+- [Homes For Sale in 80290](https://www.zillow.com/denver-co-80290/)
+- [Apartments for Rent in Denver](https://www.zillow.com/denver-co/rentals/)
+- [Houses for Rent in Denver](https://www.zillow.com/denver-co/rent-houses/)
+- [Denver Condos](https://www.zillow.com/denver-co/condos/)
+- [Denver Townhomes](https://www.zillow.com/denver-co/houses/)
+- [Newest Listings in Denver](https://www.zillow.com/denver-co/newest/)
+- [Denver Home Values](https://www.zillow.com/denver-co/home-values/)
+- [Refinance your House in Denver](https://www.zillow.com/refinance/co/denver/)
+- [Denver Mortgage Rates](https://www.zillow.com/mortgage-rates/co/denver/)
+- [About](https://www.zillow.com/z/corp/about/)
+- [Zestimates](https://www.zillow.com/zestimate/)
+- [News](https://www.zillow.com/news/)
+- [Research](https://www.zillow.com/research/)
+- [Careers](https://www.zillow.com/careers/)
+- [Applicant Privacy Notice](https://www.zillow.com/careers/global-applicant-privacy-notice/)
+- [Fair Housing Guide](https://www.zillow.com/rentals-network/fair-housing-guide/)
+- [Advocacy](https://www.zillow.com/news/advocacy/)
+- [Terms of use](https://www.zillow.com/corporate/terms-of-use/)
+- [Privacy Notice](https://www.zillow.com/corporate/zg-privacy-notice/)
+- [Ad Choices](https://www.zillowgroup.com/zg-privacy-policy/#third-party)
+- [Learn](https://www.zillow.com/learn/)
+- [AI](https://www.zillow.com/tech/)
+- [Trulia](https://www.trulia.com/)
+- [StreetEasy](https://streeteasy.com/)
+- [HotPads](https://hotpads.com/)
+- [Out East](https://outeast.com/)
+- [Do Not Sell or Share My Personal Information →](https://privacy.zillowgroup.com/cookie)
+- [let us know](https://www.zillow.help/contact-us)
+- [Affiliated Business Arrangement Disclosure](https://www.zillow.com/affiliated-business-arrangement-disclosure/)
+- [licenses](https://www.zillow.com/c/info/real-estate-licenses/)
+- [NMLS Consumer Access](https://www.nmlsconsumeraccess.org/)
+- [Licensing Information](https://www.zillow.com/homeloans/licensing/)
+- [§ 442-H New York Standard Operating Procedures](https://www.zillowstatic.com/s3/pfs/static/SOP_NYS_10-4-23.pdf)
+- [§ New York Fair Housing Notice](https://www.zillowstatic.com/s3/pfs/static/fairhousingnotice_10-4-23.pdf)
+- [Information about brokerage services](https://delivery.digitallibrary.zillowgroup.com/public/TRECNO.IABS1-1INFORMATIONABOUTBROKERAGESERVICES_pdf_Original.pdf)
+- [Consumer protection notice](https://www.trec.texas.gov/forms/consumer-protection-notice)
+- [Contact Zillow, Inc. Brokerage](https://www.zillow.com/c/info/contact-us/)
+- [Visit us on facebook](https://www.facebook.com/Zillow)
+- [Visit us on instagram](https://www.instagram.com/zillow/)
+- [Visit us on tiktok](https://www.tiktok.com/@zillow)
+- [Equal Housing Opportunity](https://www.hud.gov/program_offices/fair_housing_equal_opp)
