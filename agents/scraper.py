@@ -144,7 +144,8 @@ If none found return {{"profile_urls": []}}"""
         try:
             raw = await fetch_url(profile_url)
             content = raw[:PROFILE_PAGE_LIMIT]
-            
+                with open(f"data/leads/debug_{profile_url.split('/')[-2]}.txt", "w") as f:
+                    f.write(content)
             # === REGEX EXTRACTION FUNCTIONS (nested for scope) ===
             
             def extract_name(md: str) -> Optional[str]:
