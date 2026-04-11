@@ -31,7 +31,7 @@ async def fetch_url(url: str, max_retries: int = 3) -> str:
         # Jina: just prepend, no params needed
         request_url = JINA + clean_url
         params = None
-        headers = {"Accept": "text/plain", "X-Return-Format": "markdown"}
+        headers = {"Accept": "text/plain", "X-Return-Format": "markdown", "X-With-Links-Summary": "all"}
     else:
         # urltomarkdown: works fine for list pages
         request_url = URLTOMARKDOWN
