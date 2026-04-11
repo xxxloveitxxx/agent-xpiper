@@ -1,84 +1,66 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/8zRealEstate/",
-      "name": "Lori May",
-      "location": "Boulder, CO",
-      "rating": 5.0,
+      "profile_url": "https://www.zillow.com/profile/TheDuncanDuo/",
+      "name": "Jackie Turek",
+      "location": "Tampa, FL",
+      "rating": 4.9,
       "review_count": null,
-      "years_experience": 17,
+      "years_experience": 21,
       "recent_sales": null,
       "specialties": [
         "Buyer's AgentListing AgentRelocation"
       ],
       "languages": [],
-      "brokerage": "the real",
+      "brokerage": "LPT Realty",
       "about": null,
-      "phone": "8763424360",
-      "email": "clientcare+broker@8z.com",
-      "scraped_at": "2026-04-11T15:37:42.949672"
+      "phone": "4105316691",
+      "email": "zillow@theduncanduo.com",
+      "scraped_at": "2026-04-11T18:44:25.157318"
     },
     {
-      "profile_url": "https://www.zillow.com/profile/DaveNessRealtor/",
-      "name": "Jill Horch",
-      "location": "Littleton, CO",
-      "rating": 9.5,
-      "review_count": null,
-      "years_experience": 14,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent Listing Agent Relocation First Time Homebuyers Investment Properties Luxury Homes New Construction Lot/Land"
-      ],
-      "languages": [],
-      "brokerage": "I expected from a real",
-      "about": null,
-      "phone": "4111019961",
-      "email": null,
-      "scraped_at": "2026-04-11T15:38:40.751977"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/navrealestate/",
-      "name": "Kyle Blanton",
-      "location": "Denver, CO",
-      "rating": 5.0,
-      "review_count": null,
-      "years_experience": 11,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing Agent"
-      ],
-      "languages": [],
-      "brokerage": "a different person and real",
-      "about": null,
-      "phone": "8453950609",
-      "email": "zillow@navcolorado.com",
-      "scraped_at": "2026-04-11T15:39:33.999132"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/wisdomrealestate/",
-      "name": "Wisdom Real Estate Top Reviewed",
-      "location": "Denver, CO",
-      "rating": 5.0,
-      "review_count": null,
-      "years_experience": 21,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing AgentRelocationInsuranceStagingTitleFirst Time HomebuyersMilitary/VeteransLuxury HomesNew Construction"
-      ],
-      "languages": [],
-      "brokerage": "Wisdom Real",
-      "about": null,
-      "phone": "0284378009",
-      "email": "klorenz@wisdomrealestate.com",
-      "scraped_at": "2026-04-11T15:40:27.275107"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/CompassBe1Team/",
-      "name": "Tanya Lores",
-      "location": "Denver, CO",
+      "profile_url": "https://www.zillow.com/profile/tampacentralkw/",
+      "name": "Team Kuipers Heather and Renz",
+      "location": "Tampa, FL",
       "rating": 5.0,
       "review_count": null,
       "years_experience": null,
+      "recent_sales": null,
+      "specialties": [
+        "Buyer's AgentListing AgentRelocationFirst Time HomebuyersLuxury Homes"
+      ],
+      "languages": [],
+      "brokerage": "the real",
+      "about": null,
+      "phone": "2016020805",
+      "email": "frontdesk738@kw.com",
+      "scraped_at": "2026-04-11T18:45:19.470135"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/christinacgriffin79/",
+      "name": "Mauricio Cespedes",
+      "location": "Tampa, FL",
+      "rating": 5.0,
+      "review_count": null,
+      "years_experience": 25,
+      "recent_sales": null,
+      "specialties": [
+        "Buyer's AgentListing AgentRelocationForeclosureInvestment PropertiesLuxury Homes"
+      ],
+      "languages": [],
+      "brokerage": "a 20-year track record of success across every corner of the real",
+      "about": null,
+      "phone": "7754234879",
+      "email": "operations@thegriffingroup.net",
+      "scraped_at": "2026-04-11T18:46:10.423158"
+    },
+    {
+      "profile_url": "https://www.zillow.com/profile/czoller04/",
+      "name": "Elijah Vigil",
+      "location": null,
+      "rating": 5.0,
+      "review_count": 474,
+      "years_experience": 11,
       "recent_sales": null,
       "specialties": [
         "Buyer's AgentListing AgentRelocationProperty Management"
@@ -86,189 +68,45 @@
       "languages": [],
       "brokerage": "the real",
       "about": null,
-      "phone": "(720) 333-2093",
-      "email": "be1denver@compass.com",
-      "scraped_at": "2026-04-11T15:41:18.017697"
+      "phone": "4315630994",
+      "email": "chris@whttampa.com",
+      "scraped_at": "2026-04-11T18:47:01.693317"
     },
     {
-      "profile_url": "https://www.zillow.com/profile/Scott-and-Lora-/",
-      "name": "Tom Yeoman",
-      "location": "Denver, CO",
+      "profile_url": "https://www.zillow.com/profile/KristyDarragh/",
+      "name": null,
+      "location": "Tampa, FL",
       "rating": 5.0,
-      "review_count": null,
-      "years_experience": 36,
+      "review_count": 182,
+      "years_experience": null,
       "recent_sales": null,
       "specialties": [
-        "Buyer's AgentListing AgentForeclosureNew Construction"
+        "Buyer's AgentListing AgentRelocationStagingLuxury Homes"
       ],
       "languages": [],
       "brokerage": "the real",
       "about": null,
-      "phone": "4360865830",
-      "email": "scott@bhhscore.com",
-      "scraped_at": "2026-04-11T15:42:08.822762"
+      "phone": "8978916032",
+      "email": "kristyd.darragh@gmail.com",
+      "scraped_at": "2026-04-11T18:47:52.876215"
     },
     {
-      "profile_url": "https://www.zillow.com/profile/EliteHomePartners/",
-      "name": "Kathryn Bartic",
-      "location": "Denver, CO",
-      "rating": 5.0,
-      "review_count": null,
-      "years_experience": 26,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing AgentRelocationFirst Time HomebuyersInvestment Properties"
-      ],
-      "languages": [],
-      "brokerage": "Keller Williams Realty",
-      "about": null,
-      "phone": "(720) 208-7200",
-      "email": "leads@elitehomepartnersco.com",
-      "scraped_at": "2026-04-11T15:43:00.266467"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/Mimi-and-Justen/",
-      "name": null,
-      "location": "Englewood, CO",
-      "rating": 5.0,
-      "review_count": 817,
-      "years_experience": 11,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing AgentFirst Time HomebuyersInvestment PropertiesRentals"
-      ],
-      "languages": [],
-      "brokerage": "iHomes to sell our home in Aurora. We met with 3 real",
-      "about": null,
-      "phone": "(303) 249-6162",
-      "email": "mimi@apollogroup.com",
-      "scraped_at": "2026-04-11T15:43:50.199926"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/edpratherRE/",
-      "name": "Regina Ortega",
-      "location": "Lakewood, CO",
-      "rating": 9.6,
-      "review_count": null,
-      "years_experience": 19,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent Listing Agent Relocation Commercial Properties Investment Properties"
-      ],
-      "languages": [],
-      "brokerage": "Ed Prather Real",
-      "about": null,
-      "phone": "0115933427",
-      "email": null,
-      "scraped_at": "2026-04-11T15:44:40.469913"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/KristenLAbell/",
-      "name": "Sarah Frohnapfel",
-      "location": "Denver, CO",
-      "rating": 5.0,
-      "review_count": null,
-      "years_experience": 17,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing AgentRelocationFirst Time HomebuyersInvestment PropertiesMilitary/VeteransLuxury HomesNew ConstructionLot/Land"
-      ],
-      "languages": [],
-      "brokerage": "to work with and made the buying and selling process real",
-      "about": null,
-      "phone": "(720) 883-5785",
-      "email": "ateam@abelltosell.com",
-      "scraped_at": "2026-04-11T15:45:33.911741"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/JoePhillips/",
-      "name": null,
-      "location": "Denver, CO",
-      "rating": 5.0,
-      "review_count": 156,
-      "years_experience": 23,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing AgentProperty ManagementRentalsNew Construction"
-      ],
-      "languages": [],
-      "brokerage": "Focus Real",
-      "about": null,
-      "phone": "2015090415",
-      "email": "joe@focus-brokers.com",
-      "scraped_at": "2026-04-11T15:46:26.641927"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/GriffithHomeTeam/",
-      "name": "Janna Vanner",
-      "location": "Englewood, CO",
-      "rating": 5.0,
-      "review_count": null,
-      "years_experience": 20,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing AgentRelocationForeclosureRentals"
-      ],
-      "languages": [],
-      "brokerage": "experience working with Janna to sell my home. She was inc",
-      "about": null,
-      "phone": "2014051411",
-      "email": "offers@griffithhometeam.com",
-      "scraped_at": "2026-04-11T15:47:20.833077"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/Trelora/",
-      "name": "Deandra Bryant",
-      "location": "Denver, CO",
-      "rating": 4.9,
-      "review_count": null,
-      "years_experience": 16,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's AgentListing AgentRelocationInvestment PropertiesNew Construction"
-      ],
-      "languages": [],
-      "brokerage": "knowledge and expertise and will recommend her. She is real",
-      "about": null,
-      "phone": "2018092009",
-      "email": "customerservice@trelora.com",
-      "scraped_at": "2026-04-11T15:48:17.577389"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/Aaron-Hart/",
-      "name": "Aaron Hart",
-      "location": "Denver, CO",
+      "profile_url": "https://www.zillow.com/profile/AgileGroup/",
+      "name": "Agile Group",
+      "location": "Tampa, FL",
       "rating": 5.0,
       "review_count": null,
       "years_experience": 18,
       "recent_sales": null,
       "specialties": [
-        "Buyer's AgentListing AgentForeclosureInsuranceInvestment PropertiesRentalsMilitary/VeteransNew Construction"
+        "Buyer's AgentListing AgentRelocationTitleProperty Management"
       ],
       "languages": [],
-      "brokerage": "the real",
+      "brokerage": "Agile Realty",
       "about": null,
-      "phone": "2018010121",
-      "email": "aaron@1858realestate.com",
-      "scraped_at": "2026-04-11T15:49:09.129999"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/ljensen80/",
-      "name": "Nicole Lawson",
-      "location": "Denver, CO",
-      "rating": 9.7,
-      "review_count": null,
-      "years_experience": 14,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent Listing Agent Relocation"
-      ],
-      "languages": [],
-      "brokerage": "the real",
-      "about": null,
-      "phone": "(303) 868-6445",
-      "email": "lauren@laurenjensengroup.com",
-      "scraped_at": "2026-04-11T15:50:09.414570"
+      "phone": "0069804114",
+      "email": "info@agilegrouprealty.com",
+      "scraped_at": "2026-04-11T18:48:54.203995"
     }
   ]
 }
