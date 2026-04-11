@@ -78,7 +78,7 @@ Generate a scraping plan in STRICT JSON format:
 
 Rules:
 - Return ONLY valid JSON, no explanations
-- Include 1-3 Zillow search URLs for the target locations
+- Include 1 Zillow search URLs for the target locations
 - fields_to_extract must include: name, brokerage, rating, review_count, email, phone
 - max_agents should not exceed {criteria.get('max_agents_to_scrape', 50)}
 
