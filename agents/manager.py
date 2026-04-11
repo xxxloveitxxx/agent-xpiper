@@ -4,9 +4,7 @@ import logging
 from pathlib import Path
 from typing import List
 
-from config.settings import (
-    GROQ_API_KEY_MANAGER, MANAGER_MODEL, GROQ_MODELS
-)
+from config.settings import GROQ_API_KEY_MANAGER, MANAGER_MODEL, GROQ_MODELS
 from core.llm_client import make_client
 from core.models import AgentProfile
 
@@ -27,53 +25,53 @@ class ManagerAgent:
             return self._default_criteria()
         with open(path, "r") as f:
             criteria = json.load(f)
-        logger.info(f"✓ Criteria loaded for: {criteria.get('campaign_name', 'Unknown')}")
+        name = criteria.get("business_info", {}).get("name", "Unknown")
+        logger.info(f"✓ Criteria loaded for: {name}")
         return criteria
 
     @staticmethod
     def _default_criteria() -> dict:
         return {
-            "campaign_name": "Default Campaign",
-            "target_locations": ["Denver, CO"],
-            "min_rating": 4.5,
-            "min_reviews": 20,
-            "min_experience_years": 3,
-            "min_recent_sales": 10,
-            "preferred_specialties": ["Buyer's Agent", "Listing Agent"],
-            "exclude_brokerages": [],
-            "max_agents_to_scrape": 50,
-            "fields_to_extract": [
-                "name", "location", "brokerage", "rating", "review_count",
-                "years_experience", "recent_sales", "specialties", "languages",
-                "phone", "email", "about"
-            ]
+            "business_info": {"name": "Default Campaign"},
+            "target_market": {
+                "locations": ["Denver, CO"],
+                "agent_type": "any",
+            },
+            "qualification_criteria": {
+                "min_reviews": 0,
+                "min_rating": 0,
+                "min_years_experience": 1,
+                "min_recent_sales": 3,
+            },
+            "scraping_config": {
+                "max_pages": 3,
+                "max_agents": 50,
+            },
         }
 
     async def generate_scraping_instructions(self, criteria: dict) -> dict:
         logger.info("Manager → generating scraping plan...")
 
-        target_locations = criteria.get("target_locations", ["Denver, CO"])
-        max_agents = criteria.get("max_agents_to_scrape", 50)
-
-        # Calculate pages needed — Zillow shows ~15 agents per page, cap at 5 pages
-        pages_needed = max(1, -(-max_agents // 15))  # ceiling division
-        pages_needed = min(pages_needed, 5)
+        # Read from criteria structure
+        locations  = criteria.get("target_market", {}).get("locations", ["Denver, CO"])
+        max_agents = criteria.get("scraping_config", {}).get("max_agents", 50)
+        max_pages  = criteria.get("scraping_config", {}).get("max_pages", 3)
 
         search_urls = []
-        for loc in target_locations:
-            slug = loc.lower().replace(", ", "-").replace(" ", "-")
-            for page in range(1, pages_needed + 1):
+        for loc in locations:
+            slug = loc.lower().strip().replace(", ", "-").replace(" ", "-")
+            for page in range(1, max_pages + 1):
                 search_urls.append(
                     f"https://www.zillow.com/professionals/real-estate-agent-reviews/{slug}/?page={page}"
                 )
 
         plan = {
             "zillow_search_urls": search_urls,
-            "fields_to_extract": criteria.get("fields_to_extract", [
+            "fields_to_extract": [
                 "name", "location", "brokerage", "rating", "review_count",
                 "years_experience", "recent_sales", "specialties", "languages",
-                "phone", "email", "about"
-            ]),
+                "phone", "email", "about",
+            ],
             "max_agents": max_agents,
         }
 
@@ -85,15 +83,15 @@ class ManagerAgent:
         if not agents:
             return {"count": 0}
 
-        ratings = [a.rating for a in agents if a.rating]
-        reviews = [a.review_count for a in agents if a.review_count]
-        brokerages = [a.brokerage for a in agents if a.brokerage]
+        ratings     = [a.rating for a in agents if a.rating]
+        reviews     = [a.review_count for a in agents if a.review_count]
+        brokerages  = [a.brokerage for a in agents if a.brokerage]
         specialties = [s for a in agents if a.specialties for s in a.specialties]
 
         return {
-            "count": len(agents),
-            "avg_rating": round(sum(ratings) / len(ratings), 2) if ratings else None,
-            "avg_reviews": round(sum(reviews) / len(reviews)) if reviews else None,
-            "top_brokerages": list(set(brokerages))[:5],
+            "count":              len(agents),
+            "avg_rating":         round(sum(ratings) / len(ratings), 2) if ratings else None,
+            "avg_reviews":        round(sum(reviews) / len(reviews)) if reviews else None,
+            "top_brokerages":     list(set(brokerages))[:5],
             "common_specialties": list(set(specialties))[:10],
         }
