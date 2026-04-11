@@ -21,7 +21,7 @@
     "custom_criteria": "only agents who have active listings"
   },
   "scraping_config": {
-    "max_pages": 1,
-    "max_agents": 6
+    "max_pages": 9,
+    "max_agents": 120
   }
 }
