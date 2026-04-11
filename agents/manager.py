@@ -73,7 +73,7 @@ Generate a scraping plan in STRICT JSON format:
 {{
   "zillow_search_urls": ["https://...", ...],
   "fields_to_extract": ["name", "email", "phone", ...],
-  "max_agents": {criteria.get('max_agents_to_scrape', 50)}
+  "max_agents": {criteria.get('max_agents_to_scrape', 5)}
 }}
 
 Rules:
