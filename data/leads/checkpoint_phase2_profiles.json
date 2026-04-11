@@ -2,111 +2,157 @@
   "agents": [
     {
       "profile_url": "https://www.zillow.com/profile/TheDuncanDuo/",
-      "name": "Jackie Turek",
+      "name": "The Duncan Duo",
       "location": "Tampa, FL",
       "rating": 4.9,
-      "review_count": null,
+      "review_count": 973,
       "years_experience": 21,
-      "recent_sales": null,
+      "recent_sales": 190,
       "specialties": [
-        "Buyer's AgentListing AgentRelocation"
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation"
       ],
-      "languages": [],
-      "brokerage": "LPT Realty",
-      "about": null,
+      "languages": [
+        "English",
+        "Spanish",
+        "Russian"
+      ],
+      "brokerage": "Best Tampa Real Estate Agents Team",
+      "about": "Best Tampa Real Estate Agents Team [OFFICIAL REAL ESTATE AGENTS OF THE TAMPA BAY LIGHTNING - TheDuncanDuo.com!](http://www.theduncanduo.com/) [](http://www.soldorwebuyit.com/) [YOUR TAMPA BAY AND SARASOTA HOME SOLD GUARANTEED IN 14 DAYS OR WE BUY IT OR AN IMMEDIATE CASH OFFER- SEE TESTIMONIALS FROM CLIENTS AND CELEBRITIES, SEE OUR RADIO AND TV ADS AND WATCH OUR LISTING VIDEO](https://www.youtube.com/watch?v=RKSXrbqjBnk) . The Duncan Duo Team have been the top selling real estate agents in Tampa ",
       "phone": "4105316691",
       "email": "zillow@theduncanduo.com",
-      "scraped_at": "2026-04-11T18:44:25.157318"
+      "scraped_at": "2026-04-11T19:02:32.809254"
     },
     {
       "profile_url": "https://www.zillow.com/profile/tampacentralkw/",
-      "name": "Team Kuipers Heather and Renz",
+      "name": "Keller Williams Tampa Central",
       "location": "Tampa, FL",
       "rating": 5.0,
-      "review_count": null,
+      "review_count": 622,
       "years_experience": null,
-      "recent_sales": null,
+      "recent_sales": 113,
       "specialties": [
-        "Buyer's AgentListing AgentRelocationFirst Time HomebuyersLuxury Homes"
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "First Time Homebuyers",
+        "Luxury Homes"
       ],
-      "languages": [],
-      "brokerage": "the real",
-      "about": null,
+      "languages": [
+        "English",
+        "Spanish",
+        "Russian",
+        "Turkish",
+        "Portuguese"
+      ],
+      "brokerage": "Contact the team",
+      "about": "Keller Williams Realty Tampa Central is the Tampa Bay area's premier real estate office. We specialize in all levels of sales and our agents operate throughout the Hillsborough, Pinellas, and Pasco county area. From luxury waterfront and golf course estates, historic homes, condominiums to starter homes and suburban communities, Keller Williams Tampa Central should be your real estate office of choice.",
       "phone": "2016020805",
       "email": "frontdesk738@kw.com",
-      "scraped_at": "2026-04-11T18:45:19.470135"
+      "scraped_at": "2026-04-11T19:03:22.717173"
     },
     {
       "profile_url": "https://www.zillow.com/profile/christinacgriffin79/",
-      "name": "Mauricio Cespedes",
+      "name": "Christina Griffin",
       "location": "Tampa, FL",
       "rating": 5.0,
-      "review_count": null,
+      "review_count": 550,
       "years_experience": 25,
-      "recent_sales": null,
+      "recent_sales": 92,
       "specialties": [
-        "Buyer's AgentListing AgentRelocationForeclosureInvestment PropertiesLuxury Homes"
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Investment Properties",
+        "Luxury Homes"
       ],
-      "languages": [],
-      "brokerage": "a 20-year track record of success across every corner of the real",
-      "about": null,
+      "languages": [
+        "English",
+        "Spanish",
+        "French",
+        "Arabic",
+        "Italian",
+        "Turkish",
+        "Portuguese",
+        "Greek",
+        "Tagalog (Filipino)"
+      ],
+      "brokerage": "GENSTONE REALTYLead of The Griffin Group",
+      "about": "#1 Zillow Requested Realtor Christina Griffin is a nationally recognized real estate executive, coach, and growth strategist with a 20-year track record of success across every corner of the real estate industry. With more than 5,000 homes personally sold, 20,000 property valuations completed, and 30,000+ agents coached nationwide, Christina has built her career on one mission - help people grow, build legacy, and thrive in every market. As Senior Vice President of Agent Gr... Show more",
       "phone": "7754234879",
       "email": "operations@thegriffingroup.net",
-      "scraped_at": "2026-04-11T18:46:10.423158"
+      "scraped_at": "2026-04-11T19:04:14.042195"
     },
     {
       "profile_url": "https://www.zillow.com/profile/czoller04/",
-      "name": "Elijah Vigil",
-      "location": null,
+      "name": "Chris Zoller",
+      "location": "Auburn, AL",
       "rating": 5.0,
       "review_count": 474,
       "years_experience": 11,
-      "recent_sales": null,
+      "recent_sales": 149,
       "specialties": [
-        "Buyer's AgentListing AgentRelocationProperty Management"
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Property Management"
       ],
       "languages": [],
-      "brokerage": "the real",
-      "about": null,
+      "brokerage": "Brainard RealtyLead of Welcome Home Team",
+      "about": "Celebrating over a decade of excellence, Welcome Home Team has firmly established itself as a leader in Florida's real estate market. Our consistent recognition as 'Best of Zillow' every month and being honored as 'Best of Florida' in Guide to Florida for two consecutive years are testaments to our unwavering commitment to client satisfaction. Additionally, our multiple awards for social media excellence highlight our innovative approach to engag... Show more",
       "phone": "4315630994",
       "email": "chris@whttampa.com",
-      "scraped_at": "2026-04-11T18:47:01.693317"
+      "scraped_at": "2026-04-11T19:05:05.340055"
     },
     {
       "profile_url": "https://www.zillow.com/profile/KristyDarragh/",
-      "name": null,
+      "name": "Kristy Darragh",
       "location": "Tampa, FL",
       "rating": 5.0,
       "review_count": 182,
       "years_experience": null,
-      "recent_sales": null,
+      "recent_sales": 47,
       "specialties": [
-        "Buyer's AgentListing AgentRelocationStagingLuxury Homes"
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Luxury Homes",
+        "Staging"
       ],
       "languages": [],
-      "brokerage": "the real",
-      "about": null,
+      "brokerage": "Florida Executive Realty",
+      "about": "Broker Associate Born and raised in the Midwest, Kristy was one of seven children. Her father, a Baptist minister, raised a spiritual family with modest means. Kristy was taught the tough work ethic that has stayed with her to this day. When Kristy was 19 she headed to the big city, San Francisco, California. There she learned the sophisticated business savvy that is her trademark. At 30 she met her husband, married, and moved to Los Angeles where she reigned as ... Show more",
       "phone": "8978916032",
       "email": "kristyd.darragh@gmail.com",
-      "scraped_at": "2026-04-11T18:47:52.876215"
+      "scraped_at": "2026-04-11T19:06:51.321082"
     },
     {
       "profile_url": "https://www.zillow.com/profile/AgileGroup/",
       "name": "Agile Group",
       "location": "Tampa, FL",
       "rating": 5.0,
-      "review_count": null,
+      "review_count": 811,
       "years_experience": 18,
-      "recent_sales": null,
+      "recent_sales": 139,
       "specialties": [
-        "Buyer's AgentListing AgentRelocationTitleProperty Management"
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Property Management",
+        "Title"
       ],
-      "languages": [],
-      "brokerage": "Agile Realty",
-      "about": null,
+      "languages": [
+        "English",
+        "Spanish",
+        "Arabic",
+        "Portuguese"
+      ],
+      "brokerage": "3.  Agile Group",
+      "about": "Agile Group Realty provides expert market knowledge to help you throughout all of your real estate needs. Our team is made up of expert Realtors in their respected markets. Our goal is to provide value to our clients as quickly as possible. Our team is equipped to adapt to each client's needs. We are responsive, personal, and flexible. We strive to build strong relationships with our clients based on transparency and confidentiality. Whether you... Show more",
       "phone": "0069804114",
       "email": "info@agilegrouprealty.com",
-      "scraped_at": "2026-04-11T18:48:54.203995"
+      "scraped_at": "2026-04-11T19:07:40.703465"
     }
   ]
 }
