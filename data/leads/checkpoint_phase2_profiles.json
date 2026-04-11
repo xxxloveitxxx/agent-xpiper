@@ -14,27 +14,27 @@
       "languages": [],
       "brokerage": "the real",
       "about": null,
-      "phone": "2015121417",
+      "phone": "8763424360",
       "email": "clientcare+broker@8z.com",
-      "scraped_at": "2026-04-11T14:43:42.687860"
+      "scraped_at": "2026-04-11T15:37:42.949672"
     },
     {
       "profile_url": "https://www.zillow.com/profile/DaveNessRealtor/",
       "name": "Jill Horch",
       "location": "Littleton, CO",
-      "rating": 5.0,
-      "review_count": 167,
+      "rating": 9.5,
+      "review_count": null,
       "years_experience": 14,
       "recent_sales": null,
       "specialties": [
-        "Buyer's AgentListing AgentRelocationFirst Time HomebuyersInvestment PropertiesLuxury HomesNew ConstructionLot/Land"
+        "Buyer's Agent Listing Agent Relocation First Time Homebuyers Investment Properties Luxury Homes New Construction Lot/Land"
       ],
       "languages": [],
       "brokerage": "I expected from a real",
       "about": null,
-      "phone": "9826616512",
-      "email": "dave@thrivedenver.com",
-      "scraped_at": "2026-04-11T14:44:37.855870"
+      "phone": "4111019961",
+      "email": null,
+      "scraped_at": "2026-04-11T15:38:40.751977"
     },
     {
       "profile_url": "https://www.zillow.com/profile/navrealestate/",
@@ -52,7 +52,7 @@
       "about": null,
       "phone": "8453950609",
       "email": "zillow@navcolorado.com",
-      "scraped_at": "2026-04-11T14:45:29.601500"
+      "scraped_at": "2026-04-11T15:39:33.999132"
     },
     {
       "profile_url": "https://www.zillow.com/profile/wisdomrealestate/",
@@ -70,7 +70,7 @@
       "about": null,
       "phone": "0284378009",
       "email": "klorenz@wisdomrealestate.com",
-      "scraped_at": "2026-04-11T14:46:24.113772"
+      "scraped_at": "2026-04-11T15:40:27.275107"
     },
     {
       "profile_url": "https://www.zillow.com/profile/CompassBe1Team/",
@@ -88,7 +88,7 @@
       "about": null,
       "phone": "(720) 333-2093",
       "email": "be1denver@compass.com",
-      "scraped_at": "2026-04-11T14:47:35.342146"
+      "scraped_at": "2026-04-11T15:41:18.017697"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Scott-and-Lora-/",
@@ -106,7 +106,7 @@
       "about": null,
       "phone": "4360865830",
       "email": "scott@bhhscore.com",
-      "scraped_at": "2026-04-11T14:48:24.201796"
+      "scraped_at": "2026-04-11T15:42:08.822762"
     },
     {
       "profile_url": "https://www.zillow.com/profile/EliteHomePartners/",
@@ -124,7 +124,7 @@
       "about": null,
       "phone": "(720) 208-7200",
       "email": "leads@elitehomepartnersco.com",
-      "scraped_at": "2026-04-11T14:49:19.796176"
+      "scraped_at": "2026-04-11T15:43:00.266467"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Mimi-and-Justen/",
@@ -142,25 +142,25 @@
       "about": null,
       "phone": "(303) 249-6162",
       "email": "mimi@apollogroup.com",
-      "scraped_at": "2026-04-11T14:50:12.834668"
+      "scraped_at": "2026-04-11T15:43:50.199926"
     },
     {
       "profile_url": "https://www.zillow.com/profile/edpratherRE/",
       "name": "Regina Ortega",
       "location": "Lakewood, CO",
-      "rating": 5.0,
+      "rating": 9.6,
       "review_count": null,
       "years_experience": 19,
       "recent_sales": null,
       "specialties": [
-        "Buyer's AgentListing AgentRelocationCommercial PropertiesInvestment Properties"
+        "Buyer's Agent Listing Agent Relocation Commercial Properties Investment Properties"
       ],
       "languages": [],
       "brokerage": "Ed Prather Real",
       "about": null,
-      "phone": "4833253436",
-      "email": "leads@edprather.com",
-      "scraped_at": "2026-04-11T14:51:22.032554"
+      "phone": "0115933427",
+      "email": null,
+      "scraped_at": "2026-04-11T15:44:40.469913"
     },
     {
       "profile_url": "https://www.zillow.com/profile/KristenLAbell/",
@@ -178,7 +178,7 @@
       "about": null,
       "phone": "(720) 883-5785",
       "email": "ateam@abelltosell.com",
-      "scraped_at": "2026-04-11T14:52:15.096652"
+      "scraped_at": "2026-04-11T15:45:33.911741"
     },
     {
       "profile_url": "https://www.zillow.com/profile/JoePhillips/",
@@ -196,7 +196,7 @@
       "about": null,
       "phone": "2015090415",
       "email": "joe@focus-brokers.com",
-      "scraped_at": "2026-04-11T14:53:06.816873"
+      "scraped_at": "2026-04-11T15:46:26.641927"
     },
     {
       "profile_url": "https://www.zillow.com/profile/GriffithHomeTeam/",
@@ -214,7 +214,7 @@
       "about": null,
       "phone": "2014051411",
       "email": "offers@griffithhometeam.com",
-      "scraped_at": "2026-04-11T14:53:57.887242"
+      "scraped_at": "2026-04-11T15:47:20.833077"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Trelora/",
@@ -232,43 +232,43 @@
       "about": null,
       "phone": "2018092009",
       "email": "customerservice@trelora.com",
-      "scraped_at": "2026-04-11T14:54:52.527217"
+      "scraped_at": "2026-04-11T15:48:17.577389"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Aaron-Hart/",
       "name": "Aaron Hart",
       "location": "Denver, CO",
-      "rating": 9.7,
+      "rating": 5.0,
       "review_count": null,
       "years_experience": 18,
       "recent_sales": null,
       "specialties": [
-        "Buyer's Agent Listing Agent Foreclosure Insurance Investment Properties Rentals Military/Veterans New Construction"
+        "Buyer's AgentListing AgentForeclosureInsuranceInvestment PropertiesRentalsMilitary/VeteransNew Construction"
       ],
       "languages": [],
       "brokerage": "the real",
       "about": null,
-      "phone": "7357600867",
+      "phone": "2018010121",
       "email": "aaron@1858realestate.com",
-      "scraped_at": "2026-04-11T14:55:51.996367"
+      "scraped_at": "2026-04-11T15:49:09.129999"
     },
     {
       "profile_url": "https://www.zillow.com/profile/ljensen80/",
-      "name": "Lauren Jensen Group",
+      "name": "Nicole Lawson",
       "location": "Denver, CO",
-      "rating": 5.0,
+      "rating": 9.7,
       "review_count": null,
       "years_experience": 14,
       "recent_sales": null,
       "specialties": [
-        "Buyer's AgentListing AgentRelocation"
+        "Buyer's Agent Listing Agent Relocation"
       ],
       "languages": [],
       "brokerage": "the real",
       "about": null,
       "phone": "(303) 868-6445",
       "email": "lauren@laurenjensengroup.com",
-      "scraped_at": "2026-04-11T14:56:44.145577"
+      "scraped_at": "2026-04-11T15:50:09.414570"
     }
   ]
 }
