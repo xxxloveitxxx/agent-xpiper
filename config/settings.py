@@ -40,7 +40,7 @@ MANAGER_MODEL   = os.getenv("MANAGER_MODEL",   GROQ_MODELS["manager"][0])
 SCRAPER_MODEL   = os.getenv("SCRAPER_MODEL",   GROQ_MODELS["scraper"][0])
 QUALIFIER_MODEL = os.getenv("QUALIFIER_MODEL", GROQ_MODELS["qualifier"][0])
 
-REQUEST_DELAY = float(os.getenv("REQUEST_DELAY", "2.5"))
+REQUEST_DELAY = 30
 
 
 def validate():
