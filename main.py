@@ -16,7 +16,6 @@ import config.settings as settings
 from agents.manager import ManagerAgent
 from agents.scraper import ScraperAgent
 
-# ── Logging ────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(message)s",
@@ -27,14 +26,13 @@ logger = logging.getLogger("xpiper")
 console = Console()
 
 
-# ── CSV Export ─────────────────────────────────────────────────────────────
-
 def export_all_scraped(agents, path="data/leads/all_scraped.csv") -> str:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
 
     fields = [
         "name", "profile_url", "location", "brokerage",
         "rating", "review_count", "years_experience", "recent_sales",
+        "for_sale_count", "for_sale_address", "recent_sale_address",
         "phone", "email", "specialties", "languages", "about", "scraped_at",
     ]
 
@@ -43,26 +41,27 @@ def export_all_scraped(agents, path="data/leads/all_scraped.csv") -> str:
         writer.writeheader()
         for a in agents:
             writer.writerow({
-                "name":             a.name,
-                "profile_url":      a.profile_url,
-                "location":         a.location,
-                "brokerage":        a.brokerage,
-                "rating":           a.rating,
-                "review_count":     a.review_count,
-                "years_experience": a.years_experience,
-                "recent_sales":     a.recent_sales,
-                "phone":            a.phone,
-                "email":            a.email,
-                "specialties":      " | ".join(a.specialties) if a.specialties else "",
-                "languages":        " | ".join(a.languages) if a.languages else "",
-                "about":            a.about,
-                "scraped_at":       a.scraped_at,
+                "name":                a.name,
+                "profile_url":         a.profile_url,
+                "location":            a.location,
+                "brokerage":           a.brokerage,
+                "rating":              a.rating,
+                "review_count":        a.review_count,
+                "years_experience":    a.years_experience,
+                "recent_sales":        a.recent_sales,
+                "for_sale_count":      a.for_sale_count,
+                "for_sale_address":    a.for_sale_address,
+                "recent_sale_address": a.recent_sale_address,
+                "phone":               a.phone,
+                "email":               a.email,
+                "specialties":         " | ".join(a.specialties) if a.specialties else "",
+                "languages":           " | ".join(a.languages) if a.languages else "",
+                "about":               a.about,
+                "scraped_at":          a.scraped_at,
             })
 
     return path
 
-
-# ── Pipeline ───────────────────────────────────────────────────────────────
 
 async def run():
     console.print(
@@ -82,7 +81,6 @@ async def run():
     manager = ManagerAgent()
     scraper = ScraperAgent()
 
-    # ── Step 1: Load criteria & generate scraping plan ─────────────────
     console.print("\n[bold yellow]Step 1 — Manager: load criteria & build scraping plan[/bold yellow]")
     try:
         criteria = manager.load_criteria()
@@ -97,7 +95,6 @@ async def run():
     n_urls = len(scraping_plan.get("zillow_search_urls", []))
     console.print(f"[green]✓  Scraping plan ready:[/green] {n_urls} Zillow search pages")
 
-    # ── Step 2: Scrape Zillow ───────────────────────────────────────────
     console.print("\n[bold yellow]Step 2 — Scraper: fetch Zillow profiles[/bold yellow]")
     agent_profiles = await scraper.scrape_agents(scraping_plan)
 
@@ -107,12 +104,10 @@ async def run():
 
     console.print(f"[green]✓  Profiles scraped:[/green] {len(agent_profiles)}")
 
-    # ── Step 3: Export all scraped agents directly ─────────────────────
     console.print("\n[bold yellow]Step 3 — Exporting CSV[/bold yellow]")
     out = export_all_scraped(agent_profiles)
     console.print(f"[green]✓  Saved:[/green] {out}")
 
-    # ── Summary ────────────────────────────────────────────────────────
     console.print(
         Panel.fit(
             f"[bold green]✅  Done![/bold green]\n"
