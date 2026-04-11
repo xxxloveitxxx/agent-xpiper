@@ -3,16 +3,10 @@ import re
 import httpx
 import asyncio
 import logging
-import random
 
 logger = logging.getLogger(__name__)
 TIMEOUT = 60
 
-# Pool of free markdown converters — rotated per request
-CONVERTERS = [
-    "jina",
-    "urltomarkdown",
-]
 
 def _sanitize_zillow_url(url: str) -> str:
     clean = re.sub(r'[)/]+$', '', url)
@@ -20,53 +14,67 @@ def _sanitize_zillow_url(url: str) -> str:
         clean = 'https://' + clean.lstrip('/')
     return clean
 
+
 def _is_profile_url(url: str) -> bool:
     return "/profile/" in url
 
+
 async def _fetch_via_jina(client: httpx.AsyncClient, url: str) -> httpx.Response:
-    """Jina GET with headers that request fresh fetch."""
+    """Jina GET — best for profile pages."""
     return await client.get(
         f"https://r.jina.ai/{url}",
         headers={
-            "Accept": "text/plain",
-            "X-No-Cache": "true",           # force fresh, don't serve cached blocked page
-            "X-With-Links-Summary": "true", # include links
-            "X-Timeout": "25",
+            "Accept":              "text/plain",
+            "X-No-Cache":          "true",
+            "X-With-Links-Summary": "true",
+            "X-Timeout":           "25",
         }
     )
 
+
 async def _fetch_via_jina_post(client: httpx.AsyncClient, url: str) -> httpx.Response:
-    """Jina POST — different code path on their end, sometimes bypasses blocks."""
+    """Jina POST — different code path, sometimes bypasses blocks."""
     return await client.post(
         "https://r.jina.ai/",
         headers={
-            "Accept": "text/plain",
+            "Accept":       "text/plain",
             "Content-Type": "application/json",
-            "X-No-Cache": "true",
+            "X-No-Cache":   "true",
         },
         json={"url": url}
     )
 
+
 async def _fetch_via_urltomarkdown(client: httpx.AsyncClient, url: str) -> httpx.Response:
-    """Heroku instance — works for list pages, sometimes profiles too."""
+    """Heroku urltomarkdown — reliable for list/search pages."""
     return await client.get(
         "https://urltomarkdown.herokuapp.com/",
         params={"url": url, "clean": "false", "links": "true", "title": "false"},
         headers={"Accept": "text/plain"}
     )
 
-# Ordered strategy per URL type
+
+# Profile pages: try Jina first, POST second, urltomarkdown as last resort
+# List pages: urltomarkdown first (more reliable), then Jina fallbacks
 PROFILE_STRATEGIES = [_fetch_via_jina, _fetch_via_jina_post, _fetch_via_urltomarkdown]
 LIST_STRATEGIES    = [_fetch_via_urltomarkdown, _fetch_via_jina, _fetch_via_jina_post]
 
-async def fetch_url(url: str, max_retries: int = 3) -> str:
-    clean_url = _sanitize_zillow_url(url)
+BLOCK_PHRASES = [
+    "access denied", "robot", "captcha", "blocked", "unusual traffic",
+    "please verify", "enable javascript", "checking your browser",
+]
+
+
+async def fetch_url(url: str) -> str:
+    clean_url  = _sanitize_zillow_url(url)
     strategies = PROFILE_STRATEGIES if _is_profile_url(clean_url) else LIST_STRATEGIES
 
     for attempt, strategy in enumerate(strategies):
         try:
             async with httpx.AsyncClient(timeout=TIMEOUT, follow_redirects=True) as client:
-                logger.info(f"fetch_url → attempt {attempt+1} via {strategy.__name__} for {clean_url}")
+                logger.info(
+                    f"fetch_url → attempt {attempt + 1} via {strategy.__name__} for {clean_url}"
+                )
                 resp = await strategy(client, clean_url)
 
                 if resp.status_code == 429:
@@ -77,16 +85,20 @@ async def fetch_url(url: str, max_retries: int = 3) -> str:
 
                 if resp.status_code in (502, 503, 504):
                     wait = 10 * (attempt + 1)
-                    logger.warning(f"{resp.status_code} from {strategy.__name__}. Waiting {wait}s, trying next strategy...")
+                    logger.warning(
+                        f"{resp.status_code} from {strategy.__name__}. "
+                        f"Waiting {wait}s, trying next strategy..."
+                    )
                     await asyncio.sleep(wait)
                     continue
 
-                # Zillow denied — Jina fetched OK but got a block page
+                # 200 but Zillow served a block/captcha page
                 if resp.status_code == 200 and any(
-                    phrase in resp.text[:500].lower()
-                    for phrase in ["access denied", "robot", "captcha", "blocked", "unusual traffic"]
+                    phrase in resp.text[:600].lower() for phrase in BLOCK_PHRASES
                 ):
-                    logger.warning(f"{strategy.__name__} got Zillow block page, trying next strategy...")
+                    logger.warning(
+                        f"{strategy.__name__} got Zillow block page, trying next strategy..."
+                    )
                     await asyncio.sleep(5)
                     continue
 
