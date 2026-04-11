@@ -1,0 +1,667 @@
+Trelora Real Estate - Real Estate Agent in Denver, CO - Reviews | Zillow
+
+[Skip main navigation](#skip-topnav-target)
+
+[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+[Homepage](https://www.zillow.com/ "Zillow Real Estate")
+
+*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
+    
+    *   ###### Homes for sale
+        
+        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
+            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
+            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
+            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+            *   [All homes](https://www.zillow.com/browse/homes/)
+    *   ###### Resources
+        
+        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+            *   [Real estate app](https://www.zillow.com/buy/app-download/)
+            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+    
+*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
+    
+    *   ###### Rental listings
+        
+        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
+            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
+    *   ###### Tools for renters
+        
+        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
+            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+    
+*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
+    
+    *   ###### Resources
+        
+        *   *   [Explore your options](https://www.zillow.com/sell/)
+            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
+    *   ###### Selling options
+        
+        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+    
+*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
+    
+    *   ###### Started a loan application?
+        
+        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
+                
+                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+    *   ###### Your mortgage
+        
+        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
+            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+    *   ###### Mortgage tools
+        
+        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+    
+*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
+    
+    *   ###### Looking for pros?
+        
+        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+        *   *   [Home builders](https://www.zillow.com/home-builders/)
+            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+    *   ###### I'm a pro
+        
+        *   *   [Agent solutions](https://www.zillow.com/agents/)
+            *   [Agent advertising](https://www.zillow.com/premier-agent/)
+            *   [Agent resource center](https://www.zillow.com/agent-resources/)
+            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+    
+
+*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
+    
+    *   ###### Management tasks
+        
+        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+    *   ###### Tools for rental managers
+        
+        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+    
+*   [Advertise](https://www.zillow.com/partners/advertise/)
+
+*   [Get help](https://www.zillow.help/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+2.  [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
+3.  Trelora Real Estate
+
+Report a problemReport a problem
+
+![](https://photos.zillowstatic.com/fp/68d9ad092460a67e4d992aa162800b41-h_l.jpg)
+
+Trelora Real Estate
+===================
+
+Trelora Realty, Inc.Lead of Trelora Real Estate
+
+4.9[550 team reviews](#reviews)
+
+[Contact the team](#contact-form-section-mobile)
+
+Team
+
+Recent Sales
+------------
+
+Sales numbers represent all team members
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   $375,000
+    
+    **3** bd**2** ba**1,066** sqft Renton, WA
+    
+    **3** bd**2** ba**1,066** sqft
+    
+    Renton, WA
+    
+    Sold 2 days ago
+    
+    Seller
+    
+    ![901 Sunset Boulevard NE #D215, Renton, WA, 98056](https://photos.zillowstatic.com/fp/1d4d21662ce3a944f68a73df29f63289-p_d.jpg)
+    
+*   $281,000
+    
+    **5** bd**3** ba**2,508** sqft Stone Mountain, GA
+    
+    **5** bd**3** ba**2,508** sqft
+    
+    Stone Mountain, GA
+    
+    Sold 2 days ago
+    
+    Seller
+    
+    ![4157 Autumn Hill Dr, Stone Mountain, GA, 30083](https://photos.zillowstatic.com/fp/2bf592f178d97b758cbc2010fba78bd3-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_48_23.jpg)
+    
+*   $184,000
+    
+    **3** bd**3** ba**1,713** sqft Stone Mountain, GA
+    
+    **3** bd**3** ba**1,713** sqft
+    
+    Stone Mountain, GA
+    
+    Sold 3 days ago
+    
+    Seller
+    
+    ![4911 Hairston Pl, Stone Mountain, GA, 30088](https://photos.zillowstatic.com/fp/e954fabc75c4518751faf36c1ff35a07-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/08b0db276869db8a6c4de190a4e47e15-zillow_web_48_23.jpg)
+    
+*   $825,000
+    
+    **3** bd**2** ba**1,646** sqft Denver, CO
+    
+    **3** bd**2** ba**1,646** sqft
+    
+    Denver, CO
+    
+    Sold 3 days ago
+    
+    Seller
+    
+    ![2625 Wolff Street, Denver, CO, 80212](https://photos.zillowstatic.com/fp/0c7de39a2f3dcab77aa18d8406a6fb4c-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $1,195,000
+    
+    **5** bd**4** ba**4,134** sqft Castle Pines, CO
+    
+    **5** bd**4** ba**4,134** sqft
+    
+    Castle Pines, CO
+    
+    Sold 4 days ago
+    
+    Seller
+    
+    ![369 Shoreham Circle, Castle Pines, CO, 80108](https://photos.zillowstatic.com/fp/549957b249df43ba02f35c53166a2c9f-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   [See more](#listings-and-sales) 
+    
+
+[Skip to the beginning of the carousel](#)
+
+423
+
+Sales last 12 months
+
+3,712
+
+Total sales
+
+$26K-$6M
+
+Price range
+
+$521K
+
+Average price
+
+Meet Trelora Real Estate
+------------------------
+
+10 members
+
+[![](https://photos.zillowstatic.com/fp/825b451056febf988d9886f66597347c-h_l.jpg)
+
+### Sequeeta Robinson
+
+5.0 (49)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/Sequeeta)
+[![](https://photos.zillowstatic.com/fp/a097c8e641ee64fb0b4ed227a568cab7-h_l.jpg)
+
+### Alexis Martz
+
+5.0 (40)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/AlexisMartz)
+[![](https://photos.zillowstatic.com/fp/60fa66cf584ffec1e0b1e4bf3c40ee63-h_l.jpg)
+
+### Evan Horak-Flood
+
+5.0 (37)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/evan314)
+[![](https://photos.zillowstatic.com/fp/bf4d80cf8794ced4877e2a3c8f413da6-h_l.jpg)
+
+### Isabella Crandall
+
+5.0 (26)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/isabellafrazier00)
+[![](https://photos.zillowstatic.com/fp/6d02d88e71371760d33faf72bffb14ae-h_l.jpg)
+
+### Christina Parker
+
+5.0 (24)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/christina parker5)
+[![](https://photos.zillowstatic.com/fp/923a5b7de5a50b8d479e9cf62885a9ea-h_l.jpg)
+
+### Bobby Jo DeLeon
+
+5.0 (7)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/housematchmakerinheels)
+
+*   1
+*   2
+*   Page 1 of 2
+
+Get to know Trelora Real Estate
+-------------------------------
+
+Full service for thousands less
+
+Maximize your home equity with Trelora. Our top-rated agents have more experience than 99% of agents nationwide, so you'll get exceptional service with Trelora. And because our proven process and technology make buying and selling simple, we can get you to the closing table faster, at a fraction of the cost - whether you're in Denver, Seattle, Phoenix, Raleigh, Charleston or St. Louis.
+
+Why Trelora?
+
+Proven Process: By working with thousands of cus...
+
+Show more
+
+Specialties
+
+Buyer's AgentListing AgentRelocationInvestment PropertiesNew Construction
+
+16 Years of experience
+
+[Visit team website](http://www.trelora.com)
+
+[Facebook](http://www.facebook.com/Trelora)
+[X](https://twitter.com/trelora)
+[LinkedIn](http://www.linkedin.com/company/2681117)
+
+Team listings & sales (3936)
+----------------------------
+
+For Sale
+
+For Rent
+
+Sold
+
+This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
+
+For Sale (224)
+--------------
+
+
+
+* Address: 3544 Windermere DrHephzibah, GA 30815Bed/Bath:3 Bed, 2 BathListing price:$144,900
+  * Bed/Bath: 3 Bed, 2 Bath
+  * Listing price: $144,900
+* Address: 10031 E Diamond DrSun Lakes, AZ 85248Bed/Bath:2 Bed, 3 BathListing price:$674,900
+  * Bed/Bath: 2 Bed, 3 Bath
+  * Listing price: $674,900
+* Address: 7 Rocky Knoll DrGreenville, SC 29605Bed/Bath:3 Bed, 1 BathListing price:$184,900
+  * Bed/Bath: 3 Bed, 1 Bath
+  * Listing price: $184,900
+* Address: 105 Field Pine AveHopkins, SC 29061Bed/Bath:2 Bed, 2 BathListing price:$159,900
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $159,900
+* Address: 2462 Baystone CtColorado Springs, CO 80921Bed/Bath:5 Bed, 5 BathListing price:$769,000
+  * Bed/Bath: 5 Bed, 5 Bath
+  * Listing price: $769,000
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Sold (3712)
+-----------
+
+
+
+* Address: 901 Sunset Boulevard NE #D215Renton, WA, 98056Sold date:4/10/2026Closing price:$375,000Represented:SellerReport a problem
+  * Sold date: 4/10/2026
+  * Closing price: $375,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 4157 Autumn Hill DrStone Mountain, GA, 30083Sold date:4/10/2026Closing price:$281,000Represented:SellerReport a problem
+  * Sold date: 4/10/2026
+  * Closing price: $281,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 4911 Hairston PlStone Mountain, GA, 30088Sold date:4/9/2026Closing price:$184,000Represented:SellerReport a problem
+  * Sold date: 4/9/2026
+  * Closing price: $184,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 2625 Wolff StreetDenver, CO, 80212Sold date:4/9/2026Closing price:$825,000Represented:SellerReport a problem
+  * Sold date: 4/9/2026
+  * Closing price: $825,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 369 Shoreham CircleCastle Pines, CO, 80108Sold date:4/8/2026Closing price:$1,195,000Represented:SellerReport a problem
+  * Sold date: 4/8/2026
+  * Closing price: $1,195,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Team reviews (550)
+------------------
+
+Reviews represent all team members.
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   5.0
+    
+    Report a problem
+    
+    *   3/23/2026
+    *   • zuser20180920090201308
+    
+    ### Sold a Single Family home in 2026 in Dallas, GA.
+    
+    Review for: [**Deandra Bryant**](https://www.zillow.com/profile/DeandraDeliversRealDeals)
+    
+    Working with Deandra was an outstanding experience from start to finish. She was patient, knowledgeable, and consistently supportive throughout the entire home selling pr...
+    
+    Working with Deandra was an outstanding experience from start to finish. She was patient, knowledgeable, and consistently supporti...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   3/13/2026
+    *   • metroatlanta3
+    
+    ### Bought and sold a Single Family home in 2026 in Johns creek, GA.
+    
+    Review for: [**Deandra Bryant**](https://www.zillow.com/profile/DeandraDeliversRealDeals)
+    
+    We initially wanted to go the straight FSBO route with the sale of our home, but then shifted to a flat fee MLS listing with Trelora (after doing some research on severa...
+    
+    We initially wanted to go the straight FSBO route with the sale of our home, but then shifted to a flat fee MLS listing with Trel...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   12/9/2025
+    *   • Rita Dawn
+    
+    ### Bought a home in 2025.
+    
+    Review for: [**Isabella Crandall**](https://www.zillow.com/profile/isabellafrazier00)
+    
+    Isabella helped me and my family find a home in N.C. I feel she genuinely cares you find something you want/need and will work with you as long as it takes. She was ther...
+    
+    Isabella helped me and my family find a home in N.C. I feel she genuinely cares you find something you want/need and will work wit...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   11/23/2025
+    *   • smgarrett1225
+    
+    ### Sold a Single Family home in 2025 in Coves north, Kansas city, MO.
+    
+    Review for: [**Alexis Martz**](https://www.zillow.com/profile/AlexisMartz)
+    
+    Alexis was wonderful!! She sold our house in Kansas City. I couldn't believe how smooth everything went with using a remote agent. She was very knowledgeable and quick to...
+    
+    Alexis was wonderful!! She sold our house in Kansas City. I couldn't believe how smooth everything went with using a remote agent....
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   11/10/2025
+    *   • tamaraheil20
+    
+    ### Sold a Townhouse home in 2025 in Littleton, CO.
+    
+    Review for: [**Sequeeta Robinson**](https://www.zillow.com/profile/Sequeeta)
+    
+    Sequeeta was outstanding from start to finish. She was always responsive, clear, and patient through every step of the sale process. Her communication made a stressful si...
+    
+    Sequeeta was outstanding from start to finish. She was always responsive, clear, and patient through every step of the sale proces...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   9/30/2025
+    *   • saurabh mib2011
+    
+    ### Bought a Single Family home in 2025 in Lake stevens, WA.
+    
+    Review for: [**Alexis Martz**](https://www.zillow.com/profile/AlexisMartz)
+    
+    Had great experience working with Alexis and she has helped me purchase my home. she has great knowledge and expertise and will recommend her. She is really friendly and ...
+    
+    Had great experience working with Alexis and she has helped me purchase my home. she has great knowledge and expertise and will re...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   9/19/2025
+    *   • Jeremy Zach
+    
+    ### Sold a Condo home in 2025 in Sandy springs, GA.
+    
+    Review for: [**Isabella Crandall**](https://www.zillow.com/profile/isabellafrazier00)
+    
+    I had the absolute best experience working with Isabella. From our very first discovery call to the closing table, she was highly professional, incredibly friendly, and a...
+    
+    I had the absolute best experience working with Isabella. From our very first discovery call to the closing table, she was highly ...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   8/18/2025
+    *   • vlschaal
+    
+    ### Bought a Single Family home in 2025 in Lone tree, CO.
+    
+    Review for: [**Sequeeta Robinson**](https://www.zillow.com/profile/Sequeeta)
+    
+    Sequeeta and Parker are the best. Honest and straightforward. They are really there to help you find the house that you are looking for. It took us 6 months to find the...
+    
+    Sequeeta and Parker are the best. Honest and straightforward. They are really there to help you find the house that you are looki...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   7/2/2025
+    *   • 1commonbond
+    
+    ### Sold a home in 2025 in Myrtle beach, SC.
+    
+    Review for: [**Isabella Crandall**](https://www.zillow.com/profile/isabellafrazier00)
+    
+    Isabella was a knowledgeable and prompt agent. Sh

@@ -1,0 +1,567 @@
+Lauren Jensen Group - Real Estate Agent in Denver, CO - Reviews | Zillow
+
+[Skip main navigation](#skip-topnav-target)
+
+[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+[Homepage](https://www.zillow.com/ "Zillow Real Estate")
+
+*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
+    
+    *   ###### Homes for sale
+        
+        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
+            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
+            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
+            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+            *   [All homes](https://www.zillow.com/browse/homes/)
+    *   ###### Resources
+        
+        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+            *   [Real estate app](https://www.zillow.com/buy/app-download/)
+            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+    
+*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
+    
+    *   ###### Rental listings
+        
+        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
+            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
+    *   ###### Tools for renters
+        
+        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
+            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+    
+*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
+    
+    *   ###### Resources
+        
+        *   *   [Explore your options](https://www.zillow.com/sell/)
+            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
+    *   ###### Selling options
+        
+        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+    
+*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
+    
+    *   ###### Started a loan application?
+        
+        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
+                
+                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+    *   ###### Your mortgage
+        
+        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
+            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+    *   ###### Mortgage tools
+        
+        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+    
+*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
+    
+    *   ###### Looking for pros?
+        
+        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+        *   *   [Home builders](https://www.zillow.com/home-builders/)
+            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+    *   ###### I'm a pro
+        
+        *   *   [Agent solutions](https://www.zillow.com/agents/)
+            *   [Agent advertising](https://www.zillow.com/premier-agent/)
+            *   [Agent resource center](https://www.zillow.com/agent-resources/)
+            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+    
+
+*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
+    
+    *   ###### Management tasks
+        
+        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+    *   ###### Tools for rental managers
+        
+        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+    
+*   [Advertise](https://www.zillow.com/partners/advertise/)
+
+*   [Get help](https://www.zillow.help/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+2.  [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
+3.  Lauren Jensen Group
+
+Report a problemReport a problem
+
+![](https://photos.zillowstatic.com/fp/e5a87ab1abc4d8eb07e5e61ac46c1b44-h_l.jpg)
+
+Lauren Jensen Group
+===================
+
+milehimodernLead of The Lauren Jensen Group
+
+5.0[228 team reviews](#reviews)
+
+[Contact the team](#contact-form-section-mobile)
+
+Team
+
+Recent Sales
+------------
+
+Sales numbers represent all team members
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   $625,000
+    
+    **3** bd**3** ba**3,254** sqft Littleton, CO
+    
+    **3** bd**3** ba**3,254** sqft
+    
+    Littleton, CO
+    
+    Sold 23 days ago
+    
+    Buyer
+    
+    ![4343 S Holland Way, Littleton, CO, 80123](https://photos.zillowstatic.com/fp/951a979412b18802c90ae8c6706d1177-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $1,069,000
+    
+    **3** bd**3** ba**2,308** sqft Denver, CO
+    
+    **3** bd**3** ba**2,308** sqft
+    
+    Denver, CO
+    
+    Sold 2 months ago
+    
+    Buyer
+    
+    ![3939 Wyandot Street, Denver, CO, 80211](https://photos.zillowstatic.com/fp/57bc8c35bdf971f707576f82e136304b-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $1,515,000
+    
+    **4** bd**5** ba**3,350** sqft DENVER, CO
+    
+    **4** bd**5** ba**3,350** sqft
+    
+    DENVER, CO
+    
+    Sold 2 months ago
+    
+    Buyer
+    
+    ![4132 Stuart Street, DENVER, CO, 80212](https://photos.zillowstatic.com/fp/32ea8fda291e1f4f2db0784a661babd8-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $1,200,000
+    
+    **5** bd**5** ba**5,734** sqft Parker, CO
+    
+    **5** bd**5** ba**5,734** sqft
+    
+    Parker, CO
+    
+    Sold 2 months ago
+    
+    Seller
+    
+    ![5086 Fox Sparrow Rd, Parker, CO, 80134](https://photos.zillowstatic.com/fp/431430f468288a534f14aeff6c21415f-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/1d71a539836ffd5052b85a3169560f40-zillow_web_48_23.jpg)
+    
+*   $1,025,000
+    
+    **4** bd**3** ba**2,439** sqft Denver, CO
+    
+    **4** bd**3** ba**2,439** sqft
+    
+    Denver, CO
+    
+    Sold 2 months ago
+    
+    Buyer
+    
+    ![1419 Adams Street, Denver, CO, 80206](https://photos.zillowstatic.com/fp/2731b83585f8799695e67f6008fc30e2-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   [See more](#listings-and-sales) 
+    
+
+[Skip to the beginning of the carousel](#)
+
+37
+
+Sales last 12 months
+
+416
+
+Total sales
+
+$180K-$2.3M
+
+Price range
+
+$696K
+
+Average price
+
+Meet The Lauren Jensen Group
+----------------------------
+
+[![](https://photos.zillowstatic.com/fp/27961aeaf968a996a9c8d4cd3839e970-h_l.jpg)
+
+### Nicole Lawson
+
+5.0 (37)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/NicoleLawson303)
+
+Get to know The Lauren Jensen Group
+-----------------------------------
+
+Broker Associate
+
+confident. strategic. reliable.
+
+Lauren Jensen’s competitive spirit shines through as she works to turn her clients’ real estate dreams into reality. Her personal approach as a broker is rooted in relationship building as she takes the time to custom tailor her service to her clients’ specific needs and desires. Lauren’s New York roots and background as a former professional ski racer make her an unstoppable force as she fiercely advocates for cli...
+
+Show more
+
+Specialties
+
+Buyer's AgentListing AgentRelocation
+
+14 Years of experience
+
+[Visit team website](https://www.laurenjensengroup.com/)
+
+[Facebook](https://www.facebook.com/)
+[Instagram](https://www.instagram.com/laurenjensengroup/?hl=en)
+[YouTube](https://www.youtube.com/@HouseTalkColorado)
+[LinkedIn](https://www.linkedin.com/feed/)
+
+This team offers Showcase to make listings stand out
+----------------------------------------------------
+
+Showcase helps homes sell faster and for more with increased exposure on Zillow, a virtual tour, and an interactive floor plan.
+
+Contact the team to learn more
+
+![](https://delivery.digitallibrary.zillowgroup.com/public/zillow_image_agent-finder-showcase-banner_20250902_v1_webp_CMS_Medium.webp)
+
+Team listings & sales (419)
+---------------------------
+
+For Sale
+
+For Rent
+
+Sold
+
+This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
+
+For Sale (3)
+------------
+
+
+
+* Address: 3205 Kendall StWheat Ridge, CO 80033Bed/Bath:4 Bed, 3 BathListing price:$775,000
+  * Bed/Bath: 4 Bed, 3 Bath
+  * Listing price: $775,000
+* Address: 1200 Cherokee St Unit 107Denver, CO 80204Bed/Bath:2 Bed, 2 BathListing price:$602,000
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $602,000
+* Address: 1950 N Logan St APT 1013Denver, CO 80203Bed/Bath:2 Bed, 1 BathListing price:$400,000
+  * Bed/Bath: 2 Bed, 1 Bath
+  * Listing price: $400,000
+
+
+Loading
+
+Sold (416)
+----------
+
+
+
+* Address: 4343 S Holland WayLittleton, CO, 80123Sold date:3/20/2026Closing price:$625,000Represented:BuyerReport a problem
+  * Sold date: 3/20/2026
+  * Closing price: $625,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 3939 Wyandot StreetDenver, CO, 80211Sold date:2/24/2026Closing price:$1,069,000Represented:BuyerReport a problem
+  * Sold date: 2/24/2026
+  * Closing price: $1,069,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 4132 Stuart StreetDENVER, CO, 80212Sold date:2/13/2026Closing price:$1,515,000Represented:BuyerReport a problem
+  * Sold date: 2/13/2026
+  * Closing price: $1,515,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 5086 Fox Sparrow RdParker, CO, 80134Sold date:2/12/2026Closing price:$1,200,000Represented:SellerReport a problem
+  * Sold date: 2/12/2026
+  * Closing price: $1,200,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 1419 Adams StreetDenver, CO, 80206Sold date:2/6/2026Closing price:$1,025,000Represented:BuyerReport a problem
+  * Sold date: 2/6/2026
+  * Closing price: $1,025,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Team reviews (228)
+------------------
+
+Reviews represent all team members.
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   5.0
+    
+    Report a problem
+    
+    *   3/9/2026
+    *   • Kelly
+    
+    ### Bought a home in 2026.
+    
+    Review for: [**Lauren Jensen Group**](https://www.zillow.com/profile/ljensen80)
+    
+    Lauren is excellent at what she does, and we had a wonderful experience working with her. She truly knows her stuff - she's got her finger on the pulse with both home & n...
+    
+    Lauren is excellent at what she does, and we had a wonderful experience working with her. She truly knows her stuff - she's got he...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   3/7/2026
+    *   • Brian Wright
+    
+    ### Bought a Single Family home in 2026 in Berkeley, Denver, CO.
+    
+    Review for: [**Lauren Jensen Group**](https://www.zillow.com/profile/ljensen80)
+    
+    Lauren is a rockstar. She worked tirelessly to help us navigate the home buying process. She was professional, prompt, and extremely experienced. We always felt like we w...
+    
+    Lauren is a rockstar. She worked tirelessly to help us navigate the home buying process. She was professional, prompt, and extreme...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   1/22/2026
+    *   • erikpgates
+    
+    ### Bought a Single Family home in 2025 in Clayton, Denver, CO.
+    
+    Review for: [**Nicole Lawson**](https://www.zillow.com/profile/NicoleLawson303)
+    
+    I am a first time home-buyer and Nicole was incredibly helpful with my search. She was very responsive and consistently sent me new listings as they popped up. She was he...
+    
+    I am a first time home-buyer and Nicole was incredibly helpful with my search. She was very responsive and consistently sent me ne...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   12/22/2025
+    *   • garrettcenter26
+    
+    ### Bought a Single Family home in 2025 in West colfax, Denver, CO.
+    
+    Review for: [**Cassie Altenberger**](https://www.zillow.com/profile/closingwithcass)
+    
+    As a first time home buyer, Cassie was an absolute pleasure to work with and I’d recommend her to anyone. She was there every step of the way answering any and every ques...
+    
+    As a first time home buyer, Cassie was an absolute pleasure to work with and I’d recommend her to anyone. She was there every step...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   11/10/2025
+    *   • Jessica DiCroce
+    
+    ### Bought a home in 2025.
+    
+    Review for: [**Lauren Jensen Group**](https://www.zillow.com/profile/ljensen80)
+    
+    This was the second home I've purchased with Lauren and somehow it was even easier this time! She went above and beyond to quickly negotiate with the seller about a few i...
+    
+    This was the second home I've purchased with Lauren and somehow it was even easier this time! She went above and beyond to quickly...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   10/28/2025
+    *   • Brittany Hartman
+    
+    ### Sold a Condo home in 2025 in Speer, Denver, CO.
+    
+    Review for: [**Lauren Jensen Group**](https://www.zillow.com/profile/ljensen80)
+    
+    I worked with Lauren to sell my condo in Denver, and I can’t recommend her highly enough! The condo market has been challenging lately, but Lauren and her team went abov...
+    
+    I worked with Lauren to sell my condo in Denver, and I can’t recommend her highly enough! The condo market has been challenging l...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   10/10/2025
+    *   • abbylaurenb
+    
+    ### Sold a home in 2025.
+    
+    Review for: [**Lauren Jensen Group**](https://www.zillow.com/profile/ljensen80)
+    
+    Lauren helped my husband and I sell our home before moving out of state. We knew we wanted to work with Lauren because she demonstrated confidence and experience the firs...
+    
+    Lauren helped my husband and I sell our home before moving out of state. We knew we wanted to work with Lauren because she demonst...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   10/10/2025
+    *   • aflask9
+    
+    ### Sold a Townhouse home in 2025 in Lakewood, CO.
+    
+    Review for: [**Lauren Jensen Group**](https://www.zillow.com/profile/ljensen80)
+    
+    Lauren was very helpful with selling our first house. She was competetive with counter offers, and also very realistic. I appreciated Laurens guidance in selling especial...
+    
+    Lauren was very helpful with selling our first house. She was competetive with counter offers, and also very realistic. I apprecia...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   8/7/2025
+    *   • casey nicole1217
+    
+    ### Bought a Single Family home in 2025 in Reata north, Parker, CO.
+    
+    Review for: [**Nicole Lawson**](https://www.zillow.com/profile/NicoleLawson303)
+    
+    This was my first time buying a house, and Nicole was an absolute dream to work with! She had been highly recommended by multiple people I know who had bought homes throu...
+    
+    This was my first time buying a house, and Nicole was an absolute dream to work with! She had been highly recommended by multiple ...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   8/4/2025
+    *   • samantha metli
+    
+    ### Bought a Apartment home in 2025 in Harvey park, Denver, CO.
+    
+    Review for: [**Cassie Altenberger**](https://www.zillow.com/profile/closingwithcass)
+    
+    We had a great experience working with Cassie when purchasing our property. Her communication was clear, timely, and consistent throughout the entire process. She kept us...
+    
+    We had a great experience working with Cassie when purchasing our property. Her communication was clear, timely, and consistent th...
+    
+    Show more
+    
+
+[Skip to the beginning of the carousel](#)
+
+[Add a review](https://www.zill

@@ -1,0 +1,683 @@
+NAV Real Estate - Real Estate Agent in Denver, CO - Reviews | Zillow
+
+[Skip main navigation](#skip-topnav-target)
+
+[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+[Homepage](https://www.zillow.com/ "Zillow Real Estate")
+
+*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
+    
+    *   ###### Homes for sale
+        
+        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
+            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
+            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
+            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+            *   [All homes](https://www.zillow.com/browse/homes/)
+    *   ###### Resources
+        
+        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+            *   [Real estate app](https://www.zillow.com/buy/app-download/)
+            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+    
+*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
+    
+    *   ###### Rental listings
+        
+        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
+            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
+    *   ###### Tools for renters
+        
+        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
+            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+    
+*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
+    
+    *   ###### Resources
+        
+        *   *   [Explore your options](https://www.zillow.com/sell/)
+            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
+    *   ###### Selling options
+        
+        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+    
+*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
+    
+    *   ###### Started a loan application?
+        
+        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
+                
+                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+    *   ###### Your mortgage
+        
+        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
+            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+    *   ###### Mortgage tools
+        
+        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+    
+*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
+    
+    *   ###### Looking for pros?
+        
+        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+        *   *   [Home builders](https://www.zillow.com/home-builders/)
+            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+    *   ###### I'm a pro
+        
+        *   *   [Agent solutions](https://www.zillow.com/agents/)
+            *   [Agent advertising](https://www.zillow.com/premier-agent/)
+            *   [Agent resource center](https://www.zillow.com/agent-resources/)
+            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+    
+
+*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
+    
+    *   ###### Management tasks
+        
+        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+    *   ###### Tools for rental managers
+        
+        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+    
+*   [Advertise](https://www.zillow.com/partners/advertise/)
+
+*   [Get help](https://www.zillow.help/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+2.  [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
+3.  NAV Real Estate
+
+Report a problemReport a problem
+
+![](https://photos.zillowstatic.com/fp/2cb723f18b7044c277ed5d227cd11212-h_l.jpg)
+
+What is Top Agent?
+
+NAV Real Estate
+===============
+
+![](https://delivery.digitalassets.zillowgroup.com/api/public/content/PremierAgent_downloadOriginal.svg?v=1677c2be)More about "Zillow Premier Agent"
+
+NAV Real EstateLead of NAV Real Estate
+
+5.0[1,123 team reviews](#reviews)
+
+[Contact the team](#contact-form-section-mobile)
+
+Team
+
+Recent Sales
+------------
+
+Sales numbers represent all team members
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   $565,000
+    
+    **4** bd**4** ba**2,151** sqft Parker, CO
+    
+    **4** bd**4** ba**2,151** sqft
+    
+    Parker, CO
+    
+    Sold 2 days ago
+    
+    Buyer
+    
+    ![11310 Vernon Way, Parker, CO, 80134](https://photos.zillowstatic.com/fp/9c22c7e7a9c4af1ab549887b8822658a-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $630,000
+    
+    **4** bd**3** ba**2,635** sqft Westminster, CO
+    
+    **4** bd**3** ba**2,635** sqft
+    
+    Westminster, CO
+    
+    Sold 2 days ago
+    
+    Buyer
+    
+    ![8104 Turnpike Drive, Westminster, CO, 80031](https://photos.zillowstatic.com/fp/c616f06c226e5f6a70d12cef0fa810d2-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $560,000
+    
+    **4** bd**3** ba**2,638** sqft Thornton, CO
+    
+    **4** bd**3** ba**2,638** sqft
+    
+    Thornton, CO
+    
+    Sold 3 days ago
+    
+    Buyer
+    
+    ![13871 Ivy Street, Thornton, CO, 80602](https://photos.zillowstatic.com/fp/6a96ba2a124098ce929d22d33a7806a9-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $330,000
+    
+    **2** bd**3** ba**1,408** sqft Thornton, CO
+    
+    **2** bd**3** ba**1,408** sqft
+    
+    Thornton, CO
+    
+    Sold 4 days ago
+    
+    Seller
+    
+    ![8199 Welby Road #1903, Thornton, CO, 80229](https://photos.zillowstatic.com/fp/f5933b1e19be1b62c52ab3e1eb00c2a8-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $670,000
+    
+    **3** bd**2** ba**1,333** sqft Denver, CO
+    
+    **3** bd**2** ba**1,333** sqft
+    
+    Denver, CO
+    
+    Sold 5 days ago
+    
+    Seller
+    
+    ![3243 S Fairfax Street, Denver, CO, 80222](https://photos.zillowstatic.com/fp/c4a58e7d5d52e5c7ff32808e3ceca993-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   [See more](#listings-and-sales) 
+    
+
+[Skip to the beginning of the carousel](#)
+
+367
+
+Sales last 12 months
+
+2,433
+
+Total sales
+
+$25K-$6.5M
+
+Price range
+
+$642K
+
+Average price
+
+Meet NAV Real Estate
+--------------------
+
+64 members
+
+[![](https://photos.zillowstatic.com/fp/173faa8a0939e860f6db15d2cb091fbe-h_l.jpg)
+
+### Corey Iranfar
+
+5.0 (122)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/ciranfar)
+[![](https://photos.zillowstatic.com/fp/7a3720a03e4ffd72758cc29d67aea9f2-h_l.jpg)
+
+### Kyle Blanton
+
+5.0 (83)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/kylenavcolorado)
+[![](https://photos.zillowstatic.com/fp/47a8453950609d083e87793624f72dd0-h_l.jpg)
+
+### Bo Pollard
+
+5.0 (68)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/PollardRealEstate)
+[![](https://photos.zillowstatic.com/fp/b741eac93985a18f972fc920b6468819-h_l.jpg)
+
+### Matt Rosenfeld
+
+5.0 (61)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/mattrosenfeld)
+[![](https://photos.zillowstatic.com/fp/b4581c844eaac813bfd1a2713c5ac612-h_l.jpg)
+
+### Luis Briseno
+
+5.0 (61)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/Luis Briseno)
+[![](https://photos.zillowstatic.com/fp/d18fee7090ff668309a749c90ac5f8bc-h_l.jpg)
+
+### Nicholas Gobel
+
+4.9 (48)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/ngobel14)
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 11
+
+Get to know NAV Real Estate
+---------------------------
+
+We are Zillow's #1 team in Colorado.
+
+Specialties
+
+Buyer's AgentListing Agent
+
+11 Years of experience
+
+[Visit team website](http://www.navcolorado.com/)
+
+[Facebook](http://www.facebook.com/navrealestateco)
+
+This team offers Showcase to make listings stand out
+----------------------------------------------------
+
+Showcase helps homes sell faster and for more with increased exposure on Zillow, a virtual tour, and an interactive floor plan.
+
+Contact the team to learn more
+
+![](https://delivery.digitallibrary.zillowgroup.com/public/zillow_image_agent-finder-showcase-banner_20250902_v1_webp_CMS_Medium.webp)
+
+Team listings & sales (2473)
+----------------------------
+
+For Sale
+
+For Rent
+
+Sold
+
+This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
+
+For Sale (39)
+-------------
+
+
+
+* Address: 15455 Canyon Rim Dr Unit 103Englewood, CO 80112Bed/Bath:1 Bed, 1 BathListing price:$289,900
+  * Bed/Bath: 1 Bed, 1 Bath
+  * Listing price: $289,900
+* Address: 2373 S Tabor WayLakewood, CO 80228Bed/Bath:5 Bed, 4 BathListing price:$999,000
+  * Bed/Bath: 5 Bed, 4 Bath
+  * Listing price: $999,000
+* Address: 10785 W 63rd Pl APT 108Arvada, CO 80004Bed/Bath:2 Bed, 2 BathListing price:$320,000
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $320,000
+* Address: 905 Pawnee StStrasburg, CO 80136Bed/Bath:5 Bed, 3 BathListing price:$749,000
+  * Bed/Bath: 5 Bed, 3 Bath
+  * Listing price: $749,000
+* Address: 5421 S Vivian StLittleton, CO 80127Bed/Bath:4 Bed, 4 BathListing price:$675,000
+  * Bed/Bath: 4 Bed, 4 Bath
+  * Listing price: $675,000
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 8
+
+For Rent (1)
+------------
+
+
+
+* Address: 2419 N Grove St #BDenver, CO 80211Bed/Bath:2 Bed, 1 BathListing price:$1,950/mo
+  * Bed/Bath: 2 Bed, 1 Bath
+  * Listing price: $1,950/mo
+
+
+Loading
+
+Sold (2433)
+-----------
+
+
+
+* Address: 11310 Vernon WayParker, CO, 80134Sold date:4/10/2026Closing price:$565,000Represented:BuyerReport a problem
+  * Sold date: 4/10/2026
+  * Closing price: $565,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 8104 Turnpike DriveWestminster, CO, 80031Sold date:4/10/2026Closing price:$630,000Represented:BuyerReport a problem
+  * Sold date: 4/10/2026
+  * Closing price: $630,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 13871 Ivy StreetThornton, CO, 80602Sold date:4/9/2026Closing price:$560,000Represented:BuyerReport a problem
+  * Sold date: 4/9/2026
+  * Closing price: $560,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 8199 Welby Road #1903Thornton, CO, 80229Sold date:4/8/2026Closing price:$330,000Represented:SellerReport a problem
+  * Sold date: 4/8/2026
+  * Closing price: $330,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 3243 S Fairfax StreetDenver, CO, 80222Sold date:4/7/2026Closing price:$670,000Represented:SellerReport a problem
+  * Sold date: 4/7/2026
+  * Closing price: $670,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Team reviews (1,123)
+--------------------
+
+Reviews represent all team members.
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   5.0
+    
+    Report a problem
+    
+    *   4/9/2026
+    *   • Emily Ehrmann
+    
+    ### Bought a Single Family home in 2026 in Springvale, Thornton, CO.
+    
+    Review for: [**Kyle Blanton**](https://www.zillow.com/profile/kylenavcolorado)
+    
+    We really enjoyed working with Kyle. He worked hard on our behalf to find us a house that met our needs. He worked late nights to help us get in competitive offers and wa...
+    
+    We really enjoyed working with Kyle. He worked hard on our behalf to find us a house that met our needs. He worked late nights to ...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   4/7/2026
+    *   • Brandon Mantz
+    
+    ### Bought and sold a Single Family home in 2026 in University hills, Denver, CO.
+    
+    Review for: [**Nicholas Gobel**](https://www.zillow.com/profile/ngobel14)
+    
+    Nick was awesome in helping us purchase our dream home at a great deal while also selling a home. He communicates throughout the process clearly and effectively. He had m...
+    
+    Nick was awesome in helping us purchase our dream home at a great deal while also selling a home. He communicates throughout the p...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   4/6/2026
+    *   • Alfonso Perez-Vega
+    
+    ### Bought a Single Family home in 2026 in Wheat ridge, CO.
+    
+    Review for: [**Bo Pollard**](https://www.zillow.com/profile/PollardRealEstate)
+    
+    We can't speak highly enough of Bo and the experience he provided throughout our home buying journey. As first-time homebuyers, we had a lot of questions and uncertainty,...
+    
+    We can't speak highly enough of Bo and the experience he provided throughout our home buying journey. As first-time homebuyers, we...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   3/26/2026
+    *   • alexapayan209
+    
+    ### Bought a Single Family home in 2026 in Watkins, CO.
+    
+    Review for: [**Louis Loya**](https://www.zillow.com/profile/Louis6967)
+    
+    He was amazing . Him and his wife both helped us find our home. They were very helpful, supportive and overall amazing individuals. Whenever we had a question they always...
+    
+    He was amazing . Him and his wife both helped us find our home. They were very helpful, supportive and overall amazing individuals...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   3/23/2026
+    *   • Maud Olsthoorn
+    
+    ### Bought a Townhouse home in 2026 in Hampden, Denver, CO.
+    
+    Review for: [**Tiffany Rivera**](https://www.zillow.com/profile/trivera491)
+    
+    I had no idea that my relationship with Tiffany would unfold and she would end up being my agent. I was working with a different person and realized that something was of...
+    
+    I had no idea that my relationship with Tiffany would unfold and she would end up being my agent. I was working with a different p...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   3/23/2026
+    *   • amiscia2
+    
+    ### Bought a Single Family home in 2026 in East colfax, Denver, CO.
+    
+    Review for: [**Molly Mcdonald**](https://www.zillow.com/profile/MollyMcDenver)
+    
+    Molly was great through the whole process. She made sure our rebuttals were taken care of before we closed. She’s really nice and easy to work with. She was very knowledg...
+    
+    Molly was great through the whole process. She made sure our rebuttals were taken care of before we closed. She’s really nice and ...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   3/20/2026
+    *   • JainaKrider
+    
+    ### Bought a Single Family home in 2026 in Littleton, CO.
+    
+    Review for: [**Sean Dorrance**](https://www.zillow.com/profile/seandorrancerealtor)
+    
+    Sean did an amazing job in our home search! He's responsive, knowledgeable, and made us feel comfortable every step of the way. I'd have absolutely no reservations using ...
+    
+    Sean did an amazing job in our home search! He's responsive, knowledgeable, and made us feel comfortable every step of the way. I'...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   3/20/2026
+    *   • Raechel Greschler
+    
+    ### Bought a Townhouse home in 2026 in Fort logan, Denver, CO.
+    
+    Review for: [**Michael Ginevicz**](https://www.zillow.com/profile/MGinevicz)
+    
+    It was great working with Michael. He took the time to listen to our needs and used that knowledge to advocate for us with the seller. We had 2 months to close on a prope...
+    
+    It was great working with Michael. He took the time to listen to our needs and used that knowledge to advocate for us with the sel...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   3/7/2026
+    *   • Chelse

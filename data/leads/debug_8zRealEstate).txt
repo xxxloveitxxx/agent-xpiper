@@ -1,0 +1,670 @@
+8z Real Estate - Real Estate Agent in Boulder, CO - Reviews | Zillow
+
+[Skip main navigation](#skip-topnav-target)
+
+[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+[Homepage](https://www.zillow.com/ "Zillow Real Estate")
+
+*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
+    
+    *   ###### Homes for sale
+        
+        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
+            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
+            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
+            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+            *   [All homes](https://www.zillow.com/browse/homes/)
+    *   ###### Resources
+        
+        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+            *   [Real estate app](https://www.zillow.com/buy/app-download/)
+            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+    
+*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
+    
+    *   ###### Rental listings
+        
+        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
+            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
+    *   ###### Tools for renters
+        
+        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
+            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+    
+*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
+    
+    *   ###### Resources
+        
+        *   *   [Explore your options](https://www.zillow.com/sell/)
+            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
+    *   ###### Selling options
+        
+        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+    
+*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
+    
+    *   ###### Started a loan application?
+        
+        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
+                
+                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+    *   ###### Your mortgage
+        
+        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
+            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+    *   ###### Mortgage tools
+        
+        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+    
+*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
+    
+    *   ###### Looking for pros?
+        
+        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+        *   *   [Home builders](https://www.zillow.com/home-builders/)
+            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+    *   ###### I'm a pro
+        
+        *   *   [Agent solutions](https://www.zillow.com/agents/)
+            *   [Agent advertising](https://www.zillow.com/premier-agent/)
+            *   [Agent resource center](https://www.zillow.com/agent-resources/)
+            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+    
+
+*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
+    
+    *   ###### Management tasks
+        
+        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+    *   ###### Tools for rental managers
+        
+        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+    
+*   [Advertise](https://www.zillow.com/partners/advertise/)
+
+*   [Get help](https://www.zillow.help/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+2.  [Boulder](https://www.zillow.com/professionals/real-estate-agent-reviews/boulder-co/)
+3.  8z Real Estate
+
+Report a problemReport a problem
+
+![](https://photos.zillowstatic.com/fp/44effcd6f69339f2dddcd62a024f1abb-h_l.jpg)
+
+8z Real Estate
+==============
+
+8z Real EstateLead of 8z Real Estate
+
+5.0[5,462 team reviews](#reviews)
+
+[Contact the team](#contact-form-section-mobile)
+
+Team
+
+Recent Sales
+------------
+
+Sales numbers represent all team members
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   $900,000
+    
+    **2** bd**3** ba**2,700** sqft Buena Vista, CO
+    
+    **2** bd**3** ba**2,700** sqft
+    
+    Buena Vista, CO
+    
+    Sold 3 days ago
+    
+    Buyer
+    
+    ![31219 Northwoods Circle, Buena Vista, CO, 81211](https://photos.zillowstatic.com/fp/a65679e2af943a709603f336b1ec6901-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $325,000
+    
+    **2** bd**3** ba**1,403** sqft Commerce City, CO
+    
+    **2** bd**3** ba**1,403** sqft
+    
+    Commerce City, CO
+    
+    Sold 4 days ago
+    
+    Seller
+    
+    ![14700 E 104th Avenue #1402, Commerce City, CO, 80022](https://photos.zillowstatic.com/fp/4a3d6fbab485ebbd329a99f496de1ebf-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $801,000
+    
+    **3** bd**2** ba**1,346** sqft Boulder, CO
+    
+    **3** bd**2** ba**1,346** sqft
+    
+    Boulder, CO
+    
+    Sold 4 days ago
+    
+    Buyer
+    
+    ![4139 Autumn Ct, Boulder, CO, 80304](https://photos.zillowstatic.com/fp/02a30e6f4559c3b5fbcb3bb15d7f0938-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/1d71a539836ffd5052b85a3169560f40-zillow_web_48_23.jpg)
+    
+*   $496,000
+    
+    **5** bd**3** ba**2,050** sqft Northglenn, CO
+    
+    **5** bd**3** ba**2,050** sqft
+    
+    Northglenn, CO
+    
+    Sold 4 days ago
+    
+    Buyer
+    
+    ![11919 Lavinia Lane, Northglenn, CO, 80233](https://photos.zillowstatic.com/fp/1379bd3a1f0ad066883bfe889468f60f-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $525,000
+    
+    **3** bd**3** ba**1,515** sqft Poncha Springs, CO
+    
+    **3** bd**3** ba**1,515** sqft
+    
+    Poncha Springs, CO
+    
+    Sold 5 days ago
+    
+    BuyerSeller
+    
+    ![10491 Table Rock Ct, Poncha Springs, CO, 81242](https://photos.zillowstatic.com/fp/f3fb53c75d28db1d905060163e184989-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0df62059f286ee3158a4a74da13574a8-zillow_web_48_23.jpg)
+    
+*   [See more](#listings-and-sales) 
+    
+
+[Skip to the beginning of the carousel](#)
+
+1,043
+
+Sales last 12 months
+
+15,710
+
+Total sales
+
+$18K-$11M
+
+Price range
+
+$717K
+
+Average price
+
+Meet 8z Real Estate
+-------------------
+
+101 members
+
+[![](https://photos.zillowstatic.com/fp/6bc380d4b8800296f818a70b19858b5b-h_l.jpg)
+
+### Stephen Berg - 8z Real Estate
+
+5.0 (168)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/Stephen8z)
+[![](https://photos.zillowstatic.com/fp/34850791f233a47eeaa68e73738a4d53-h_l.jpg)
+
+### Tim Borgman
+
+5.0 (155)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/tim borgman)
+[![](https://photos.zillowstatic.com/fp/07a164882e23636b4c10f7dd34ff9414-h_l.jpg)
+
+### Sergio Nazzaro
+
+5.0 (121)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/snazzaro)
+[![](https://photos.zillowstatic.com/fp/b23778e72cf2b8c30069ff56cf60e194-h_l.jpg)
+
+### Aimee Quaratino
+
+5.0 (111)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/aimeeq6)
+[![](https://photos.zillowstatic.com/fp/73c8f6b610c072d7943959ceabd3d591-h_l.jpg)
+
+### Julie Kersting
+
+5.0 (71)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/Julie Kersting)
+[![](https://photos.zillowstatic.com/fp/cd964a500d51f9519e32278fce1249fd-h_l.jpg)
+
+### Daphne Queen
+
+5.0 (65)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/daphnequeen2)
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 17
+
+Get to know 8z Real Estate
+--------------------------
+
+Colorado's Highest Rated Brokerage
+
+Need to sell? You've got options, choose what makes sense for you: [8z Select](https://8z.com/8z-select/) .
+
+In today's real estate market, you have to be prepared to make big decisions quickly. While the decisions are yours, with 8z you will have expert knowledge and guidance on your side. Our goal is to provide our clients with a smooth, seamless, confident experience.
+
+We provide real estate services throughout Colorado, with offices in Arvada, Aurora, Boulder, Colorado Sp...
+
+Show more
+
+Specialties
+
+Buyer's AgentListing AgentRelocation
+
+SpeaksEnglish, Spanish, French
+
+17 Years of experience
+
+[Visit team website](https://8z.com/)
+
+[Facebook](https://www.facebook.com/8zRealEstate)
+[X](https://twitter.com/8zRealEstate)
+[LinkedIn](https://www.linkedin.com/company/818427/)
+
+This team offers Showcase to make listings stand out
+----------------------------------------------------
+
+Showcase helps homes sell faster and for more with increased exposure on Zillow, a virtual tour, and an interactive floor plan.
+
+Contact the team to learn more
+
+![](https://delivery.digitallibrary.zillowgroup.com/public/zillow_image_agent-finder-showcase-banner_20250902_v1_webp_CMS_Medium.webp)
+
+Team listings & sales (15881)
+-----------------------------
+
+For Sale
+
+For Rent
+
+Sold
+
+This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
+
+For Sale (178)
+--------------
+
+
+
+* Address: 4824 Flash CtBroomfield, CO 80023Bed/Bath:3 Bed, 2 BathListing price:$825,000
+  * Bed/Bath: 3 Bed, 2 Bath
+  * Listing price: $825,000
+* Address: 6819 Pierson CtArvada, CO 80004Bed/Bath:4 Bed, 3 BathListing price:$575,000
+  * Bed/Bath: 4 Bed, 3 Bath
+  * Listing price: $575,000
+* Address: 290 S Cherrywood Dr #101Lafayette, CO 80026Bed/Bath:2 Bed, 2 BathListing price:$575,000
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $575,000
+* Address: 310 S Cherrywood Dr #301Lafayette, CO 80026Bed/Bath:2 Bed, 2 BathListing price:$475,000
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $475,000
+* Address: 270 S Cherrywood Dr #202Lafayette, CO 80026Bed/Bath:2 Bed, 2 BathListing price:$450,000
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $450,000
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+For Rent (2)
+------------
+
+
+
+* Address: 3250 Oneal Cir APT L27Boulder, CO 80301Bed/Bath:2 Bed, 2 BathListing price:$2,295/mo
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $2,295/mo
+* Address: 3475 Ringsby Ct #309Denver, CO 80216Bed/Bath:2 Bed, 2 BathListing price:$2,500/mo
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $2,500/mo
+
+
+Loading
+
+Sold (15710)
+------------
+
+
+
+* Address: 31219 Northwoods CircleBuena Vista, CO, 81211Sold date:4/9/2026Closing price:$900,000Represented:BuyerReport a problem
+  * Sold date: 4/9/2026
+  * Closing price: $900,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 14700 E 104th Avenue #1402Commerce City, CO, 80022Sold date:4/8/2026Closing price:$325,000Represented:SellerReport a problem
+  * Sold date: 4/8/2026
+  * Closing price: $325,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 4139 Autumn CtBoulder, CO, 80304Sold date:4/8/2026Closing price:$801,000Represented:BuyerReport a problem
+  * Sold date: 4/8/2026
+  * Closing price: $801,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 11919 Lavinia LaneNorthglenn, CO, 80233Sold date:4/8/2026Closing price:$496,000Represented:BuyerReport a problem
+  * Sold date: 4/8/2026
+  * Closing price: $496,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 10491 Table Rock CtPoncha Springs, CO, 81242Sold date:4/7/2026Closing price:$525,000Represented:Buyer and SellerReport a problem
+  * Sold date: 4/7/2026
+  * Closing price: $525,000
+  * Represented: Buyer and Seller
+  * Flag Sale: Report a problem
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Team reviews (5,462)
+--------------------
+
+Reviews represent all team members.
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   5.0
+    
+    Report a problem
+    
+    *   4/8/2026
+    *   • itcgaramond
+    
+    ### Sold a Single Family home in 2026 in Twin lakes, CO.
+    
+    Review for: [**Lori May**](https://www.zillow.com/profile/Lori May1)
+    
+    We worked with Lori May to sell our home at Twin Lakes and she was fantastic from start to finish. The process was way smoother than we expected. She kept us informed the...
+    
+    We worked with Lori May to sell our home at Twin Lakes and she was fantastic from start to finish. The process was way smoother th...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   4/7/2026
+    *   • Antoine Charbonneau
+    
+    ### Bought a home in 2026.
+    
+    Review for: [**Delphine Carlile**](https://www.zillow.com/profile/delphine carlile)
+    
+    We had the absolute pleasure of working with Delphine on the purchase of our home, and honestly, “five stars” doesn’t even begin to cover it. From day one, Delphine stoo...
+    
+    We had the absolute pleasure of working with Delphine on the purchase of our home, and honestly, “five stars” doesn’t even begin t...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   4/5/2026
+    *   • Bailey Moser Smith
+    
+    ### Sold a Condo home in 2026 in Keewaydin, Boulder, CO.
+    
+    Review for: [**Chris Choate**](https://www.zillow.com/profile/chris choate7)
+    
+    I appreciated Chris's regular Pricing Benchmark Reports that provided transparency of showing activity, pricing comparisons with other active listings, and expected absor...
+    
+    I appreciated Chris's regular Pricing Benchmark Reports that provided transparency of showing activity, pricing comparisons with o...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   4/2/2026
+    *   • Jacob Bulger
+    
+    ### Sold a Single Family home in 2026 in Montclair, Denver, CO.
+    
+    Review for: [**Stephen Berg - 8z Real Estate**](https://www.zillow.com/profile/Stephen8z)
+    
+    Stephen helped us buy our home, and when the time came to sell it, I was excited to get to work with him again. He's the consummate professional - he came in and helped u...
+    
+    Stephen helped us buy our home, and when the time came to sell it, I was excited to get to work with him again. He's the consummat...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   4/2/2026
+    *   • Ronda Dossman
+    
+    ### Sold a home in 2026.
+    
+    Review for: [**Julie Kersting**](https://www.zillow.com/profile/Julie Kersting)
+    
+    Julie managed the sale of my Salida home. I was in another state. Julie took care of the house and me during the whole process. She is professional and competent. She is ...
+    
+    Julie managed the sale of my Salida home. I was in another state. Julie took care of the house and me during the whole process. Sh...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   4/1/2026
+    *   • MichaelDaenzer
+    
+    ### Bought a Townhouse home in 2026 in Broomfield, CO.
+    
+    Review for: [**Marco Randazzo - 8z Real Estate**](https://www.zillow.com/profile/marco randazzo)
+    
+    Marco was fantastic to work with! He was knowledgeable, friendly, consistently available, and ultimately helped us purchase our first home! He was great to work with thro...
+    
+    Marco was fantastic to work with! He was knowledgeable, friendly, consistently available, and ultimately helped us purchase our fi...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   3/31/2026
+    *   • damcglinchey
+    
+    ### Bought and sold a Single Family home in 2026 in Denver, CO.
+    
+    Review for: [**Marco Randazzo - 8z Real Estate**](https://www.zillow.com/profile/marco randazzo)
+    
+    Marco did an outstanding job helping our family of 5 sell our old home and buy a new one that better fit our needs. He was an excellent partner. He always provided input,...
+    
+    Marco did an outstanding job helping our family of 5 sell our old home and buy a new one that better fit our needs. He was an exce...
+    
+    Show more

@@ -1,0 +1,621 @@
+Aaron Hart - Real Estate Agent in Denver, CO - Reviews | Zillow
+
+[Skip main navigation](#skip-topnav-target)
+
+[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+[Homepage](https://www.zillow.com/ "Zillow Real Estate")
+
+*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
+    
+    *   ###### Homes for sale
+        
+        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
+            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
+            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
+            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+            *   [All homes](https://www.zillow.com/browse/homes/)
+    *   ###### Resources
+        
+        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+            *   [Real estate app](https://www.zillow.com/buy/app-download/)
+            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+    
+*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
+    
+    *   ###### Rental listings
+        
+        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
+            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
+    *   ###### Tools for renters
+        
+        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
+            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+    
+*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
+    
+    *   ###### Resources
+        
+        *   *   [Explore your options](https://www.zillow.com/sell/)
+            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
+    *   ###### Selling options
+        
+        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+    
+*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
+    
+    *   ###### Started a loan application?
+        
+        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
+                
+                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+    *   ###### Your mortgage
+        
+        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
+            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+    *   ###### Mortgage tools
+        
+        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+    
+*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
+    
+    *   ###### Looking for pros?
+        
+        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+        *   *   [Home builders](https://www.zillow.com/home-builders/)
+            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+    *   ###### I'm a pro
+        
+        *   *   [Agent solutions](https://www.zillow.com/agents/)
+            *   [Agent advertising](https://www.zillow.com/premier-agent/)
+            *   [Agent resource center](https://www.zillow.com/agent-resources/)
+            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+    
+
+*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
+    
+    *   ###### Management tasks
+        
+        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+    *   ###### Tools for rental managers
+        
+        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+    
+*   [Advertise](https://www.zillow.com/partners/advertise/)
+
+*   [Get help](https://www.zillow.help/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+2.  [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
+3.  Aaron Hart
+
+Report a problemReport a problem
+
+![](https://photos.zillowstatic.com/fp/f8009f7b40193b716e14c29b6605cbeb-h_l.jpg)
+
+Aaron Hart
+==========
+
+1858 Real EstateLead of Team 1858
+
+5.0[209 team reviews](#reviews)
+
+[Contact the team](#contact-form-section-mobile)
+
+Team
+
+Recent Sales
+------------
+
+Sales numbers represent all team members
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   $420,000
+    
+    **2** bd**1** ba**925** sqft Denver, CO
+    
+    **2** bd**1** ba**925** sqft
+    
+    Denver, CO
+    
+    Sold 2 days ago
+    
+    Buyer
+    
+    ![3653 Forest Street, Denver, CO, 80207](https://photos.zillowstatic.com/fp/f849dd973d400630b3dd0e4bf2a5a256-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $1,500,000
+    
+    **5** bd**3** ba**4,010** sqft Golden, CO
+    
+    **5** bd**3** ba**4,010** sqft
+    
+    Golden, CO
+    
+    Sold 5 days ago
+    
+    Seller
+    
+    ![1715 Foothills Drive, Golden, CO, 80401](https://photos.zillowstatic.com/fp/e1b363cf546beb9b9418895fd1cdc6f2-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $475,000
+    
+    **2** bd**3** ba**1,312** sqft Denver, CO
+    
+    **2** bd**3** ba**1,312** sqft
+    
+    Denver, CO
+    
+    Sold 23 days ago
+    
+    Seller
+    
+    ![85 Uinta Way #106, Denver, CO, 80230](https://photos.zillowstatic.com/fp/2dbc80cf9a65c6234ba7f3ffcd0c5258-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $435,000
+    
+    **2** bd**1** ba**1,226** sqft Denver, CO
+    
+    **2** bd**1** ba**1,226** sqft
+    
+    Denver, CO
+    
+    Sold 2 months ago
+    
+    Seller
+    
+    ![709 27th Street, Denver, CO, 80205](https://photos.zillowstatic.com/fp/98f5fedd105e49bdd8916d2e03a8e0ab-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $470,000
+    
+    **5** bd**2** ba**2,830** sqft Denver, CO
+    
+    **5** bd**2** ba**2,830** sqft
+    
+    Denver, CO
+    
+    Sold 2 months ago
+    
+    Buyer
+    
+    ![4400 Clayton Street, Denver, CO, 80216](https://photos.zillowstatic.com/fp/907a2065c58afa00f0d63ba6a0a16c7d-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   [See more](#listings-and-sales) 
+    
+
+[Skip to the beginning of the carousel](#)
+
+24
+
+Sales last 12 months
+
+658
+
+Total sales
+
+$213K-$1.5M
+
+Price range
+
+$669K
+
+Average price
+
+Meet Team 1858
+--------------
+
+[![](https://photos.zillowstatic.com/fp/1366ef9ff4bf249331de67b3359bb2b4-h_l.jpg)
+
+### Kelly O'Dell
+
+4.8 (24)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/Kelly Jo ODell)
+[![](https://photos.zillowstatic.com/fp/67e5cc04c51f6e50d4cc0480c0c5c0d8-h_l.jpg)
+
+### Nicole Van Volkinburg
+
+5.0 (11)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/nicolevanv)
+[![](https://photos.zillowstatic.com/fp/eb970ada67cf5d5ff82cc50d0ecc724e-h_l.jpg)
+
+### Allison Connor
+
+5.0 (3)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/allisonconnor)
+[![](https://photos.zillowstatic.com/fp/fc8bb8e9bf3f02ebb03a2b1b3c2943f0-h_l.jpg)
+
+### Stevenson Farnsworth
+
+5.0 (1)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/Stevenson1858)
+
+Get to know Team 1858
+---------------------
+
+Broker / Owner
+
+Since 2008, I’ve helped clients buy and sell homes throughout the Denver Metro area, including both resale and investment properties. I focus on delivering a smooth, informed experience by combining deep local market knowledge with clear communication and strong negotiation.
+
+I’ve personally closed over 250 transactions, mentored more than 100 agents, leased dozens of homes, and worked as an owner, partner, or project manager on dozens of rehabs (...
+
+Show more
+
+Specialties
+
+Buyer's AgentListing AgentForeclosureInsuranceInvestment PropertiesRentalsMilitary/VeteransNew Construction
+
+18 Years of experience
+
+[Visit team website](http://www.1858realestate.com)
+
+[Facebook](http://www.facebook.com/1858realestate.com)
+[LinkedIn](http://www.linkedin.com/in/aehart)
+
+Team listings & sales (662)
+---------------------------
+
+For Sale
+
+For Rent
+
+Sold
+
+This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
+
+For Sale (4)
+------------
+
+
+
+* Address: 2441 N Broadway #217Denver, CO 80205Bed/Bath:1 Bed, 1 BathListing price:$525,000
+  * Bed/Bath: 1 Bed, 1 Bath
+  * Listing price: $525,000
+* Address: 2441 N Broadway Unit 304Denver, CO 80205Bed/Bath:2 Bed, 2 BathListing price:$750,000
+  * Bed/Bath: 2 Bed, 2 Bath
+  * Listing price: $750,000
+* Address: 4264 W Radcliff AveDenver, CO 80236Bed/Bath:5 Bed, 3 BathListing price:$700,000
+  * Bed/Bath: 5 Bed, 3 Bath
+  * Listing price: $700,000
+* Address: 2530 Lawrence St #Ra108Denver, CO 80205Bed/Bath:3 Bed, 3 BathListing price:$1,025,000
+  * Bed/Bath: 3 Bed, 3 Bath
+  * Listing price: $1,025,000
+
+
+Loading
+
+Sold (658)
+----------
+
+
+
+* Address: 3653 Forest StreetDenver, CO, 80207Sold date:4/10/2026Closing price:$420,000Represented:BuyerReport a problem
+  * Sold date: 4/10/2026
+  * Closing price: $420,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 1715 Foothills DriveGolden, CO, 80401Sold date:4/7/2026Closing price:$1,500,000Represented:SellerReport a problem
+  * Sold date: 4/7/2026
+  * Closing price: $1,500,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 85 Uinta Way #106Denver, CO, 80230Sold date:3/20/2026Closing price:$475,000Represented:SellerReport a problem
+  * Sold date: 3/20/2026
+  * Closing price: $475,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 709 27th StreetDenver, CO, 80205Sold date:2/25/2026Closing price:$435,000Represented:SellerReport a problem
+  * Sold date: 2/25/2026
+  * Closing price: $435,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 4400 Clayton StreetDenver, CO, 80216Sold date:2/20/2026Closing price:$470,000Represented:BuyerReport a problem
+  * Sold date: 2/20/2026
+  * Closing price: $470,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Team reviews (209)
+------------------
+
+Reviews represent all team members.
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   5.0
+    
+    Report a problem
+    
+    *   2/19/2026
+    *   • Leslie Kinson
+    
+    ### Sold a Single Family home in 2026 in Whittier, Denver, CO.
+    
+    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
+    
+    Aaron did an amazing job navigating the presentation and sale of this house through a tough time in the market. His knowledge of the market and strategic recommendations ...
+    
+    Aaron did an amazing job navigating the presentation and sale of this house through a tough time in the market. His knowledge of t...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   10/26/2023
+    *   • ismith121
+    
+    ### Bought and sold a Townhouse home in 2023 in Congress park, Denver, CO.
+    
+    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
+    
+    Aaron is an outstanding agent and one we would highly recommend. We initially purchased our house with his help almost 10 years ago and just recently sold it. We now live...
+    
+    Aaron is an outstanding agent and one we would highly recommend. We initially purchased our house with his help almost 10 years ag...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   8/11/2023
+    *   • stevebizier1026
+    
+    ### Sold a Townhouse home in 2023 in West colfax, Denver, CO.
+    
+    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
+    
+    Aaron is the most amazing realtor I have ever worked with! He is extremely professional and easy to work with. He has the best communication skills of any realtor I hav...
+    
+    Aaron is the most amazing realtor I have ever worked with! He is extremely professional and easy to work with. He has the best c...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   7/13/2023
+    *   • safim1991
+    
+    ### Bought a Condo home in 2023 in Goldsmith, Denver, CO.
+    
+    Review for: [**Allison Connor**](https://www.zillow.com/profile/allisonconnor)
+    
+    From start to finish Allison was awesome. She made everything so simple. Responded to any issues in a rapid way and very professional. She listened and understood all of ...
+    
+    From start to finish Allison was awesome. She made everything so simple. Responded to any issues in a rapid way and very professio...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   6/3/2023
+    *   • jrscooks
+    
+    ### Bought and sold a home in 2023.
+    
+    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
+    
+    Aaron has done a wonderful job now for me twice in the real estate market. I recommend him and his diligent team to anyone looking to buy or sell in Denver and beyond. Aa...
+    
+    Aaron has done a wonderful job now for me twice in the real estate market. I recommend him and his diligent team to anyone looking...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   3/24/2023
+    *   • zuser20180101210701469
+    
+    ### Bought and sold a home in 2023.
+    
+    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
+    
+    Looking to buy or sell? Look no further! Aaron went above and beyond to make sure our condo sold quickly. He is organized, efficient, fun to work with, and communicate...
+    
+    Looking to buy or sell? Look no further! Aaron went above and beyond to make sure our condo sold quickly. He is organized, effi...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   8/8/2022
+    *   • abigaylepjohnson
+    
+    ### Bought and sold a Single Family home in 2022 in Highlands ranch, CO.
+    
+    Review for: [**Aaron Hart**](https://www.zillow.com/profile/Aaron Hart)
+    
+    Aaron is a Real Estate superstar! He knows the market and Colorado Real Estate better than anyone and has the negotiating skills to beat out competitive offers. He helped...
+    
+    Aaron is a Real Estate superstar! He knows the market and Colorado Real Estate better than anyone and has the negotiating skills t...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   8/3/2022
+    *   • KristenWood07
+    
+    ### Bought a Condo home in 2022 in Wheat ridge, CO.
+    
+    Review for: [**Kelly O'Dell**](https://www.zillow.com/profile/Kelly Jo ODell)
+    
+    As a single female in my early 30s I was a ball of anxiety and doubt when I decided to buy my first home in this market. Kelly was amazing throughout the whole process an...
+    
+    As a single female in my early 30s I was a ball of anxiety and doubt when I decided to buy my first home in this market. Kelly was...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   7/8/2022
+    *   • smoreland8500
+    
+    ### Bought a Single Family home in 2022 in Gateway - green valley ranch, Denver, CO.
+    
+    Review for: [**Melanie Schutten**](https://www.zillow.com/profile/mel82039)
+    
+    Mel has been so amazing to work with. This market is crazy right now to say the least, and she has made this process so much less stressful. She is upfront and does not...
+    
+    Mel has been so amazing to work with. This market is crazy right now to say the least, and she has made this process so much less...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   6/7/2022
+    *   • Facundo Torino
+    
+    ### Bought a Condo home in 2022 in Lincoln park, Denver, CO.
+    
+    Review for: [**Stevenson Farnsworth**](https://www.zillow.com/profile/Stevenson1858)
+    
+    I doubt there’s any realtor that will have your interests in mind as much as Stevenson has. Always professional, very efficient, and extremely knowledgeable of the area a...
+    
+    I doubt there’s any realtor that will have your int

@@ -1,0 +1,576 @@
+Joe Phillips - Real Estate Agent in Denver, CO - Reviews | Zillow
+
+[Skip main navigation](#skip-topnav-target)
+
+[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+[Homepage](https://www.zillow.com/ "Zillow Real Estate")
+
+*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
+    
+    *   ###### Homes for sale
+        
+        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
+            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
+            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
+            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+            *   [All homes](https://www.zillow.com/browse/homes/)
+    *   ###### Resources
+        
+        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+            *   [Real estate app](https://www.zillow.com/buy/app-download/)
+            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+    
+*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
+    
+    *   ###### Rental listings
+        
+        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
+            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
+    *   ###### Tools for renters
+        
+        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
+            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+    
+*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
+    
+    *   ###### Resources
+        
+        *   *   [Explore your options](https://www.zillow.com/sell/)
+            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
+    *   ###### Selling options
+        
+        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+    
+*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
+    
+    *   ###### Started a loan application?
+        
+        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
+                
+                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+    *   ###### Your mortgage
+        
+        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
+            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+    *   ###### Mortgage tools
+        
+        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+    
+*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
+    
+    *   ###### Looking for pros?
+        
+        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+        *   *   [Home builders](https://www.zillow.com/home-builders/)
+            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+    *   ###### I'm a pro
+        
+        *   *   [Agent solutions](https://www.zillow.com/agents/)
+            *   [Agent advertising](https://www.zillow.com/premier-agent/)
+            *   [Agent resource center](https://www.zillow.com/agent-resources/)
+            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+    
+
+*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
+    
+    *   ###### Management tasks
+        
+        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+    *   ###### Tools for rental managers
+        
+        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+    
+*   [Advertise](https://www.zillow.com/partners/advertise/)
+
+*   [Get help](https://www.zillow.help/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+2.  [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
+3.  Joe Phillips
+
+Report a problemReport a problem
+
+![](https://photos.zillowstatic.com/fp/09a5697b4d3a45a0caf78a0d2ba72499-h_l.jpg)
+
+Joe Phillips
+============
+
+Focus Real Estate
+
+5.0[156 reviews](#reviews)
+
+[Contact Joe](#contact-form-section-mobile)
+
+Recent Sales
+------------
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   $818,000
+    
+    **5** bd**5** ba**3,951** sqft Denver, CO
+    
+    **5** bd**5** ba**3,951** sqft
+    
+    Denver, CO
+    
+    Sold 2 months ago
+    
+    Buyer
+    
+    ![9630 E 63rd Place, Denver, CO, 80238](https://photos.zillowstatic.com/fp/6bbde40aa75b28827b79323da32c961e-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $820,000
+    
+    **5** bd**4** ba**2,883** sqft Denver, CO
+    
+    **5** bd**4** ba**2,883** sqft
+    
+    Denver, CO
+    
+    Sold 3 months ago
+    
+    Buyer
+    
+    ![8748 E 54th Place, Denver, CO, 80238](https://photos.zillowstatic.com/fp/d2efee33630b8d943e42c1bff463073c-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $1,200,000
+    
+    **4** bd**5** ba**4,154** sqft Denver, CO
+    
+    **4** bd**5** ba**4,154** sqft
+    
+    Denver, CO
+    
+    Sold 4 months ago
+    
+    Buyer
+    
+    ![6098 Beeler Court, Denver, CO, 80238](https://photos.zillowstatic.com/fp/d556f1913ba18a1bc36d0ba544bb5cc4-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $845,000
+    
+    **4** bd**4** ba**3,557** sqft Denver, CO
+    
+    **4** bd**4** ba**3,557** sqft
+    
+    Denver, CO
+    
+    Sold 4 months ago
+    
+    Seller
+    
+    ![5511 Wabash Street, Denver, CO, 80238](https://photos.zillowstatic.com/fp/08e34182924ab08117754a3ddc973f11-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $644,000
+    
+    **4** bd**4** ba**2,151** sqft Denver, CO
+    
+    **4** bd**4** ba**2,151** sqft
+    
+    Denver, CO
+    
+    Sold 6 months ago
+    
+    Seller
+    
+    ![9840 E 62nd Avenue, Denver, CO, 80238](https://photos.zillowstatic.com/fp/1abb93b980b38c43378777efc48f0562-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   [See more](#listings-and-sales) 
+    
+
+[Skip to the beginning of the carousel](#)
+
+8
+
+Sales last 12 months
+
+190
+
+Total sales
+
+$450K-$1.9M
+
+Price range
+
+$958K
+
+Average price
+
+Get to know Joe Phillips
+------------------------
+
+Employing Broker
+
+I'm a real estate broker and property manager with Focus Real Estate. We help busy people with their real estate needs in the Central Park area, whether they want to buy, sell, rent or need help with property management.  
+  
+I've chosen to focus on brokerage and property management in this neighborhood where my family and I live because that's how I think I can add the most value. Check out our blog about everything going on in the area by checking ...
+
+Show more
+
+Specialties
+
+Buyer's AgentListing AgentProperty ManagementRentalsNew Construction
+
+23 Years of experience
+
+[Visit agent website](http://www.focus-brokers.com)
+
+[Facebook](https://www.facebook.com/CentralParkScoop)
+[X](https://twitter.com/CentralPrkScoop)
+[LinkedIn](http://www.linkedin.com/in/joephillipsrealestate)
+
+Joe Phillips's listings & sales (191)
+-------------------------------------
+
+For Sale
+
+For Rent
+
+Sold
+
+This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
+
+For Sale (1)
+------------
+
+
+
+* Address: 5079 N Xenia StDenver, CO 80238Bed/Bath:3 Bed, 3 BathListing price:$765,000
+  * Bed/Bath: 3 Bed, 3 Bath
+  * Listing price: $765,000
+
+
+Loading
+
+Sold (190)
+----------
+
+
+
+* Address: 9630 E 63rd PlaceDenver, CO, 80238Sold date:2/25/2026Closing price:$818,000Represented:BuyerReport a problem
+  * Sold date: 2/25/2026
+  * Closing price: $818,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 8748 E 54th PlaceDenver, CO, 80238Sold date:12/31/2025Closing price:$820,000Represented:BuyerReport a problem
+  * Sold date: 12/31/2025
+  * Closing price: $820,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 6098 Beeler CourtDenver, CO, 80238Sold date:12/19/2025Closing price:$1,200,000Represented:BuyerReport a problem
+  * Sold date: 12/19/2025
+  * Closing price: $1,200,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 5511 Wabash StreetDenver, CO, 80238Sold date:12/3/2025Closing price:$845,000Represented:SellerReport a problem
+  * Sold date: 12/3/2025
+  * Closing price: $845,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 9840 E 62nd AvenueDenver, CO, 80238Sold date:10/20/2025Closing price:$644,000Represented:SellerReport a problem
+  * Sold date: 10/20/2025
+  * Closing price: $644,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Joe Phillips's reviews (156)
+----------------------------
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   5.0
+    
+    Report a problem
+    
+    *   12/29/2025
+    *   • Patrick Turner
+    
+    ### Bought a Single Family home in 2025 in Central park, Denver, CO.
+    
+    Working with Joe was an amazing experience because of his vast expertise in the real estate business. He fully explained every step of the process and his communication w...
+    
+    Working with Joe was an amazing experience because of his vast expertise in the real estate business. He fully explained every ste...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   12/16/2025
+    *   • ben hoerr
+    
+    ### Bought a home in 2025.
+    
+    Our experience with Focus Real Estate--Joe Phillips and Amanda Campbell--was exceptional in every way! We were out-of-state buyers who desired to relocate from Illinois t...
+    
+    Our experience with Focus Real Estate--Joe Phillips and Amanda Campbell--was exceptional in every way! We were out-of-state buyers...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   9/3/2025
+    *   • rphillipspmp
+    
+    ### Bought a home in 2025.
+    
+    Joe did a great job helping me located the perfect townhouse. He also advised me on how to obtain a HELOC bridge loan that made the purchase of my new home much easier. H...
+    
+    Joe did a great job helping me located the perfect townhouse. He also advised me on how to obtain a HELOC bridge loan that made th...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   8/4/2025
+    *   • Jand10
+    
+    ### Bought a Single Family home in 2025 in Central park, Denver, CO.
+    
+    We highly recommend Focus as experts on the Central Park neighborhood and real estate market! We were conducting our search for a home in Central Park from across the cou...
+    
+    We highly recommend Focus as experts on the Central Park neighborhood and real estate market! We were conducting our search for a ...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   5/29/2025
+    *   • Spiro Barouxis
+    
+    ### Bought a Townhouse home in 2025 in Denver, CO.
+    
+    We are so glad we used Focus to represent us in the purchase of our new construction home here in Denver. Joe and Stephanie were there to assist us in every step of the w...
+    
+    We are so glad we used Focus to represent us in the purchase of our new construction home here in Denver. Joe and Stephanie were t...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   5/12/2025
+    *   • danielpoutier
+    
+    ### Bought a Single Family home in 2025 in Central park, Denver, CO.
+    
+    Joe and his Team were exceptional at helping us find and buy our first home. Joe is extremely knowledgable about the Central Park neighborhood, shares expert recommendati...
+    
+    Joe and his Team were exceptional at helping us find and buy our first home. Joe is extremely knowledgable about the Central Park ...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   10/17/2024
+    *   • Kyleigh Moss
+    
+    ### Bought a Single Family home in 2024 in Central park, Denver, CO.
+    
+    Outstanding! Joe doesn’t just know the neighborhood he IS the neighborhood! His knowledge of Central Park is beyond what I could have asked for, he loves this neighborhoo...
+    
+    Outstanding! Joe doesn’t just know the neighborhood he IS the neighborhood! His knowledge of Central Park is beyond what I could h...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   7/17/2024
+    *   • keithburrowsdenver
+    
+    ### Bought and sold a home in 2024.
+    
+    I worked with Joe and the Focus Realty team for both the sell and buy side. On the sell side - Joe and team are extremely well organized and thorough to extract as much...
+    
+    I worked with Joe and the Focus Realty team for both the sell and buy side. On the sell side - Joe and team are extremely well o...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   6/20/2024
+    *   • zuser20150904150042773
+    
+    ### Sold a Single Family home in 2024 in Central park, Denver, CO.
+    
+    Joe and the Focus Team did a fantastic job helping us sell our home. He went above and beyond what typical realtors do by helping us arrange for all of vendors to prep ou...
+    
+    Joe and the Focus Team did a fantastic job helping us sell our home. He went above and beyond what typical realtors do by helping ...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   5/21/2024
+    *   • pacetricia
+    
+    ### Sold a home in 2024.
+    
+    Joe and his team went above and beyond helping us sell our home. He is very responsive and helped us navigate some unforeseen issues. Joe and his team made everything go ...
+    
+    Joe and his team went above and beyond helping us sell our home. He is very responsive and helped us navigate some unforeseen issu...
+    
+    Show more
+    
+
+[Skip to the beginning of the carousel](#)
+
+[Add a review](https://www.zillow.com/reviews/write/?s=X1-ZUyu9qg4dth53d_9prla)Show all reviews
+
+Service areas (1)
+-----------------
+
+*   [Denver, CO](https://www.zillow.com/denver-co/)
+
+Show all service areas (1)
+
+Contact Joe Phillips
+--------------------
+
+Name
+
+Phone
+
+Email
+
+Message
+
+Contact Joe
+
+Loading
+
+By submitting your information, you agree that the real estate professional identified above may call/text you about your search, which may involve use of automated means and pre-recorded/artificial voices. You don't need to consent as a condition of buying any property, goods, or services. Message/data rates may apply. You also agree to our [Terms of Use](https://www.zillow.com/corp/Terms.htm).
+
+Contact Joe Phillips
+--------------------
+
+Name
+
+Phone
+
+Email
+
+Message
+
+Contact Joe
+
+Loading
+
+By submitting your information, you agree that the real estate professional identified above may call/text you about your search, which may involve use of automated means and pre-recorded/artificial voices. You don't need to consent as a condition of buying any property, goods, or services. Message/data rates may apply. You also agree to our [Terms of Use](https://www.zillow.com/corp/Terms.htm).
+
+![](https://photos.zillowstatic.com/fp/09a5697b4d3a45a0caf78a0d2ba72499-h_l.jpg)
+
+Joe Phillips
+============
+
+Focus Real Estate
+
+5.0[156 reviews](#reviews)
+
+**8**sales last 12 months
+
+**190**total sales
+
+**$450K-$1.9M**price range
+
+**$958K**average price
+
+**23**years of experience
+
+See license information
+
+[(720) 299-1730](tel:\(720\) 299-1730)
+
+[joe@focus-brokers.com](mailto:joe@focus-brokers.com)
+
+[8154 E 33rd Ave  
+Denver, CO, 80238](https://maps.google.com/?q=8154+E+33rd+Ave%2C+Denver%2C+CO%2C+80238)
+
+Nearby cities
+-------------
+
+*   [Aurora Homes For Sale](https://www.zillow.com/aurora-co/)
+*   [Centennial Homes For Sale](https://www.zillow.com/centennial-co/)
+*   [Cherry Creek Homes For Sale](https://www.zillow.com/cherry-creek-co/)
+*   [Cherry Hills Village Homes For Sale](https://www.zillow.com/cherry-hills-village-co/)
+*   [Commerce City Home

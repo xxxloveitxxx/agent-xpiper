@@ -1,0 +1,667 @@
+Brendan Bartic - Real Estate Agent in Denver, CO - Reviews | Zillow
+
+[Skip main navigation](#skip-topnav-target)
+
+[![Zillow logo](https://www.zillowstatic.com/s3/pfs/static/z-logo-default.svg)](/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+[Homepage](https://www.zillow.com/ "Zillow Real Estate")
+
+*   [Buy](https://www.zillow.com/homes/for_sale/) Open Buy sub-menu
+    
+    *   ###### Homes for sale
+        
+        *   *   [Homes for sale](https://www.zillow.com/homes/for_sale/)
+            *   [Foreclosures](https://www.zillow.com/homes/for_sale/fore_lt/)
+            *   [For sale by owner](https://www.zillow.com/homes/fsbo/)
+            *   [Open houses](https://www.zillow.com/homes/for_sale/1_open/)
+        *   *   [New construction](https://www.zillow.com/homes/new_homes/)
+            *   [Coming soon](https://www.zillow.com/homes/coming_soon/cmsn_lt/)
+            *   [Recent home sales](https://www.zillow.com/homes/recently_sold/)
+            *   [All homes](https://www.zillow.com/browse/homes/)
+    *   ###### Resources
+        
+        *   *   [Home Buying Guide](https://www.zillow.com/learn/category/buying/)
+            *   [Foreclosure center](https://www.zillow.com/learn/tag/foreclosures/)
+            *   [Real estate app](https://www.zillow.com/buy/app-download/)
+            *   [Down payment assistance](https://www.zillow.com/down-payment-assistance/)
+    
+*   [Rent](https://www.zillow.com/homes/for_rent/) Open Rent sub-menu
+    
+    *   ###### Rental listings
+        
+        *   *   [Search apartments for rent](https://www.zillow.com/homes/for_rent/condo,apartment_duplex_type/)
+            *   [Search houses for rent](https://www.zillow.com/homes/for_rent/house_type/)
+            *   [Search all rental listings](https://www.zillow.com/homes/for_rent/)
+            *   [Browse all rental buildings](https://www.zillow.com/browse/b/)
+    *   ###### Tools for renters
+        
+        *   *   [Estimate what you can afford](https://www.zillow.com/rent-affordability-calculator)
+            *   [See your applications](https://www.zillow.com/renter-hub/applications/)
+            *   [Manage your tours](https://www.zillow.com/tours/manage?clickOrigin=main_nav)
+            *   [Pay your rent](https://www.zillow.com/renter-hub/payments?fromWhere=make-a-payment)
+        *   *   [Build your credit](https://www.zillow.com/rent/rent-reporting/)
+            *   [Get renters insurance](https://www.zillow.com/rent/renters-insurance/)
+            *   [Explore housing voucher programs](https://www.zillow.com/rent/rental-vouchers/)
+            *   [Learn more about renting](https://www.zillow.com/learn/category/renting/)
+    
+*   [Sell](https://www.zillow.com/sell/) Open Sell sub-menu
+    
+    *   ###### Resources
+        
+        *   *   [Explore your options](https://www.zillow.com/sell/)
+            *   [See your home's Zestimate](https://www.zillow.com/how-much-is-my-home-worth/)
+            *   [US housing market](https://www.zillow.com/home-values/102001/united-states/)
+            *   [Sellers guide](https://www.zillow.com/learn/category/selling/)
+    *   ###### Selling options
+        
+        *   *   [Find a seller's agent](https://www.zillow.com/professionals/real-estate-agent-reviews/?isSelling=true)
+            *   [Post For Sale by Owner](https://www.zillow.com/for-sale-by-owner/)
+    
+*   [Get a mortgage](https://www.zillow.com/homeloans/) Open Get a mortgage sub-menu
+    
+    *   ###### Started a loan application?
+        
+        *   *   Pick up where you left off on your Zillow Home Loans dashboard.
+                
+                [Home loans dashboard](https://www.zillow.com/homeloans/mortgage/dashboard/login)
+    *   ###### Your mortgage
+        
+        *   *   [Discover Zillow Home Loans](https://www.zillow.com/homeloans/)
+            *   [Calculate your BuyAbility](https://www.zillow.com/homeloans/buyability/)
+            *   [Get pre-qualified](https://www.zillow.com/homeloans/eligibility/?utm_source=zillow&utm_medium=referral&utm_campaign=Z_Mortgageshovertopnav&source=Zillow&channel=Nav)
+    *   ###### Mortgage tools
+        
+        *   *   [Estimate your mortgage payment](https://www.zillow.com/mortgage-calculator/)
+            *   [See current mortgage rates](https://www.zillow.com/mortgage-rates/)
+            *   [Learn about financing a home](https://www.zillow.com/learn/category/financing/)
+    
+*   [Find an agent](https://www.zillow.com/professionals/real-estate-agent-reviews/) Open Find an agent sub-menu
+    
+    *   ###### Looking for pros?
+        
+        *   *   [Real estate agents](https://www.zillow.com/professionals/real-estate-agent-reviews/)
+            *   [Property managers](https://www.zillow.com/professionals/property-manager-reviews/)
+        *   *   [Home builders](https://www.zillow.com/home-builders/)
+            *   [Real estate photographers](https://www.zillow.com/professionals/photographer-reviews/)
+    *   ###### I'm a pro
+        
+        *   *   [Agent solutions](https://www.zillow.com/agents/)
+            *   [Agent advertising](https://www.zillow.com/premier-agent/)
+            *   [Agent resource center](https://www.zillow.com/agent-resources/)
+            *   [Create a free agent account](https://www.zillow.com/premier-agent/agent-account/?itc=paw_z_sitewide-agentfinder_subnav-createagentaccount_pa-reg_a_null)
+        *   *   [Real estate business plan](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-business-plan-template/)
+            *   [Real estate agent scripts](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-follow-up-email-templates/)
+            *   [Listing flyer templates](https://www.zillow.com/agent-resources/agent-toolkit/real-estate-listing-flyer-templates/)
+    
+
+*   [Manage rentals](https://www.zillow.com/rental-manager/?source=topnav&itc=postbutton_sitenav) Open Manage rentals sub-menu
+    
+    *   ###### Management tasks
+        
+        *   *   [List your property for rent](https://www.zillow.com/rental-manager/post-a-listing/?itc=ltr_zw_ltr_zrm-home_tpnv_post-a-listing)
+            *   [View your properties](https://www.zillow.com/rental-manager/properties&source=topnav&itc=postbutton_topnav)
+            *   [Read your messages](https://www.zillow.com/rental-manager/inbox/)
+    *   ###### Tools for rental managers
+        
+        *   *   [Check your property's rental value](https://www.zillow.com/rental-manager/price-my-rental/?itc=ltr_zw_ltr_zrm-home_tpnv_price-my-rental)
+            *   [Screen renters with applications](https://www.zillow.com/rental-manager/select-property?type=applications&source=topnav&itc=postbutton_topnav)
+            *   [Create and manage leases](https://www.zillow.com/rental-manager/select-property?type=leases&source=topnav&itc=postbutton_topnav)
+            *   [Collect rent](https://www.zillow.com/rental-manager/select-property?type=payments&source=topnav&itc=postbutton_topnav)
+        *   *   [Learn about renting out your property](https://www.zillow.com/rentals-network/resources/)
+            *   [Search help center](https://help.zillowrentalmanager.com/hc/en-us/)
+            *   [Explore Zillow Rental Manager](https://www.zillow.com/rental-manager/)
+    
+*   [Advertise](https://www.zillow.com/partners/advertise/)
+
+*   [Get help](https://www.zillow.help/)
+
+*   [Sign inSign in](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+*   [Join](https://www.zillow.com/auth/user/login?login_mode=redirect&entry_point=topnav)
+
+1.  [Colorado](https://www.zillow.com/professionals/real-estate-agent-reviews/co/)
+2.  [Denver](https://www.zillow.com/professionals/real-estate-agent-reviews/denver-co/)
+3.  Brendan Bartic
+
+Report a problemReport a problem
+
+![](https://photos.zillowstatic.com/fp/6b6a47eac8a64a21fdc6d65939cd9a84-h_l.jpg)
+
+Brendan Bartic
+==============
+
+Elite Home Partners at Keller Williams RealtyLead of Elite Home Partners at Keller Williams Realty
+
+5.0[655 team reviews](#reviews)
+
+[Contact the team](#contact-form-section-mobile)
+
+Team
+
+Recent Sales
+------------
+
+Sales numbers represent all team members
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   $295,000
+    
+    **2** bd**2** ba**795** sqft Denver, CO
+    
+    **2** bd**2** ba**795** sqft
+    
+    Denver, CO
+    
+    Sold 2 days ago
+    
+    Buyer
+    
+    ![1537 Xenia Street, Denver, CO, 80220](https://photos.zillowstatic.com/fp/81d2cc2453d5dd484b7970d914455d9d-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $635,000
+    
+    **4** bd**3** ba**2,335** sqft Thornton, CO
+    
+    **4** bd**3** ba**2,335** sqft
+    
+    Thornton, CO
+    
+    Sold 5 days ago
+    
+    Seller
+    
+    ![1174 E 130th Drive, Thornton, CO, 80241](https://photos.zillowstatic.com/fp/f6980dbd1cbe7e90a2787c40baf4a893-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $216,500
+    
+    **4** bd**3** ba**4,867** sqft Trinidad, CO
+    
+    **4** bd**3** ba**4,867** sqft
+    
+    Trinidad, CO
+    
+    Sold 16 days ago
+    
+    Seller
+    
+    ![624 W Washington Ave, Trinidad, CO, 81082](https://photos.zillowstatic.com/fp/30e44cde0b9e7c63b4590682b7ba055a-p_d.jpg)
+    
+*   $740,000
+    
+    **4** bd**3** ba**2,431** sqft Centennial, CO
+    
+    **4** bd**3** ba**2,431** sqft
+    
+    Centennial, CO
+    
+    Sold 16 days ago
+    
+    Buyer
+    
+    ![7937 S Pontiac Way, Centennial, CO, 80112](https://maps.googleapis.com/maps/api/streetview?location=7937+S+Pontiac+Way%2C+Centennial%2C+CO+80112&size=400x300&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=Z7d1cHKka8s5BK-FNVg_-M0kbcQ=)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   $520,000
+    
+    **3** bd**3** ba**2,084** sqft Aurora, CO
+    
+    **3** bd**3** ba**2,084** sqft
+    
+    Aurora, CO
+    
+    Sold 16 days ago
+    
+    Buyer
+    
+    ![5528 S Valdai Street, Aurora, CO, 80015](https://photos.zillowstatic.com/fp/00106a8d34fcb3425ef8831c79142fbf-p_d.jpg)
+    
+    ![](https://photos.zillowstatic.com/fp/0de3b0f79d7392065b9356ecbc1719fc-zillow_web_48_23.jpg)
+    
+*   [See more](#listings-and-sales) 
+    
+
+[Skip to the beginning of the carousel](#)
+
+148
+
+Sales last 12 months
+
+2,439
+
+Total sales
+
+$18K-$4M
+
+Price range
+
+$571K
+
+Average price
+
+Meet Elite Home Partners at Keller Williams Realty
+--------------------------------------------------
+
+59 members
+
+[![](https://photos.zillowstatic.com/fp/ca50de0235dda98214e63db904749103-h_l.jpg)
+
+### Kathryn Bartic
+
+5.0 (61)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/kathrynjoycebartic)
+[![](https://photos.zillowstatic.com/fp/7add5743715d21f248293e0489a0343e-h_l.jpg)
+
+### James Berkley
+
+5.0 (45)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/James036)
+[![](https://photos.zillowstatic.com/fp/2d550a7b9f21a7455c8eeab586bed4a5-h_l.jpg)
+
+### Ernest Duran
+
+5.0 (23)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/Ernest Duran)
+[![](https://photos.zillowstatic.com/fp/7a202d53efc06282bfb6b4c8b3136840-h_l.jpg)
+
+### Chuck Buckingham
+
+5.0 (18)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/chuck buckingham)
+[![](https://photos.zillowstatic.com/fp/1869751b1a97a35cf02a42c6c41d196b-h_l.jpg)
+
+### Lily Lopez
+
+5.0 (18)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/LilyLopez88)
+[![](https://photos.zillowstatic.com/fp/4b11d25582b40d02a6aa808ee7235fe5-h_l.jpg)
+
+### James Button
+
+4.8 (18)
+
+Loading
+
+price range
+
+sales last 12 months
+
+
+
+
+
+
+
+
+
+
+
+](/profile/James Button)
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 10
+
+Get to know Elite Home Partners at Keller Williams Realty
+---------------------------------------------------------
+
+Real Estate Broker
+
+\*Elite Home Partners is a full service real estate consultant company specializing in assisting investors, individuals, and families achieve their real estate goals. Led by industry veteran Brendan Bartic, our team has fostered a culture of partnership and redefined the business of real estate. Our organization of partners share knowledge, spheres of influence, contacts and expertise, ensuring our clients receive better representation and a true ...
+
+Show more
+
+Specialties
+
+Buyer's AgentListing AgentRelocationFirst Time HomebuyersInvestment Properties
+
+SpeaksEnglish, Spanish
+
+26 Years of experience
+
+[Visit team website](http://www.EliteHomePartnersCO.com)
+
+[Facebook](https://www.facebook.com/EliteHomePartnersCO)
+[X](http://twitter.com/BrendanBartic)
+[LinkedIn](http://www.linkedin.com/in/brendanjbartic)
+
+Team listings & sales (2464)
+----------------------------
+
+For Sale
+
+For Rent
+
+Sold
+
+This map can show the most recent 100 listings and 100 sales. Review all listings and sales below.
+
+For Sale (22)
+-------------
+
+
+
+* Address: 21416 E 61st DrAurora, CO 80019Bed/Bath:3 Bed, 4 BathListing price:$725,000
+  * Bed/Bath: 3 Bed, 4 Bath
+  * Listing price: $725,000
+* Address: 1709 S Kearney StDenver, CO 80224Bed/Bath:4 Bed, 3 BathListing price:$800,000
+  * Bed/Bath: 4 Bed, 3 Bath
+  * Listing price: $800,000
+* Address: 40 S Boulder Cir APT 4014Boulder, CO 80303Bed/Bath:1 Bed, 1 BathListing price:$279,900
+  * Bed/Bath: 1 Bed, 1 Bath
+  * Listing price: $279,900
+* Address: 5566 Fir AveErie, CO 80516Bed/Bath:4 Bed, 3 BathListing price:$830,000
+  * Bed/Bath: 4 Bed, 3 Bath
+  * Listing price: $830,000
+* Address: 890 Nome StAurora, CO 80010Bed/Bath:2 Bed, 1 BathListing price:$379,000
+  * Bed/Bath: 2 Bed, 1 Bath
+  * Listing price: $379,000
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   Page 1 of 5
+
+For Rent (3)
+------------
+
+
+
+* Address: 799 Dahlia St APT 304Denver, CO 80220Bed/Bath:1 Bed, 1 BathListing price:$1,450/mo
+  * Bed/Bath: 1 Bed, 1 Bath
+  * Listing price: $1,450/mo
+* Address: 3760 Owens St Unit AWheat Ridge, CO 80033Bed/Bath:2 Bed, 1 BathListing price:$1,550/mo
+  * Bed/Bath: 2 Bed, 1 Bath
+  * Listing price: $1,550/mo
+* Address: 2193 Arapahoe St APT 11Denver, CO 80205Bed/Bath:1 Bed, 1 BathListing price:$2,750/mo
+  * Bed/Bath: 1 Bed, 1 Bath
+  * Listing price: $2,750/mo
+
+
+Loading
+
+Sold (2439)
+-----------
+
+
+
+* Address: 1537 Xenia StreetDenver, CO, 80220Sold date:4/10/2026Closing price:$295,000Represented:BuyerReport a problem
+  * Sold date: 4/10/2026
+  * Closing price: $295,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 1174 E 130th DriveThornton, CO, 80241Sold date:4/7/2026Closing price:$635,000Represented:SellerReport a problem
+  * Sold date: 4/7/2026
+  * Closing price: $635,000
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 624 W Washington AveTrinidad, CO, 81082Sold date:3/27/2026Closing price:$216,500Represented:SellerReport a problem
+  * Sold date: 3/27/2026
+  * Closing price: $216,500
+  * Represented: Seller
+  * Flag Sale: Report a problem
+* Address: 7937 S Pontiac WayCentennial, CO, 80112Sold date:3/27/2026Closing price:$740,000Represented:BuyerReport a problem
+  * Sold date: 3/27/2026
+  * Closing price: $740,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+* Address: 5528 S Valdai StreetAurora, CO, 80015Sold date:3/27/2026Closing price:$520,000Represented:BuyerReport a problem
+  * Sold date: 3/27/2026
+  * Closing price: $520,000
+  * Represented: Buyer
+  * Flag Sale: Report a problem
+
+
+Loading
+
+*   1
+*   2
+*   3
+*   4
+*   5
+*   6
+*   7
+*   Page 1 of 20
+
+Team reviews (655)
+------------------
+
+Reviews represent all team members.
+
+Previous itemsNext items
+
+[Skip to the end of the carousel](#)
+
+*   5.0
+    
+    Report a problem
+    
+    *   3/23/2026
+    *   • Randy Lewis
+    
+    ### CO 80211.
+    
+    Review for: [**Kathryn Bartic**](https://www.zillow.com/profile/kathrynjoycebartic)
+    
+    Kathryn was great to work with. Knowledgeable, responsive and a hard worker. Her team did an excellent job throughout the process of selling our home. She communicated cl...
+    
+    Kathryn was great to work with. Knowledgeable, responsive and a hard worker. Her team did an excellent job throughout the process ...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   3/20/2026
+    *   • Grace Linn
+    
+    ### Sold a home in 2026.
+    
+    Review for: [**James Berkley**](https://www.zillow.com/profile/James036)
+    
+    James was everything we wanted in a realtor. Not only is he extremely knowledgeable about the home buying and selling process, he's a super nice person as well! When you ...
+    
+    James was everything we wanted in a realtor. Not only is he extremely knowledgeable about the home buying and selling process, he'...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   3/13/2026
+    *   • Megegers
+    
+    ### Sold a Single Family home in 2026 in Golden, CO.
+    
+    Review for: [**Caroline Turner**](https://www.zillow.com/profile/caroline7393)
+    
+    Caroline was amazing. After a terrible experience with a previous realtor, Caroline stepped in and literally rolled up her sleeves to help get our home sold, and FAST. We...
+    
+    Caroline was amazing. After a terrible experience with a previous realtor, Caroline stepped in and literally rolled up her sleeves...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   2/25/2026
+    *   • Nicole Bechtel
+    
+    ### Bought a Townhouse home in 2026 in Windsor, Denver, CO.
+    
+    Review for: [**Kathryn Bartic**](https://www.zillow.com/profile/kathrynjoycebartic)
+    
+    Kathryn is very good at her job. She is very punctual, friendly, personable, and was very communicative throughout the whole process. Even though my loan was very difficu...
+    
+    Kathryn is very good at her job. She is very punctual, friendly, personable, and was very communicative throughout the whole proce...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   1/19/2026
+    *   • kassiemarie
+    
+    ### Bought a Townhouse home in 2026 in Westminster, CO.
+    
+    Review for: [**Ethan Cortez**](https://www.zillow.com/profile/EthanCortez1)
+    
+    My experience with Ethan was very refreshing. He is not your run of the mill Realtor. He goes above and beyond to help you find the right home.He was patient and caring w...
+    
+    My experience with Ethan was very refreshing. He is not your run of the mill Realtor. He goes above and beyond to help you find th...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   12/3/2025
+    *   • Carlye Harrison
+    
+    ### Sold a Single Family home in 2025 in Evergreen, CO.
+    
+    Review for: [**Tennille Johnson**](https://www.zillow.com/profile/Tennille827)
+    
+    Tenille is very knowledgeable and took the time to answer any questions I had regarding selling my home. Tennille didn’t just sell my home, she taught me along the way. ...
+    
+    Tenille is very knowledgeable and took the time to answer any questions I had regarding selling my home. Tennille didn’t just sel...
+    
+    Show more
+    
+*   5.0
+    
+    Report a problem
+    
+    *   11/6/2025
+    *   • dalawaji
+    
+    ### Bought and sold a Single Family home in 2025 in Gateway - green valley ranch, Denver, CO.
+    
+    Review for: [**Tennille Johnson**](https://www.zillow.com/profile/Tennille827)
+    
+    Tennille and I met last year at an Open House. I knew I wanted a home with more space, but wasn’t sure where, or whether I wanted a fixer-upper, new construction or som...
+    
+    Tennille and I met last year at an Open House. I knew I wanted a home with more space, but wasn’t sure where, or whether I wante...
+    
+    Show more
+    
+    5.0
+    
+    Report a problem
+    
+    *   10/24/2025
+    *   • laurenrolerat
+    
+    ### Sold a Single Family home in 2025 in West highland, Denver, CO.
+    
+    Review for: [**Ethan Cortez**](https://www.zillow.com/profile/E
