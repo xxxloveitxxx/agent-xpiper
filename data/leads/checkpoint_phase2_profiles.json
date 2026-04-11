@@ -14,7 +14,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:21:52.931024"
+      "scraped_at": "2026-04-11T11:36:47.537641"
     },
     {
       "profile_url": "https://www.zillow.com/profile/DaveNessRealtor/",
@@ -30,7 +30,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:00.031248"
+      "scraped_at": "2026-04-11T11:37:20.824265"
     },
     {
       "profile_url": "https://www.zillow.com/profile/navrealestate/",
@@ -46,7 +46,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:05.983386"
+      "scraped_at": "2026-04-11T11:37:54.692522"
     },
     {
       "profile_url": "https://www.zillow.com/profile/wisdomrealestate/",
@@ -62,7 +62,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:12.174264"
+      "scraped_at": "2026-04-11T11:38:29.429674"
     },
     {
       "profile_url": "https://www.zillow.com/profile/CompassBe1Team/",
@@ -78,7 +78,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:19.450628"
+      "scraped_at": "2026-04-11T11:39:03.060099"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Scott-and-Lora-/",
@@ -94,7 +94,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:31.186802"
+      "scraped_at": "2026-04-11T11:39:39.783812"
     },
     {
       "profile_url": "https://www.zillow.com/profile/EliteHomePartners/",
@@ -108,9 +108,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "793381-3598",
+      "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:38.024660"
+      "scraped_at": "2026-04-11T11:40:13.218485"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Mimi-and-Justen/",
@@ -126,7 +126,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:47.978006"
+      "scraped_at": "2026-04-11T11:40:48.576184"
     },
     {
       "profile_url": "https://www.zillow.com/profile/edpratherRE/",
@@ -140,9 +140,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "811578-3598",
+      "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:22:55.270084"
+      "scraped_at": "2026-04-11T11:41:23.342454"
     },
     {
       "profile_url": "https://www.zillow.com/profile/KristenLAbell/",
@@ -158,7 +158,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:23:04.051700"
+      "scraped_at": "2026-04-11T11:41:58.861239"
     },
     {
       "profile_url": "https://www.zillow.com/profile/JoePhillips/",
@@ -172,9 +172,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "185359-3598",
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:23:09.981782"
+      "scraped_at": "2026-04-11T11:42:31.610588"
     },
     {
       "profile_url": "https://www.zillow.com/profile/GriffithHomeTeam/",
@@ -190,7 +190,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:23:17.379688"
+      "scraped_at": "2026-04-11T11:43:06.646840"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Trelora/",
@@ -206,7 +206,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:23:24.437911"
+      "scraped_at": "2026-04-11T11:43:40.437373"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Aaron-Hart/",
@@ -220,9 +220,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "374265-3598",
+      "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:23:33.769673"
+      "scraped_at": "2026-04-11T11:44:13.262135"
     },
     {
       "profile_url": "https://www.zillow.com/profile/ljensen80/",
@@ -236,9 +236,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "665-5396646",
       "email": null,
-      "scraped_at": "2026-04-11T11:23:38.768020"
+      "scraped_at": "2026-04-11T11:44:46.366531"
     },
     {
       "profile_url": "https://www.zillow.com/profile/dixonsoldit/",
@@ -252,9 +252,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:23:46.532703"
+      "scraped_at": "2026-04-11T11:45:20.432970"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Kim-Dozier/",
@@ -268,9 +268,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "195-4696936",
       "email": null,
-      "scraped_at": "2026-04-11T11:23:53.818199"
+      "scraped_at": "2026-04-11T11:45:53.825361"
     },
     {
       "profile_url": "https://www.zillow.com/profile/5281EHR/",
@@ -286,7 +286,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:23:59.650346"
+      "scraped_at": "2026-04-11T11:46:26.846334"
     },
     {
       "profile_url": "https://www.zillow.com/profile/KimberlyAustin/",
@@ -302,7 +302,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:24:04.337897"
+      "scraped_at": "2026-04-11T11:47:03.611388"
     },
     {
       "profile_url": "https://www.zillow.com/profile/TeamVivi/",
@@ -318,7 +318,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:24:10.849692"
+      "scraped_at": "2026-04-11T11:47:38.894921"
     },
     {
       "profile_url": "https://www.zillow.com/profile/DianaNelsonPeterson/",
@@ -334,7 +334,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:24:18.947781"
+      "scraped_at": "2026-04-11T11:48:19.069071"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Jody-E-Donley-NPRE/",
@@ -350,7 +350,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:24:24.208381"
+      "scraped_at": "2026-04-11T11:48:57.374435"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Tim-Aberle/",
@@ -364,9 +364,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:24:33.705455"
+      "scraped_at": "2026-04-11T11:49:29.903262"
     },
     {
       "profile_url": "https://www.zillow.com/profile/AlexAndDerek/",
@@ -380,9 +380,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:24:41.364138"
+      "scraped_at": "2026-04-11T11:50:05.115991"
     },
     {
       "profile_url": "https://www.zillow.com/profile/JennyUsaj/",
@@ -398,7 +398,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:24:47.897992"
+      "scraped_at": "2026-04-11T11:50:39.566910"
     },
     {
       "profile_url": "https://www.zillow.com/profile/atlasregroup/",
@@ -412,9 +412,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:24:54.421843"
+      "scraped_at": "2026-04-11T11:51:16.212975"
     },
     {
       "profile_url": "https://www.zillow.com/profile/salepeau/",
@@ -430,7 +430,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:02.457635"
+      "scraped_at": "2026-04-11T11:51:50.412359"
     },
     {
       "profile_url": "https://www.zillow.com/profile/mkissel/",
@@ -446,7 +446,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:06.507066"
+      "scraped_at": "2026-04-11T11:52:23.773116"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Preferred_Properties/",
@@ -462,7 +462,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:12.551364"
+      "scraped_at": "2026-04-11T11:52:58.030743"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Kelly-in-Denver/",
@@ -478,7 +478,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:19.538328"
+      "scraped_at": "2026-04-11T11:53:32.212701"
     },
     {
       "profile_url": "https://www.zillow.com/profile/GuideRealEstate/",
@@ -494,7 +494,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:26.923685"
+      "scraped_at": "2026-04-11T11:54:05.666448"
     },
     {
       "profile_url": "https://www.zillow.com/profile/schlichterteam/",
@@ -510,7 +510,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:34.783042"
+      "scraped_at": "2026-04-11T11:54:40.912597"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Robert-and-Jani/",
@@ -526,7 +526,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:38.818554"
+      "scraped_at": "2026-04-11T11:55:14.369062"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Wayne-Keith/",
@@ -540,9 +540,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:25:44.534510"
+      "scraped_at": "2026-04-11T11:55:47.152281"
     },
     {
       "profile_url": "https://www.zillow.com/profile/CJV-Real-Estate/",
@@ -558,7 +558,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:25:49.621457"
+      "scraped_at": "2026-04-11T11:56:22.181904"
     },
     {
       "profile_url": "https://www.zillow.com/profile/JoshLarsen/",
@@ -572,9 +572,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:25:56.627940"
+      "scraped_at": "2026-04-11T11:56:56.500740"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Wilson-Leonard/",
@@ -590,7 +590,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:26:02.665382"
+      "scraped_at": "2026-04-11T11:57:31.733576"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Saab-Properties/",
@@ -604,9 +604,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "866918-3599",
+      "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:26:08.501398"
+      "scraped_at": "2026-04-11T11:58:09.400772"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Team-MadCo/",
@@ -620,9 +620,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": null,
+      "phone": "5396646783",
       "email": null,
-      "scraped_at": "2026-04-11T11:26:15.031925"
+      "scraped_at": "2026-04-11T11:58:43.882063"
     },
     {
       "profile_url": "https://www.zillow.com/profile/The-Apollo-Group/",
@@ -638,7 +638,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:26:21.033590"
+      "scraped_at": "2026-04-11T11:59:16.801113"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Gerlock-Homes/",
@@ -656,7 +656,7 @@
       "about": null,
       "phone": "1846482100",
       "email": null,
-      "scraped_at": "2026-04-11T11:26:32.238989"
+      "scraped_at": "2026-04-11T11:59:47.171701"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Sultan-Newman-Group/",
@@ -670,9 +670,9 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "278729-3599",
+      "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:26:40.429249"
+      "scraped_at": "2026-04-11T12:00:20.349098"
     },
     {
       "profile_url": "https://www.zillow.com/profile/caseyknowscolorado/",
@@ -688,7 +688,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:26:47.499814"
+      "scraped_at": "2026-04-11T12:00:52.667363"
     },
     {
       "profile_url": "https://www.zillow.com/profile/BlankBingham/",
@@ -704,7 +704,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:26:53.562875"
+      "scraped_at": "2026-04-11T12:01:26.451605"
     },
     {
       "profile_url": "https://www.zillow.com/profile/Foxtrot-Realty/",
@@ -720,7 +720,7 @@
       "about": null,
       "phone": null,
       "email": null,
-      "scraped_at": "2026-04-11T11:27:00.928812"
+      "scraped_at": "2026-04-11T12:02:01.142841"
     }
   ]
 }
