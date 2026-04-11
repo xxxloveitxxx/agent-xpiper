@@ -1,6 +1,8 @@
 import asyncio
+import csv
 import logging
 import sys
+from pathlib import Path
 
 from dotenv import load_dotenv
 from rich.console import Console
@@ -9,18 +11,10 @@ from rich.panel import Panel
 
 load_dotenv()
 
-# Temporary debug — remove after confirming
-import os
-print("SCRAPINGANT:", bool(os.getenv("SCRAPINGANT_API_KEY")))
-print("WEBSCRAPINGAPI:", bool(os.getenv("WEBSCRAPINGAPI_KEY")))
-print("SCRAPEDO:", bool(os.getenv("SCRAPEDO_API_KEY")))
-
-import config.settings as settings  # noqa: E402 — must load .env first
+import config.settings as settings
 
 from agents.manager import ManagerAgent
-from agents.qualifier import QualifierAgent
 from agents.scraper import ScraperAgent
-from core.csv_exporter import export_qualified_leads
 
 # ── Logging ────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -31,7 +25,42 @@ logging.basicConfig(
 )
 logger = logging.getLogger("xpiper")
 console = Console()
-# At the top of main.py, after imports:
+
+
+# ── CSV Export ─────────────────────────────────────────────────────────────
+
+def export_all_scraped(agents, path="data/leads/all_scraped.csv") -> str:
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+
+    fields = [
+        "name", "profile_url", "location", "brokerage",
+        "rating", "review_count", "years_experience", "recent_sales",
+        "phone", "email", "specialties", "languages", "about", "scraped_at",
+    ]
+
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        for a in agents:
+            writer.writerow({
+                "name":             a.name,
+                "profile_url":      a.profile_url,
+                "location":         a.location,
+                "brokerage":        a.brokerage,
+                "rating":           a.rating,
+                "review_count":     a.review_count,
+                "years_experience": a.years_experience,
+                "recent_sales":     a.recent_sales,
+                "phone":            a.phone,
+                "email":            a.email,
+                "specialties":      " | ".join(a.specialties) if a.specialties else "",
+                "languages":        " | ".join(a.languages) if a.languages else "",
+                "about":            a.about,
+                "scraped_at":       a.scraped_at,
+            })
+
+    return path
+
 
 # ── Pipeline ───────────────────────────────────────────────────────────────
 
@@ -44,7 +73,6 @@ async def run():
         )
     )
 
-    # Validate environment
     try:
         settings.validate()
     except EnvironmentError as e:
@@ -53,7 +81,6 @@ async def run():
 
     manager = ManagerAgent()
     scraper = ScraperAgent()
-    qualifier = QualifierAgent()
 
     # ── Step 1: Load criteria & generate scraping plan ─────────────────
     console.print("\n[bold yellow]Step 1 — Manager: load criteria & build scraping plan[/bold yellow]")
@@ -71,51 +98,30 @@ async def run():
     console.print(f"[green]✓  Scraping plan ready:[/green] {n_urls} Zillow search pages")
 
     # ── Step 2: Scrape Zillow ───────────────────────────────────────────
-    console.print("\n[bold yellow]Step 2 — Scraper: fetch Zillow profiles via Jina AI[/bold yellow]")
+    console.print("\n[bold yellow]Step 2 — Scraper: fetch Zillow profiles[/bold yellow]")
     agent_profiles = await scraper.scrape_agents(scraping_plan)
 
     if not agent_profiles:
-        console.print("[red]⚠  No profiles scraped. Check Jina connectivity and your criteria.[/red]")
+        console.print("[red]⚠  No profiles scraped. Check connectivity and criteria.[/red]")
         sys.exit(1)
 
     console.print(f"[green]✓  Profiles scraped:[/green] {len(agent_profiles)}")
 
-    # ── Step 3: Generate qualification rules ───────────────────────────
-    console.print("\n[bold yellow]Step 3 — Manager: generate qualification rules[/bold yellow]")
-    summary = {
-        "total_agents": len(agent_profiles),
-        "available_fields": ["name", "rating", "review_count", "years_experience",
-                             "recent_sales", "brokerage", "specialties", "about"],
-    }
-    qual_rules = await manager.generate_qualification_rules(criteria, summary)
-    min_score = qual_rules.get("minimum_score_to_qualify", 60)
-    console.print(f"[green]✓  Rules ready:[/green] minimum score {min_score}/100")
-
-    # ── Step 4: Qualify leads ──────────────────────────────────────────
-    console.print("\n[bold yellow]Step 4 — Qualifier: score & filter agents[/bold yellow]")
-    qualified = await qualifier.qualify_leads(agent_profiles, qual_rules)
-    console.print(f"[green]✓  Qualified leads:[/green] {len(qualified)}/{len(agent_profiles)}")
-
-    # ── Step 5: Export CSV ─────────────────────────────────────────────
-    console.print("\n[bold yellow]Step 5 — Exporting CSV[/bold yellow]")
-    if qualified:
-        out = export_qualified_leads(qualified)
-        console.print(f"[green]✓  Saved:[/green] {out}")
-    else:
-        console.print("[yellow]⚠  No qualified leads to export.[/yellow]")
-        out = None
+    # ── Step 3: Export all scraped agents directly ─────────────────────
+    console.print("\n[bold yellow]Step 3 — Exporting CSV[/bold yellow]")
+    out = export_all_scraped(agent_profiles)
+    console.print(f"[green]✓  Saved:[/green] {out}")
 
     # ── Summary ────────────────────────────────────────────────────────
     console.print(
         Panel.fit(
             f"[bold green]✅  Done![/bold green]\n"
-            f"Scraped   : {len(agent_profiles)} agents\n"
-            f"Qualified : {len(qualified)} leads\n"
-            f"Output    : {out or 'N/A'}",
+            f"Scraped : {len(agent_profiles)} agents\n"
+            f"Output  : {out}",
             border_style="green",
         )
     )
-    return qualified
+    return agent_profiles
 
 
 if __name__ == "__main__":
