@@ -5,7 +5,7 @@ import asyncio
 import logging
 
 logger = logging.getLogger(__name__)
-TIMEOUT = 60
+TIMEOUT = 140
 
 
 def _sanitize_zillow_url(url: str) -> str:
