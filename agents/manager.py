@@ -60,7 +60,7 @@ class ManagerAgent:
         search_urls = []
         for loc in locations:
             slug = loc.lower().strip().replace(", ", "-").replace(" ", "-")
-            for page in range(1, max_pages + 1):
+            for page in range(2, max_pages + 1):
                 search_urls.append(
                     f"https://www.zillow.com/professionals/real-estate-agent-reviews/{slug}/?page={page}"
                 )
