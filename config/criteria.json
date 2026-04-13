@@ -3,11 +3,10 @@
     "name": "Replyzeai",
     "type": "other",
     "description": "my saas pre qualify auto nurture and auto book showings and reactivate stale leads for real estate agents with 2 to 8 active listings (for sale)",
-    "value_proposition": "take over the inquiry emails for active listings and only send buyers who are actually ready to tour.\n\nSaves the back-and-forth hassle."
+    "value_proposition": "take over the inquiry emails for active listings and only send buyers who are actually ready to tour and Saves the back-and-forth hassle."
   },
   "target_market": {
-    "locations": [ "Houston, TX"
-    ],
+    "locations": [],
     "agent_type": "any",
     "market_segment": "top_25"
   },
@@ -22,6 +21,7 @@
   },
   "scraping_config": {
     "max_pages": 4,
-    "max_agents": 60
+    "max_agents": 60,
+    "cities_per_run": 1
   }
 }
