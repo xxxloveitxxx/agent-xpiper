@@ -8,23 +8,34 @@ on:
         description: "Max agents to scrape (overrides criteria.json)"
         required: false
         default: ""
+      city:
+        description: "Force a specific city (e.g. 'Miami, FL') — skips cycle"
+        required: false
+        default: ""
 
-  # Auto-trigger when criteria changes
+  # Scheduled: runs every 6 hours automatically
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Also trigger when criteria or cities list changes
   push:
     paths:
       - "config/criteria.json"
+      - "config/cities.json"
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-
     permissions:
-      contents: write  # needed to commit CSV results back
+      contents: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Pull latest so we get the up-to-date scraped_cities.json
+          fetch-depth: 1
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -39,7 +50,7 @@ jobs:
         if: ${{ github.event.inputs.max_agents != '' }}
         run: |
           python - <<'EOF'
-          import json, os
+          import json
           with open("config/criteria.json") as f:
               c = json.load(f)
           c.setdefault("scraping_config", {})["max_agents"] = int("${{ github.event.inputs.max_agents }}")
@@ -48,27 +59,42 @@ jobs:
           print(f"max_agents set to ${{ github.event.inputs.max_agents }}")
           EOF
 
+      - name: Force specific city if provided
+        if: ${{ github.event.inputs.city != '' }}
+        run: |
+          python - <<'EOF'
+          import json
+          with open("config/criteria.json") as f:
+              c = json.load(f)
+          c.setdefault("target_market", {})["locations"] = ["${{ github.event.inputs.city }}"]
+          # Also disable city cycling for this run by removing from cities.json scope
+          c.setdefault("scraping_config", {})["cities_per_run"] = 0
+          with open("config/criteria.json", "w") as f:
+              json.dump(c, f, indent=2)
+          print(f"Forced city: ${{ github.event.inputs.city }}")
+          EOF
+
       - name: Run Agent Xpiper
         env:
-          GROQ_API_KEY_MANAGER: ${{ secrets.GROQ_API_KEY_MANAGER }}
-          GROQ_API_KEY_SCRAPER: ${{ secrets.GROQ_API_KEY_SCRAPER }}
+          GROQ_API_KEY_MANAGER:   ${{ secrets.GROQ_API_KEY_MANAGER }}
+          GROQ_API_KEY_SCRAPER:   ${{ secrets.GROQ_API_KEY_SCRAPER }}
           GROQ_API_KEY_QUALIFIER: ${{ secrets.GROQ_API_KEY_QUALIFIER }}
-          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+          JINA_API_KEY:           ${{ secrets.JINA_API_KEY }}
         run: python main.py
 
       - name: Upload CSV as artifact
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: qualified-leads-${{ github.run_number }}
-          path: data/leads/qualified_leads_*.csv
+          name: scraped-leads-${{ github.run_number }}
+          path: data/leads/scraped_*.csv
           retention-days: 90
 
-      - name: Commit results back to repo
-        if: success()
+      - name: Commit results & city progress back to repo
+        if: always()
         run: |
           git config user.name  "Agent Xpiper Bot"
           git config user.email "bot@agent-xpiper.local"
           git add data/leads/ || true
-          git diff --staged --quiet || git commit -m "🎯 Leads: $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
+          git diff --staged --quiet || git commit -m "🎯 Scraped: $(date +'%Y-%m-%d %H:%M UTC') — run #${{ github.run_number }} [skip ci]"
           git push || true
