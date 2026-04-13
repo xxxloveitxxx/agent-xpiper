@@ -21,7 +21,7 @@
   },
   "scraping_config": {
     "max_pages": 4,
-    "max_agents": 60,
+    "max_agents":55 ,
     "cities_per_run": 1
   }
 }
