@@ -1,7 +1,9 @@
 import asyncio
 import csv
+import json
 import logging
 import sys
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -16,6 +18,7 @@ import config.settings as settings
 from agents.manager import ManagerAgent
 from agents.scraper import ScraperAgent
 
+# ── Logging ────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(message)s",
@@ -26,7 +29,15 @@ logger = logging.getLogger("xpiper")
 console = Console()
 
 
-def export_all_scraped(agents, path="data/leads/all_scraped.csv") -> str:
+# ── CSV Export ─────────────────────────────────────────────────────────────
+
+def export_all_scraped(agents, cities: list, path: str = None) -> str:
+    # Include city slug and timestamp in filename so each run doesn't overwrite
+    if path is None:
+        city_slug = "_".join(c.lower().replace(", ", "-").replace(" ", "-") for c in cities)
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M")
+        path = f"data/leads/scraped_{city_slug}_{timestamp}.csv"
+
     Path(path).parent.mkdir(parents=True, exist_ok=True)
 
     fields = [
@@ -63,6 +74,28 @@ def export_all_scraped(agents, path="data/leads/all_scraped.csv") -> str:
     return path
 
 
+def mark_cities_scraped(cities: list) -> None:
+    """Append scraped cities to the progress tracker."""
+    scraped_path = Path("data/leads/scraped_cities.json")
+    scraped_path.parent.mkdir(parents=True, exist_ok=True)
+
+    scraped: list = []
+    if scraped_path.exists():
+        with open(scraped_path, "r") as f:
+            scraped = json.load(f)
+
+    for city in cities:
+        if city not in scraped:
+            scraped.append(city)
+
+    with open(scraped_path, "w") as f:
+        json.dump(scraped, f, indent=2)
+
+    logger.info(f"Progress saved — {len(scraped)} cities scraped total")
+
+
+# ── Pipeline ───────────────────────────────────────────────────────────────
+
 async def run():
     console.print(
         Panel.fit(
@@ -81,6 +114,7 @@ async def run():
     manager = ManagerAgent()
     scraper = ScraperAgent()
 
+    # ── Step 1: Load criteria & build scraping plan ────────────────────
     console.print("\n[bold yellow]Step 1 — Manager: load criteria & build scraping plan[/bold yellow]")
     try:
         criteria = manager.load_criteria()
@@ -88,31 +122,55 @@ async def run():
         console.print(f"[red]❌  {e}[/red]")
         sys.exit(1)
 
-    biz_name = criteria.get("business_info", {}).get("name", "Unknown")
+    biz_name      = criteria.get("business_info", {}).get("name", "Unknown")
+    current_cities = criteria.get("target_market", {}).get("locations", [])
     console.print(f"[green]✓  Criteria loaded for:[/green] {biz_name}")
+    console.print(f"[green]✓  Cities this run:[/green] {', '.join(current_cities)}")
 
     scraping_plan = await manager.generate_scraping_instructions(criteria)
     n_urls = len(scraping_plan.get("zillow_search_urls", []))
     console.print(f"[green]✓  Scraping plan ready:[/green] {n_urls} Zillow search pages")
 
+    # ── Step 2: Scrape Zillow ──────────────────────────────────────────
     console.print("\n[bold yellow]Step 2 — Scraper: fetch Zillow profiles[/bold yellow]")
     agent_profiles = await scraper.scrape_agents(scraping_plan)
 
     if not agent_profiles:
         console.print("[red]⚠  No profiles scraped. Check connectivity and criteria.[/red]")
+        # Still mark city as attempted so we advance on next run
+        mark_cities_scraped(current_cities)
         sys.exit(1)
 
     console.print(f"[green]✓  Profiles scraped:[/green] {len(agent_profiles)}")
 
+    # ── Step 3: Export CSV ─────────────────────────────────────────────
     console.print("\n[bold yellow]Step 3 — Exporting CSV[/bold yellow]")
-    out = export_all_scraped(agent_profiles)
+    out = export_all_scraped(agent_profiles, current_cities)
     console.print(f"[green]✓  Saved:[/green] {out}")
+
+    # ── Step 4: Mark cities as scraped ────────────────────────────────
+    mark_cities_scraped(current_cities)
+
+    # ── Summary ───────────────────────────────────────────────────────
+    # Check how many cities remain in the cycle
+    cities_path  = Path("config/cities.json")
+    scraped_path = Path("data/leads/scraped_cities.json")
+    remaining_info = ""
+    if cities_path.exists() and scraped_path.exists():
+        with open(cities_path) as f:
+            all_cities = json.load(f)
+        with open(scraped_path) as f:
+            scraped = json.load(f)
+        remaining = [c for c in all_cities if c not in scraped]
+        remaining_info = f"\nRemaining : {len(remaining)}/{len(all_cities)} cities"
 
     console.print(
         Panel.fit(
             f"[bold green]✅  Done![/bold green]\n"
+            f"Cities  : {', '.join(current_cities)}\n"
             f"Scraped : {len(agent_profiles)} agents\n"
-            f"Output  : {out}",
+            f"Output  : {out}"
+            f"{remaining_info}",
             border_style="green",
         )
     )
