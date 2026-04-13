@@ -23,8 +23,45 @@ class ManagerAgent:
         if not path.exists():
             logger.warning(f"Criteria file not found: {path}, using defaults")
             return self._default_criteria()
+
         with open(path, "r") as f:
             criteria = json.load(f)
+
+        # ── City cycling from config/cities.json ──────────────────────
+        cities_path  = Path("config/cities.json")
+        scraped_path = Path("data/leads/scraped_cities.json")
+
+        if cities_path.exists():
+            with open(cities_path, "r") as f:
+                all_cities = json.load(f)
+
+            # Load already-scraped cities
+            scraped: List[str] = []
+            if scraped_path.exists():
+                with open(scraped_path, "r") as f:
+                    scraped = json.load(f)
+
+            remaining = [c for c in all_cities if c not in scraped]
+
+            # Full cycle complete — reset
+            if not remaining:
+                logger.info("All cities scraped — resetting cycle")
+                scraped    = []
+                remaining  = all_cities
+                scraped_path.parent.mkdir(parents=True, exist_ok=True)
+                scraped_path.write_text("[]")
+
+            # How many cities per run (default 1)
+            batch_size = criteria.get("scraping_config", {}).get("cities_per_run", 1)
+            batch      = remaining[:batch_size]
+
+            criteria.setdefault("target_market", {})["locations"] = batch
+            logger.info(
+                f"Cities this run: {batch} "
+                f"({len(remaining) - len(batch)} remaining in cycle)"
+            )
+        # ──────────────────────────────────────────────────────────────
+
         name = criteria.get("business_info", {}).get("name", "Unknown")
         logger.info(f"✓ Criteria loaded for: {name}")
         return criteria
@@ -44,15 +81,15 @@ class ManagerAgent:
                 "min_recent_sales": 3,
             },
             "scraping_config": {
-                "max_pages": 3,
-                "max_agents": 50,
+                "max_pages":      3,
+                "max_agents":     50,
+                "cities_per_run": 1,
             },
         }
 
     async def generate_scraping_instructions(self, criteria: dict) -> dict:
         logger.info("Manager → generating scraping plan...")
 
-        # Read from criteria structure
         locations  = criteria.get("target_market", {}).get("locations", ["Denver, CO"])
         max_agents = criteria.get("scraping_config", {}).get("max_agents", 50)
         max_pages  = criteria.get("scraping_config", {}).get("max_pages", 3)
@@ -60,7 +97,7 @@ class ManagerAgent:
         search_urls = []
         for loc in locations:
             slug = loc.lower().strip().replace(", ", "-").replace(" ", "-")
-            for page in range(2, max_pages + 1):
+            for page in range(1, max_pages + 1):
                 search_urls.append(
                     f"https://www.zillow.com/professionals/real-estate-agent-reviews/{slug}/?page={page}"
                 )
