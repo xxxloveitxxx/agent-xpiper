@@ -15,7 +15,7 @@ on:
 
   # Scheduled: runs every 6 hours automatically
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */2 * * *"
 
   # Also trigger when criteria or cities list changes
   push:
