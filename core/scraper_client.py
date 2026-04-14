@@ -54,10 +54,47 @@ async def _fetch_via_urltomarkdown(client: httpx.AsyncClient, url: str) -> httpx
     )
 
 
+async def _fetch_via_jina_nocache(client: httpx.AsyncClient, url: str) -> httpx.Response:
+    """Jina GET with different headers — acts as a separate request fingerprint."""
+    return await client.get(
+        f"https://r.jina.ai/{url}",
+        headers={
+            "Accept": "text/plain",
+            "X-No-Cache": "true",
+            "X-With-Shadow-Dom": "true",   # different flag = different Jina code path
+            "X-Timeout": "30",
+        }
+    )
+
+async def _fetch_via_webcache(client: httpx.AsyncClient, url: str) -> httpx.Response:
+    """Google's webcache — free, different IP, good for list pages."""
+    cache_url = f"https://webcache.googleusercontent.com/search?q=cache:{url}"
+    return await client.get(
+        cache_url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "text/html",
+        }
+    )
+
+# Updated strategy lists — 5 attempts before giving up
+PROFILE_STRATEGIES = [
+    _fetch_via_jina,
+    _fetch_via_jina_post,
+    _fetch_via_jina_nocache,
+    _fetch_via_urltomarkdown,
+]
+LIST_STRATEGIES = [
+    _fetch_via_urltomarkdown,
+    _fetch_via_jina,
+    _fetch_via_jina_post,
+    _fetch_via_jina_nocache,
+    _fetch_via_webcache,
+]
+
 # Profile pages: try Jina first, POST second, urltomarkdown as last resort
 # List pages: urltomarkdown first (more reliable), then Jina fallbacks
-PROFILE_STRATEGIES = [_fetch_via_jina, _fetch_via_jina_post, _fetch_via_urltomarkdown]
-LIST_STRATEGIES    = [_fetch_via_urltomarkdown, _fetch_via_jina, _fetch_via_jina_post]
+
 
 BLOCK_PHRASES = [
     "access denied", "robot", "captcha", "blocked", "unusual traffic",
