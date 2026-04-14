@@ -129,14 +129,10 @@ async def fetch_url(url: str) -> str:
                     await asyncio.sleep(wait)
                     continue
 
-                # 200 but Zillow served a block/captcha page
-                if resp.status_code == 200 and any(
-                    phrase in resp.text[:600].lower() for phrase in BLOCK_PHRASES
-                ):
-                    logger.warning(
-                        f"{strategy.__name__} got Zillow block page, trying next strategy..."
-                    )
-                    await asyncio.sleep(5)
+                # 200 but Zillow served a block/captcha page#
+                if resp.status_code == 200 and any(phrase in resp.text[:600].lower() for phrase in BLOCK_PHRASES):
+                    logger.warning(f"{strategy.__name__} got Zillow block page, trying next strategy...")
+                    await asyncio.sleep(15)  # ← increase from 5 to 15 for list pages
                     continue
 
                 resp.raise_for_status()
