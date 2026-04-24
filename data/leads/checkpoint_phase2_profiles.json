@@ -1,75 +1,23 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/R-Scott-Kennedy/",
+      "profile_url": "https://www.zillow.com/professionals/real-estate-agent-reviews/agent-name-id/",
       "name": null,
-      "location": "Tampa, FL",
+      "location": null,
       "rating": null,
       "review_count": null,
       "years_experience": null,
       "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation"
-      ],
+      "specialties": [],
       "languages": [],
-      "brokerage": "## Get to know the team",
+      "brokerage": null,
       "about": null,
-      "phone": "2017110516",
-      "email": null,
-      "for_sale_count": 4,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-04-21T08:17:48.181834"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/jillrealtor/",
-      "name": null,
-      "location": "Tampa, FL",
-      "rating": null,
-      "review_count": null,
-      "years_experience": null,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation",
-        "New Construction"
-      ],
-      "languages": [],
-      "brokerage": "URL Source: https://www.zillow.com/profile/jillrealtor",
-      "about": null,
-      "phone": "2057367143",
+      "phone": "2748202453",
       "email": null,
       "for_sale_count": null,
       "for_sale_address": null,
       "recent_sale_address": null,
-      "scraped_at": "2026-04-21T08:27:42.923740"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/Hector-Contreras-RE/",
-      "name": null,
-      "location": "Tampa, FL",
-      "rating": null,
-      "review_count": null,
-      "years_experience": null,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation",
-        "Property Management"
-      ],
-      "languages": [],
-      "brokerage": "## Meet Weichert, Realtors Exclusive Properties",
-      "about": null,
-      "phone": null,
-      "email": null,
-      "for_sale_count": 44,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-04-21T09:16:29.922410"
+      "scraped_at": "2026-04-24T08:18:46.743697"
     }
   ]
 }
