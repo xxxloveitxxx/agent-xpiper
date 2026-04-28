@@ -1,77 +1,23 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/Joe-Grunnet/",
+      "profile_url": "https://www.zillow.com/professionals/real-estate-agent-reviews/agent-name-id/",
       "name": null,
-      "location": "Minneapolis, MN",
-      "rating": null,
-      "review_count": 125,
-      "years_experience": null,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation",
-        "Property Management"
-      ],
-      "languages": [],
-      "brokerage": "## Meet the team",
-      "about": null,
-      "phone": "7466905205",
-      "email": "joe@drgmpls.com",
-      "for_sale_count": 32,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-04-27T14:41:41.092419"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/beckyquinby/",
-      "name": null,
-      "location": "Edina, MN",
+      "location": null,
       "rating": null,
       "review_count": null,
       "years_experience": null,
       "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation",
-        "First Time Homebuyers",
-        "Investment Properties",
-        "Staging"
-      ],
+      "specialties": [],
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "2061688772",
+      "phone": "1999919641",
       "email": null,
       "for_sale_count": null,
       "for_sale_address": null,
       "recent_sale_address": null,
-      "scraped_at": "2026-04-27T14:51:26.969830"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/PropertyFriendsGroup/",
-      "name": null,
-      "location": "Minneapolis, MN",
-      "rating": null,
-      "review_count": null,
-      "years_experience": null,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation"
-      ],
-      "languages": [],
-      "brokerage": "URL Source: https://www.zillow.com/profile/PropertyFriendsGroup",
-      "about": null,
-      "phone": "0877096005",
-      "email": null,
-      "for_sale_count": 2,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-04-27T16:09:57.560227"
+      "scraped_at": "2026-04-28T19:55:01.010868"
     }
   ]
 }
