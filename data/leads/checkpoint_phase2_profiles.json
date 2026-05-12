@@ -1,42 +1,49 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/",
+      "profile_url": "https://www.zillow.com/profile/Tanya-Bridges/",
       "name": null,
-      "location": null,
+      "location": "Roseville, CA",
       "rating": null,
       "review_count": null,
       "years_experience": null,
       "recent_sales": null,
-      "specialties": [],
+      "specialties": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation"
+      ],
       "languages": [],
-      "brokerage": null,
+      "brokerage": "## Get to know Tanya Bridges Team",
       "about": null,
-      "phone": "3657785222",
+      "phone": "9227712907",
       "email": null,
-      "for_sale_count": null,
+      "for_sale_count": 3,
       "for_sale_address": null,
       "recent_sale_address": null,
-      "scraped_at": "2026-05-11T15:06:59.299933"
+      "scraped_at": "2026-05-12T09:00:43.373226"
     },
     {
-      "profile_url": "https://www.zillow.com/professionals/real-estate-agent-reviews/agent-name-id/",
+      "profile_url": "https://www.zillow.com/profile/homeologyrealestate/",
       "name": null,
-      "location": null,
+      "location": "Sacramento, CA",
       "rating": null,
       "review_count": null,
       "years_experience": null,
       "recent_sales": null,
-      "specialties": [],
+      "specialties": [
+        "Buyer's Agent",
+        "Listing Agent"
+      ],
       "languages": [],
-      "brokerage": null,
+      "brokerage": "## Get to know Homeology Real Estate",
       "about": null,
-      "phone": "3657785222",
+      "phone": null,
       "email": null,
-      "for_sale_count": null,
+      "for_sale_count": 4,
       "for_sale_address": null,
       "recent_sale_address": null,
-      "scraped_at": "2026-05-11T15:08:39.797449"
+      "scraped_at": "2026-05-12T09:31:05.215517"
     }
   ]
 }
