@@ -1,9 +1,9 @@
 {
   "agents": [
     {
-      "profile_url": "https://www.zillow.com/profile/EXITInspired)[![Image/",
+      "profile_url": "https://www.zillow.com/professionals/real-estate-agent-reviews/agent-name-id/",
       "name": null,
-      "location": "Dallesport Real Estate Agents, WA",
+      "location": null,
       "rating": null,
       "review_count": null,
       "years_experience": null,
@@ -12,62 +12,12 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "2689325115",
+      "phone": null,
       "email": null,
       "for_sale_count": null,
       "for_sale_address": null,
       "recent_sale_address": null,
-      "scraped_at": "2026-05-15T09:22:00.142952"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/htconsultants/",
-      "name": null,
-      "location": "Jacksonville, FL",
-      "rating": null,
-      "review_count": null,
-      "years_experience": null,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation",
-        "Investment Properties",
-        "New Construction",
-        "Commercial"
-      ],
-      "languages": [],
-      "brokerage": "## Get to know Property Bear at Keller Williams",
-      "about": null,
-      "phone": null,
-      "email": null,
-      "for_sale_count": 25,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-05-15T09:49:55.328000"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/EXITInspired/",
-      "name": null,
-      "location": "Middleburg, FL",
-      "rating": null,
-      "review_count": null,
-      "years_experience": null,
-      "recent_sales": null,
-      "specialties": [
-        "Buyer's Agent",
-        "Listing Agent",
-        "Relocation",
-        "Investment Properties"
-      ],
-      "languages": [],
-      "brokerage": "## Get to know EXIT Inspired Real Estate",
-      "about": null,
-      "phone": "4114238932",
-      "email": null,
-      "for_sale_count": 54,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-05-15T11:05:46.180512"
+      "scraped_at": "2026-05-21T20:08:14.140567"
     }
   ]
 }
