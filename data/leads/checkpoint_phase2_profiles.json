@@ -12,31 +12,12 @@
       "languages": [],
       "brokerage": null,
       "about": null,
-      "phone": "6404746684",
+      "phone": null,
       "email": null,
       "for_sale_count": null,
       "for_sale_address": null,
       "recent_sale_address": null,
-      "scraped_at": "2026-05-31T09:01:16.514625"
-    },
-    {
-      "profile_url": "https://www.zillow.com/profile/Robert-Weinstein/",
-      "name": null,
-      "location": "Mahopac, NY",
-      "rating": null,
-      "review_count": null,
-      "years_experience": null,
-      "recent_sales": 1,
-      "specialties": [],
-      "languages": [],
-      "brokerage": "RE/MAX CLASSIC REALTY",
-      "about": null,
-      "phone": "5660661274",
-      "email": "robertw@remax.net",
-      "for_sale_count": null,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-05-31T09:06:34.907239"
+      "scraped_at": "2026-06-02T16:47:17.724484"
     }
   ]
 }
