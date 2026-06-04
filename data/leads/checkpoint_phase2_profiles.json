@@ -17,26 +17,7 @@
       "for_sale_count": null,
       "for_sale_address": null,
       "recent_sale_address": null,
-      "scraped_at": "2026-06-03T04:31:27.795000"
-    },
-    {
-      "profile_url": "https://www.zillow.com/professionals/real-estate-agent-reviews/",
-      "name": null,
-      "location": null,
-      "rating": null,
-      "review_count": null,
-      "years_experience": null,
-      "recent_sales": null,
-      "specialties": [],
-      "languages": [],
-      "brokerage": null,
-      "about": null,
-      "phone": "1558013522",
-      "email": null,
-      "for_sale_count": null,
-      "for_sale_address": null,
-      "recent_sale_address": null,
-      "scraped_at": "2026-06-03T04:33:50.812144"
+      "scraped_at": "2026-06-04T04:26:03.878016"
     }
   ]
 }
